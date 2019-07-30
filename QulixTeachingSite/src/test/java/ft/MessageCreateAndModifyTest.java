@@ -27,7 +27,7 @@ public class MessageCreateAndModifyTest extends TestBase {
         Assert.assertTrue(messagesPage.getMessageList().contains(editedMessage));
 
         messagesPage.deleteCreatedMessage();
-        Assert.assertFalse(messagesPage.getMessageList().contains(newMessageData));
+        Assert.assertFalse(messagesPage.getMessageList().contains(editedMessage));
 
 
     }

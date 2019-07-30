@@ -91,16 +91,15 @@ public class MessagesPage {
 
         List<WebElement> nameFields = driver.findElements(By.xpath(".//tr/td[2]"));
         List<WebElement> textFields = driver.findElements(By.xpath(".//tr/td[3]"));
-        List<WebElement> authorFields = driver.findElements(By.xpath(".//tr/td[4]"));
 
 
 
         for (int i = 0; i < textFields.size(); i++) {
             String name = nameFields.get(i).getText();
             String text = textFields.get(i).getText();
-            String author = authorFields.get(i).getText();
 
-            MessageData messageData = new MessageData().withName(name).withText(text).withAuthor(author);
+
+            MessageData messageData = new MessageData().withName(name).withText(text);
             messages.add(messageData);
         }
         return messages;

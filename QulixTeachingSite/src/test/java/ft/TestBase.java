@@ -20,7 +20,6 @@ public class TestBase {
     private WebDriverSingleton webDriverSingleton;
 
 
-
     @BeforeClass
     public void init() {
         WebDriver driver = webDriverSingleton.getInstance();
@@ -32,10 +31,10 @@ public class TestBase {
         mainPage.login("admin", "password");
     }
 
- //   @AfterClass
-  //  public void tearDown() {
-   //     WebDriverSingleton.quit();
-  //  }
+    @AfterClass
+    public void tearDown() {
+        WebDriverSingleton.quit();
+    }
 
     @BeforeMethod(alwaysRun = true)
     public void logTestStart(Method m) {
