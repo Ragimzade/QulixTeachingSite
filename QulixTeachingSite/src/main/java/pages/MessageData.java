@@ -15,7 +15,10 @@ public class MessageData {
         this.text = text;
         return this;
     }
-
+    public MessageData withAuthor(String author) {
+        this.text = author;
+        return this;
+    }
 
 
     public String getName() {

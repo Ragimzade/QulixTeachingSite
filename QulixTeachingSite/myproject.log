@@ -359,3 +359,91 @@
 11:51:26,999  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
 11:51:27,193  INFO main TestBase:logTestStart:44 - Start test doubleCreate
 11:51:28,197  INFO main TestBase:logTestStop:49 - Stop test doubleCreate
+12:11:05,017  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+12:11:05,235  INFO main TestBase:logTestStart:44 - Start test createAndDeleteTest
+12:11:06,470  INFO main TestBase:logTestStop:49 - Stop test createAndDeleteTest
+12:11:09,930  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+12:11:10,112  INFO main TestBase:logTestStart:44 - Start test createAndExitTest
+12:11:10,688  INFO main TestBase:logTestStop:49 - Stop test createAndExitTest
+12:11:14,049  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+12:11:14,221  INFO main TestBase:logTestStart:44 - Start test createAndModifyTest
+12:11:15,884  INFO main TestBase:logTestStop:49 - Stop test createAndModifyTest
+12:11:19,504  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+12:11:19,682  INFO main TestBase:logTestStart:44 - Start test messageCreationAndViewTest
+12:11:21,145  INFO main TestBase:logTestStop:49 - Stop test messageCreationAndViewTest
+12:11:24,495  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+12:11:24,663  INFO main TestBase:logTestStart:44 - Start test messageCreationTest
+12:11:24,872  INFO main MessageCreateTest:messageCreationTest:18 - Создан объект: MessageData{name='Test', text='Test Text'}
+12:11:25,535  INFO main TestBase:logTestStop:49 - Stop test messageCreationTest
+12:11:28,844  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+12:11:29,017  INFO main TestBase:logTestStart:44 - Start test doubleCreate
+12:11:30,123  INFO main TestBase:logTestStop:49 - Stop test doubleCreate
+14:01:34,601  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+14:01:34,872  INFO main TestBase:logTestStart:42 - Start test createAndDeleteTest
+14:01:36,313  INFO main TestBase:logTestStop:47 - Stop test createAndDeleteTest
+14:01:39,701  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+14:01:39,923  INFO main TestBase:logTestStart:42 - Start test createAndExitTest
+14:01:40,636  INFO main TestBase:logTestStop:47 - Stop test createAndExitTest
+14:01:44,028  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+14:01:44,255  INFO main TestBase:logTestStart:42 - Start test createAndModifyTest
+14:01:46,197  INFO main TestBase:logTestStop:47 - Stop test createAndModifyTest
+14:01:49,598  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+14:01:49,775  INFO main TestBase:logTestStart:42 - Start test messageCreationAndViewTest
+14:01:51,508  INFO main TestBase:logTestStop:47 - Stop test messageCreationAndViewTest
+14:01:54,875  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+14:01:55,055  INFO main TestBase:logTestStart:42 - Start test messageCreationTest
+14:01:55,257  INFO main MessageCreateTest:messageCreationTest:18 - Создан объект: MessageData{name='Test', text='Test Text'}
+14:01:56,122  INFO main TestBase:logTestStop:47 - Stop test messageCreationTest
+14:01:59,460  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+14:01:59,658  INFO main TestBase:logTestStart:42 - Start test doubleCreate
+14:02:00,933  INFO main TestBase:logTestStop:47 - Stop test doubleCreate
+16:12:53,186  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+16:12:53,485  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+16:12:54,674  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+16:13:46,057  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+16:13:46,284  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+16:13:47,355  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+16:15:57,379  INFO main MessagesPage:isLoginButtonPresent:50 - Login page is opened
+16:15:57,627  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+16:15:58,837  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+16:20:26,071  INFO main MessagesPage:isLoginButtonPresent:51 - Login page is opened
+16:20:26,273  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+16:20:32,570  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+16:21:17,761  INFO main MessagesPage:isLoginButtonPresent:51 - Login page is opened
+16:21:17,976  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+16:21:24,234  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+16:22:09,228  INFO main MessagesPage:isLoginButtonPresent:51 - Login page is opened
+16:22:09,493  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+16:22:15,872  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+16:22:46,791  INFO main MessagesPage:isLoginButtonPresent:51 - Login page is opened
+16:22:47,004  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+16:22:53,570  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+16:23:28,974  INFO main MessagesPage:isLoginButtonPresent:51 - Login page is opened
+16:23:29,196  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+16:23:30,767  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+16:24:17,692  INFO main MessagesPage:isLoginButtonPresent:51 - Login page is opened
+16:24:17,921  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+16:24:19,498  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+16:26:24,237  INFO main MessagesPage:isLoginButtonPresent:51 - Login page is opened
+16:26:24,546  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+16:26:26,447  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+16:40:08,200  INFO main MessagesPage:isLoginButtonPresent:54 - Login page is opened
+16:40:08,474  INFO main TestBase:logTestStart:42 - Start test messageCreationTest
+16:40:08,870  INFO main MessageCreateTest:messageCreationTest:18 - Создан объект: MessageData{name='Test', text='Test Text'}
+16:40:09,813  INFO main TestBase:logTestStop:47 - Stop test messageCreationTest
+16:40:24,867  INFO main MessagesPage:isLoginButtonPresent:54 - Login page is opened
+16:40:25,123  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+16:40:26,880  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+16:56:36,663  INFO main MessagesPage:isLoginButtonPresent:54 - Login page is opened
+16:56:37,061  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+16:56:59,832  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+16:57:22,565  INFO main MessagesPage:isLoginButtonPresent:54 - Login page is opened
+16:57:23,374  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+16:57:28,069  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+17:03:59,142  INFO main MessagesPage:isLoginButtonPresent:54 - Login page is opened
+17:03:59,402  INFO main TestBase:logTestStart:42 - Start test viewOthersMessagesTest
+17:04:00,456  INFO main TestBase:logTestStop:47 - Stop test viewOthersMessagesTest
+17:07:04,773  INFO main MessagesPage:isLoginButtonPresent:54 - Login page is opened
+17:07:05,032  INFO main TestBase:logTestStart:42 - Start test messageCreationTest
+17:07:05,429  INFO main MessageCreateTest:messageCreationTest:18 - Создан объект: MessageData{name='Test', text='Test Text'}
+17:07:06,020  INFO main TestBase:logTestStop:47 - Stop test messageCreationTest

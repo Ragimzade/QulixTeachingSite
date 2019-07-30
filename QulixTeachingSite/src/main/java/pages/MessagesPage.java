@@ -26,6 +26,8 @@ public class MessagesPage {
     @FindBy(linkText = "Message List")
     private WebElement messageList;
 
+    @FindBy(xpath = ".//body[contains(.,\"Message List\")]")
+    private WebElement messageListTable;
 
     @FindBy(linkText = "New Message")
     private WebElement newMessageButton;
@@ -53,6 +55,9 @@ public class MessagesPage {
 
     @FindBy(name = "_action_save")
     private WebElement submitMessageModification;
+
+    @FindBy(name = "allUsers")
+    private WebElement allUsersCheckBox;
 
 
     public void initMessageCreation() {
@@ -86,13 +91,16 @@ public class MessagesPage {
 
         List<WebElement> nameFields = driver.findElements(By.xpath(".//tr/td[2]"));
         List<WebElement> textFields = driver.findElements(By.xpath(".//tr/td[3]"));
+        List<WebElement> authorFields = driver.findElements(By.xpath(".//tr/td[4]"));
+
 
 
         for (int i = 0; i < textFields.size(); i++) {
             String name = nameFields.get(i).getText();
             String text = textFields.get(i).getText();
+            String author = authorFields.get(i).getText();
 
-            MessageData messageData = new MessageData().withName(name).withText(text);
+            MessageData messageData = new MessageData().withName(name).withText(text).withAuthor(author);
             messages.add(messageData);
         }
         return messages;
@@ -138,5 +146,11 @@ public class MessagesPage {
 
     }
 
+    public boolean isMessageListTablePresent() {
+        return (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOf(messageListTable)).isDisplayed();
+    }
 
+    public void showMessagesOfAllUsers() {
+        allUsersCheckBox.click();
+    }
 }

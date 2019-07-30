@@ -2,8 +2,10 @@ package ft;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import pages.MainPage;
 import pages.MessagesPage;
 import pages.WebDriverSingleton;
@@ -20,24 +22,20 @@ public class TestBase {
 
 
     @BeforeClass
-
     public void init() {
-
         WebDriver driver = webDriverSingleton.getInstance();
-
         mainPage = new MainPage(driver);
         messagesPage = new MessagesPage(driver);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         mainPage.goToMainPage();
         mainPage.goToLoginPage();
         mainPage.login("admin", "password");
-
     }
 
-    @AfterClass
-    public void tearDown() {
-        WebDriverSingleton.quit();
-    }
+ //   @AfterClass
+  //  public void tearDown() {
+   //     WebDriverSingleton.quit();
+  //  }
 
     @BeforeMethod(alwaysRun = true)
     public void logTestStart(Method m) {

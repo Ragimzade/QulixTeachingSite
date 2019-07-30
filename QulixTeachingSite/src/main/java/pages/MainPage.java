@@ -30,7 +30,11 @@ public class MainPage {
     @FindBy(xpath = ".//div[@class=\"body\" and contains(.,'Message List')]")
     private WebElement messageList;
 
+    @FindBy(xpath = ".//a[@href=\"/QulixTeachingSite/user/logout\"]")
+    private WebElement logoutButton;
 
+    @FindBy(xpath = ".//div[@class=\"message\" and contains(.,'Hello John Doe')]")
+    private WebElement helloMessage;
 
     public void goToMainPage() {
         driver.get("http://localhost:8080/QulixTeachingSite/");
@@ -56,18 +60,27 @@ public class MainPage {
     }
 
     public void login(String login, String password) {
+        loginField.clear();
         loginField.sendKeys(login);
+        passwordField.clear();
         passwordField.sendKeys(password);
         loginButton.click();
         Assert.assertTrue(messageList.isDisplayed());
 
     }
 
+    public void logout() {
+        logoutButton.click();
+    }
+
+    public boolean isHelloMessagePresent() {
+        return (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOf(helloMessage)).isDisplayed();
+    }
+
     public MainPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-
 
 
 }

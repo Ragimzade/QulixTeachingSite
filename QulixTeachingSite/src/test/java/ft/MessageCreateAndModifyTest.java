@@ -14,7 +14,6 @@ public class MessageCreateAndModifyTest extends TestBase {
         messagesPage.submitMessageCreation();
         messagesPage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, messagesPage.showMessage());
-        Assert.assertEquals(newMessageData, messagesPage.showMessage());
         messagesPage.goToMessageList();
         messagesPage.getMessageList();
         Assert.assertTrue(messagesPage.getMessageList().contains(newMessageData));

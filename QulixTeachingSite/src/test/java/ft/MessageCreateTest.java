@@ -8,7 +8,7 @@ import pages.MessageData;
 public class MessageCreateTest extends TestBase {
     private static final Logger logger = Logger.getLogger(MessageCreateTest.class);
 
-    private Object MessageData;
+
 
     @Test
     public void messageCreationTest() {
