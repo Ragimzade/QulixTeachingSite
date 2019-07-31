@@ -11,7 +11,6 @@ public class MessageCreateAndExitTest extends TestBase {
         messagesPage.initMessageCreation();
         Object newMessageData = messagesPage.fillMessageForm(new MessageData().withName("Test").withText("Test Text"));
         messagesPage.goToMessageList();
-        messagesPage.getMessageList();
         Assert.assertFalse(messagesPage.getMessageList().contains(newMessageData));
     }
 }

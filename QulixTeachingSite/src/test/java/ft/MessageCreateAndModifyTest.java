@@ -15,7 +15,6 @@ public class MessageCreateAndModifyTest extends TestBase {
         messagesPage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, messagesPage.showMessage());
         messagesPage.goToMessageList();
-        messagesPage.getMessageList();
         Assert.assertTrue(messagesPage.getMessageList().contains(newMessageData));
         messagesPage.modifyCreatedMessage();
         System.out.println(messagesPage.editMessageForm());
@@ -23,7 +22,6 @@ public class MessageCreateAndModifyTest extends TestBase {
         Object editedMessage = messagesPage.fillMessageForm(new MessageData().withName("Modified message").withText("modified text"));
         messagesPage.submitMessageModification();
         messagesPage.goToMessageList();
-        messagesPage.getMessageList();
         Assert.assertTrue(messagesPage.getMessageList().contains(editedMessage));
 
         messagesPage.deleteCreatedMessage();

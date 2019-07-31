@@ -27,11 +27,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndViewTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
               <caret line="16" column="71" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,20 +100,6 @@
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ft/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -291,11 +289,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/PvtFinalProject-master/QulixTeachingSite/src/suite.xml">
+  <component name="RunManager" selected="TestNG.MessageCreateAndDeleteTest">
     <configuration name="D:/PvtFinalProject-master/QulixTeachingSite/src/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QulixTeachingSite" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/suite.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageCreateAndDeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QulixTeachingSite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ft" />
+      <option name="MAIN_CLASS_NAME" value="ft.MessageCreateAndDeleteTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -354,30 +369,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageCreateAndViewTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QulixTeachingSite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ft" />
-      <option name="MAIN_CLASS_NAME" value="ft.MessageCreateAndViewTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MessageCreateAndDeleteTest" />
         <item itemvalue="TestNG.D:/PvtFinalProject-master/QulixTeachingSite/src/suite.xml" />
         <item itemvalue="TestNG.MessageCreateAndModifyTest.createAndModifyTest" />
         <item itemvalue="TestNG.MessageCreateAndModifyTest" />
         <item itemvalue="TestNG.MessageCreateAndExitTest" />
-        <item itemvalue="TestNG.MessageCreateAndViewTest" />
       </list>
     </recent_temporary>
   </component>
@@ -395,9 +393,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ViewOthersMessagesTest_viewOthersMessagesTest - 2019.07.30 at 16h 57m 28s.xml">
-      <configuration name="ViewOthersMessagesTest.viewOthersMessagesTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ViewOthersMessagesTest - 2019.07.30 at 17h 04m 00s.xml">
       <configuration name="ViewOthersMessagesTest" configurationId="TestNG" />
     </history-entry>
@@ -425,11 +420,14 @@
     <history-entry file="D__PvtFinalProject-master_QulixTeachingSite_src_suite_xml - 2019.07.30 at 18h 00m 29s.xml">
       <configuration name="D:/PvtFinalProject-master/QulixTeachingSite/src/suite.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="D__PvtFinalProject-master_QulixTeachingSite_src_suite_xml - 2019.07.30 at 18h 02m 15s.xml">
+      <configuration name="D:/PvtFinalProject-master/QulixTeachingSite/src/suite.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="0" width="1677" height="1040" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21071644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21071644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -438,7 +436,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296582" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -591,16 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -693,6 +681,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="16" column="71" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

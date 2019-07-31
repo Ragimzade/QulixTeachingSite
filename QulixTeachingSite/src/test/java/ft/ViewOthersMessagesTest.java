@@ -14,13 +14,11 @@ public class ViewOthersMessagesTest extends TestBase {
         messagesPage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, messagesPage.showMessage());
         messagesPage.goToMessageList();
-        messagesPage.getMessageList();
         Assert.assertTrue(messagesPage.getMessageList().contains(newMessageData));
         messagesPage.viewCreatedMessage();
         messagesPage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, messagesPage.showMessage());
         messagesPage.goToMessageList();
-        messagesPage.getMessageList();
         Assert.assertTrue(messagesPage.getMessageList().contains(newMessageData));
         mainPage.logout();
         mainPage.login("jdoe", "password");
@@ -34,22 +32,19 @@ public class ViewOthersMessagesTest extends TestBase {
         messagesPage.isShowMessageFormDisplayed();
         Assert.assertEquals(secondMessageData, messagesPage.showMessage());
         messagesPage.goToMessageList();
-        messagesPage.getMessageList();
         Assert.assertTrue(messagesPage.getMessageList().contains(secondMessageData));
         messagesPage.viewCreatedMessage();
         messagesPage.isShowMessageFormDisplayed();
         Assert.assertEquals(secondMessageData, messagesPage.showMessage());
         messagesPage.goToMessageList();
-        messagesPage.getMessageList();
         Assert.assertTrue(messagesPage.getMessageList().contains(secondMessageData));
         mainPage.logout();
 
         mainPage.login("admin", "password");
         messagesPage.showMessagesOfAllUsers();
-        messagesPage.getMessageList();
         Assert.assertTrue(messagesPage.getMessageList().contains(secondMessageData));
         Assert.assertTrue(messagesPage.getMessageList().contains(newMessageData));
 
-
+//не реализована проверка по автору
     }
 }

@@ -14,7 +14,6 @@ public class MessageCreateAndDeleteTest extends TestBase {
         messagesPage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, messagesPage.showMessage());
         messagesPage.goToMessageList();
-        messagesPage.getMessageList();
         Assert.assertTrue(messagesPage.getMessageList().contains(newMessageData));
         messagesPage.deleteCreatedMessage();
         Assert.assertFalse(messagesPage.getMessageList().contains(newMessageData));

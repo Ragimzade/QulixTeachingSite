@@ -512,3 +512,8 @@
 18:02:13,689  INFO main MessagesPage:isLoginButtonPresent:54 - Login page is opened
 18:02:13,888  INFO main TestBase:logTestStart:41 - Start test doubleCreate
 18:02:14,827  INFO main TestBase:logTestStop:46 - Stop test doubleCreate
+12:26:03,014  INFO main TestBase:logTestStart:41 - Start test createAndDeleteTest
+12:26:03,244  INFO main TestBase:logTestStop:46 - Stop test createAndDeleteTest
+12:26:36,281  INFO main MessagesPage:isLoginButtonPresent:54 - Login page is opened
+12:26:36,832  INFO main TestBase:logTestStart:41 - Start test createAndDeleteTest
+12:26:38,291  INFO main TestBase:logTestStop:46 - Stop test createAndDeleteTest

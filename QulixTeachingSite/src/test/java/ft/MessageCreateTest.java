@@ -19,7 +19,6 @@ public class MessageCreateTest extends TestBase {
         messagesPage.submitMessageCreation();
         messagesPage.isShowMessageFormDisplayed();
         messagesPage.goToMessageList();
-        messagesPage.getMessageList();
         Assert.assertTrue(messagesPage.getMessageList().contains(newMessageData));
 
         messagesPage.deleteCreatedMessage();
