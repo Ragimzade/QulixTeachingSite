@@ -7,6 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import pages.MainPage;
+import pages.MessageData;
 import pages.MessagesPage;
 import pages.WebDriverSingleton;
 
@@ -17,6 +18,7 @@ public class TestBase {
     private static final Logger logger = Logger.getLogger(TestBase.class);
     MainPage mainPage;
     MessagesPage messagesPage;
+    MessageData messageData;
     private WebDriverSingleton webDriverSingleton;
 
 
@@ -25,7 +27,7 @@ public class TestBase {
         WebDriver driver = webDriverSingleton.getInstance();
         mainPage = new MainPage(driver);
         messagesPage = new MessagesPage(driver);
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         mainPage.goToMainPage();
         mainPage.goToLoginPage();
         mainPage.login("admin", "password");

@@ -33,8 +33,9 @@ public class MainPage {
     @FindBy(xpath = ".//a[@href=\"/QulixTeachingSite/user/logout\"]")
     private WebElement logoutButton;
 
-    @FindBy(xpath = ".//div[@class=\"message\" and contains(.,'Hello John Doe')]")
+    @FindBy(xpath = ".//span[contains(.,\"Hello\")]")
     private WebElement helloMessage;
+
 
     public void goToMainPage() {
         driver.get("http://localhost:8080/QulixTeachingSite/");
@@ -62,8 +63,10 @@ public class MainPage {
     public void login(String login, String password) {
         loginField.clear();
         loginField.sendKeys(login);
+        Assert.assertFalse(loginField.getAttribute("value").isEmpty());
         passwordField.clear();
         passwordField.sendKeys(password);
+        Assert.assertFalse(passwordField.getAttribute("value").isEmpty());
         loginButton.click();
         Assert.assertTrue(messageList.isDisplayed());
 
@@ -73,8 +76,10 @@ public class MainPage {
         logoutButton.click();
     }
 
-    public boolean isHelloMessagePresent() {
+    public boolean getHelloMessage(String userName) {
+        Assert.assertTrue(helloMessage.getText().contains("Hello " + userName));
         return (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOf(helloMessage)).isDisplayed();
+
     }
 
     public MainPage(WebDriver driver) {
@@ -82,5 +87,12 @@ public class MainPage {
         PageFactory.initElements(driver, this);
     }
 
+    public String getCurrentUser() {
+        String authorText = driver.findElement(By.xpath(".//span[contains(.,\"Hello\")]")).getText();
+        String avtor = authorText.substring((authorText.lastIndexOf("lo") + 2), authorText.indexOf("[")).trim();
+        return avtor;
+
+
+    }
 
 }

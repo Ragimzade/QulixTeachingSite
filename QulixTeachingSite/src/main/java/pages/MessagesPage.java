@@ -17,6 +17,8 @@ public class MessagesPage {
     private static WebDriver driver;
     private static final Logger logger = Logger.getLogger(MessagesPage.class);
     private MessageData messageData;
+    private MainPage mainPage;
+    private String author;
 
     public MessagesPage(WebDriver driver) {
         this.driver = driver;
@@ -65,12 +67,19 @@ public class MessagesPage {
         Assert.assertTrue(createMessageForm.isDisplayed());
     }
 
+
     public MessageData fillMessageForm(MessageData messageData) {
         headline.clear();
         this.headline.sendKeys(messageData.getName());
+        Assert.assertFalse(headline.getAttribute("value").isEmpty());
         text.clear();
         this.text.sendKeys(messageData.getText());
+        Assert.assertFalse(text.getAttribute("value").isEmpty());
+        this.author = messageData.getAuthor();
+
+
         return messageData;
+
     }
 
     public void submitMessageCreation() {
@@ -91,26 +100,26 @@ public class MessagesPage {
 
         List<WebElement> nameFields = driver.findElements(By.xpath(".//tr/td[2]"));
         List<WebElement> textFields = driver.findElements(By.xpath(".//tr/td[3]"));
-
-
+        List<WebElement> authorFields = driver.findElements(By.xpath(".//tr/td[4]"));
 
         for (int i = 0; i < textFields.size(); i++) {
             String name = nameFields.get(i).getText();
             String text = textFields.get(i).getText();
+            String author = authorFields.get(i).getText();
 
 
-            MessageData messageData = new MessageData().withName(name).withText(text);
+            MessageData messageData = new MessageData().withName(name).withText(text).withAuthor(author);
             messages.add(messageData);
         }
         return messages;
-
     }
 
     public MessageData showMessage() {
         String name = driver.findElement(By.xpath("(.//td[@class=\"value\"])[1]")).getText();
         String text = driver.findElement(By.xpath("(.//td[@class=\"value\"])[3]")).getText();
+        String author = driver.findElement(By.xpath("(.//td[@class=\"value\"])[2]")).getText();
 
-        MessageData showMessageData = new MessageData().withName(name).withText(text);
+        MessageData showMessageData = new MessageData().withName(name).withText(text).withAuthor(author);
         return showMessageData;
     }
 
@@ -129,7 +138,7 @@ public class MessagesPage {
         String name = driver.findElement(By.xpath(".//input[@name=\"headline\"]")).getAttribute("value");
         String text = driver.findElement(By.xpath(".//input[@name=\"text\"]")).getAttribute("value");
 
-        MessageData editMessageForm = new MessageData().withName(name).withText(text);
+        MessageData editMessageForm = new MessageData().withName(name).withText(text).withAuthor(author);
         return editMessageForm;
 
     }
@@ -151,5 +160,10 @@ public class MessagesPage {
 
     public void showMessagesOfAllUsers() {
         allUsersCheckBox.click();
+    }
+
+    public void deleteTheLatestMessage(Object message) {
+        deleteCreatedMessage();
+        Assert.assertFalse(getMessageList().contains(message));
     }
 }
