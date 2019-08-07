@@ -7,7 +7,7 @@ public class MessageData {
     private String text;
     private String author;
 
-    public MessageData withName(String name) {
+    public MessageData withName(String name) { //todo а почему with? Такие имена больше характерны для builder-а. У тебя не builder
         this.name = name;
         return this;
     }
