@@ -14,11 +14,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MessagesPage {
-    private static WebDriver driver;
+    private static WebDriver driver; //todo ну ты понял
     private static final Logger logger = Logger.getLogger(MessagesPage.class);
     private MessageData messageData;
     private MainPage mainPage;
-    private String author;
+    private String author;//todo зачем нам это хранить?
 
     public MessagesPage(WebDriver driver) {
         this.driver = driver;
@@ -87,6 +87,7 @@ public class MessagesPage {
     }
 
     public boolean isShowMessageFormDisplayed() {
+        //todo boolean метод предполагает, что вернется true/false. У тебя если элемент будет не найден/не виден вылетит Exception
         return (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOf(showMessagePage)).isDisplayed();
     }
 
@@ -98,6 +99,7 @@ public class MessagesPage {
     public List<MessageData> getMessageList() {
         List<MessageData> messages = new ArrayList<>();
 
+        //todo несмотря на то что это работает - так коллектить неправильно. Собирай все tr. А уже у них собирай td по индексу в цикле
         List<WebElement> nameFields = driver.findElements(By.xpath(".//tr/td[2]"));
         List<WebElement> textFields = driver.findElements(By.xpath(".//tr/td[3]"));
         List<WebElement> authorFields = driver.findElements(By.xpath(".//tr/td[4]"));
@@ -115,6 +117,7 @@ public class MessagesPage {
     }
 
     public MessageData showMessage() {
+        //todo что-то я не понимаю, что метод делает
         String name = driver.findElement(By.xpath("(.//td[@class=\"value\"])[1]")).getText();
         String text = driver.findElement(By.xpath("(.//td[@class=\"value\"])[3]")).getText();
         String author = driver.findElement(By.xpath("(.//td[@class=\"value\"])[2]")).getText();
@@ -124,17 +127,21 @@ public class MessagesPage {
     }
 
     public void viewCreatedMessage() {
+        //todo вот у всех у вас. Вы все пытаетесь исходить из того, что созданное сообщение будет в конце списка. Но никто вам этого не обещал
+        //todo во-вторых список там с paging-ом, т.е. страниц может быть более одной. Метод должен принимать MessageData, который хотим найти
         List<WebElement> messages = driver.findElements(By.xpath(".//a[contains(.,'View')]"));
         messages.get(messages.size() - 1).click();
     }
 
     public void modifyCreatedMessage() {
         List<WebElement> messages = driver.findElements(By.xpath(".//a[contains(.,'Edit')]"));
-        messages.get(messages.size() - 1).click();
-        Assert.assertTrue(editMessageForm.isDisplayed());
+        messages.get(messages.size() - 1).click(); //todo смотри viewCreatedMessage
+        Assert.assertTrue(editMessageForm.isDisplayed()); //todo зачем здесь Assert и почему его нет во view?
     }
 
     public MessageData editMessageForm() {
+        //todo а почему этот метод у списка?
+        //todo и снова, что он делает то?
         String name = driver.findElement(By.xpath(".//input[@name=\"headline\"]")).getAttribute("value");
         String text = driver.findElement(By.xpath(".//input[@name=\"text\"]")).getAttribute("value");
 
@@ -150,11 +157,12 @@ public class MessagesPage {
 
     public void deleteCreatedMessage() {
         List<WebElement> messages = driver.findElements(By.xpath(".//a[contains(.,'Delete')]"));
-        messages.get(messages.size() - 1).click();
+        messages.get(messages.size() - 1).click(); //todo снова про позиционирование
 
     }
 
     public boolean isMessageListTablePresent() {
+        //todo раньше было 5, теперь 10.
         return (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOf(messageListTable)).isDisplayed();
     }
 
@@ -164,6 +172,6 @@ public class MessagesPage {
 
     public void deleteTheLatestMessage(Object message) {
         deleteCreatedMessage();
-        Assert.assertFalse(getMessageList().contains(message));
+        Assert.assertFalse(getMessageList().contains(message));//todo такая проверка очень дорогая по времени. getMessagesList отнимает солидно времени
     }
 }
