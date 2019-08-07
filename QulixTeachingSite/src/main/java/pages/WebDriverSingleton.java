@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebDriverSingleton {
 
-    public static WebDriver driver;
+    public static WebDriver driver; //todo почему это public?
 
     private WebDriverSingleton() {
     }
@@ -17,7 +17,7 @@ public class WebDriverSingleton {
         return driver;
     }
 
-    public static void quit() {
+    public static void quit() { 
         if (driver != null) {
             driver.quit();
         }
