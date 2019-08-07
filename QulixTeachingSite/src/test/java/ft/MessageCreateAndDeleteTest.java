@@ -9,7 +9,7 @@ public class MessageCreateAndDeleteTest extends TestBase {
     @Test
     public void createAndDeleteTest() {
         messagesPage.initMessageCreation();
-        Object newMessageData = messagesPage.fillMessageForm(new MessageData()
+        Object newMessageData = messagesPage.fillMessageForm(new MessageData() //todo а чего Object?
                 .withName("New Message").withText("MessageCreateAndDelete").withAuthor(mainPage.getCurrentUser()));
         messagesPage.submitMessageCreation();
         messagesPage.isShowMessageFormDisplayed();
