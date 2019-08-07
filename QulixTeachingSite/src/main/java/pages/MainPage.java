@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class MainPage {
-    private static WebDriver driver;
+    private static WebDriver driver; //todo убираем статик. В целом статик только для констант или при реализации каких-нибудь синглтонов
     private static final Logger logger = Logger.getLogger(MessagesPage.class);
 
     @FindBy(xpath = ".//a[@href=\"/QulixTeachingSite/user/index\"]")
@@ -38,7 +38,7 @@ public class MainPage {
 
 
     public void goToMainPage() {
-        driver.get("http://localhost:8080/QulixTeachingSite/");
+        driver.get("http://localhost:8080/QulixTeachingSite/"); //todo url Должен браться из конфига
         Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"pageBody\"]/h1")).isDisplayed());
     }
 
@@ -50,7 +50,7 @@ public class MainPage {
 
     public void isLoginButtonPresent() {
         try {
-            new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(loginButton));
+            new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(loginButton)); //todo 5 - из конфига
             loginButton.isDisplayed();
             logger.info("Login page is opened");
         } catch (TimeoutException e) {
@@ -62,7 +62,7 @@ public class MainPage {
 
     public void login(String login, String password) {
         loginField.clear();
-        loginField.sendKeys(login);
+        loginField.sendKeys(login); //todo но вот тут прямо напрашивается метод а-ля enterValue(field, value){field.clear(); field.sendKeys(value);}
         Assert.assertFalse(loginField.getAttribute("value").isEmpty());
         passwordField.clear();
         passwordField.sendKeys(password);
@@ -77,19 +77,20 @@ public class MainPage {
     }
 
     public boolean getHelloMessage(String userName) {
-        Assert.assertTrue(helloMessage.getText().contains("Hello " + userName));
+        //todo а что у тебя в get.. делает Assert??
+        Assert.assertTrue(helloMessage.getText().contains("Hello " + userName)); //todo Hello - константа
         return (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOf(helloMessage)).isDisplayed();
 
     }
 
     public MainPage(WebDriver driver) {
-        this.driver = driver;
+        this.driver = driver; //todo ну вот. Ты драйвер просишь в конструкторе. Зачем он статик тогда?
         PageFactory.initElements(driver, this);
     }
 
     public String getCurrentUser() {
-        String authorText = driver.findElement(By.xpath(".//span[contains(.,\"Hello\")]")).getText();
-        String avtor = authorText.substring((authorText.lastIndexOf("lo") + 2), authorText.indexOf("[")).trim();
+        String authorText = driver.findElement(By.xpath(".//span[contains(.,\"Hello\")]")).getText();//todo Hello в константу
+        String avtor = authorText.substring((authorText.lastIndexOf("lo") + 2), authorText.indexOf("[")).trim(); //todo что-то не понятно. Почему lastIndexOf "lo", а не по пробелу? и имя переменной странной
         return avtor;
 
 
