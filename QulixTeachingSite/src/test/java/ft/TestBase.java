@@ -11,7 +11,12 @@ import pages.MessageData;
 import pages.MessagesPage;
 import pages.WebDriverSingleton;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.lang.reflect.Method;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
@@ -20,17 +25,21 @@ public class TestBase {
     MessagesPage messagesPage;
     MessageData messageData;
     private WebDriverSingleton webDriverSingleton;
+    private Properties properties;
 
 
     @BeforeClass
-    public void init() {
+    public void init() throws IOException {
+        properties = new Properties();
+        properties.load(new FileReader(new File((String.format("src/main/resources/config.properties")))));
         WebDriver driver = webDriverSingleton.getInstance();
         mainPage = new MainPage(driver);
         messagesPage = new MessagesPage(driver);
-        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Long.parseLong(properties.getProperty("implicitlyWait")), TimeUnit.SECONDS);
         mainPage.goToMainPage();
         mainPage.goToLoginPage();
-        mainPage.login("admin", "password");
+        mainPage.login(properties.getProperty("creds.Login"), properties.getProperty("creds.Password"));
+
     }
 
     @AfterClass

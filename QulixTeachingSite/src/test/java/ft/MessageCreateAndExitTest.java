@@ -6,12 +6,13 @@ import pages.MessageData;
 
 public class MessageCreateAndExitTest extends TestBase {
 
+
     @Test
     public void createAndExitTest() {
         messagesPage.initMessageCreation();
-        Object newMessageData = messagesPage.fillMessageForm(new MessageData()
-                .withName("Test").withText("Test Text").withAuthor(mainPage.getCurrentUser()));
+        MessageData newMessageData = messagesPage.fillMessageForm(new MessageData()
+                .headline("Test").text("Test Text").author(mainPage.getCurrentUser()));
         messagesPage.goToMessageList();
-        Assert.assertFalse(messagesPage.getMessageList().contains(newMessageData));
+        Assert.assertFalse(messagesPage.getMessageLists().contains(newMessageData));
     }
 }

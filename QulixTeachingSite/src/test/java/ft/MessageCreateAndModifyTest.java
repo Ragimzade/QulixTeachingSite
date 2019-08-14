@@ -6,26 +6,27 @@ import pages.MessageData;
 
 public class MessageCreateAndModifyTest extends TestBase {
 
+
     @Test
     public void createAndModifyTest() {
 
         messagesPage.initMessageCreation();
-        Object newMessageData = messagesPage.fillMessageForm(new MessageData()
-                .withName("Edited messagfe").withText("edited text").withAuthor(mainPage.getCurrentUser()));
+        MessageData newMessageData = messagesPage.fillMessageForm(new MessageData()
+                .headline("Edited message").text("edited text").author(mainPage.getCurrentUser()));
         messagesPage.submitMessageCreation();
         messagesPage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, messagesPage.showMessage());
+        Assert.assertEquals(newMessageData, messagesPage.getShowMessagePageData());
         messagesPage.goToMessageList();
-        Assert.assertTrue(messagesPage.getMessageList().contains(newMessageData));
-        messagesPage.modifyCreatedMessage();
-        Assert.assertEquals(newMessageData, messagesPage.editMessageForm());
-        Object editedMessage = messagesPage.fillMessageForm(new MessageData()
-                .withName("Modified message").withText("modified text").withAuthor(mainPage.getCurrentUser()));
+        Assert.assertTrue(messagesPage.getMessageLists().contains(newMessageData));
+        messagesPage.modifySelectedMessage(newMessageData);
+        Assert.assertEquals(newMessageData, messagesPage.getEditFormData());
+        MessageData editedMessage = messagesPage.fillMessageForm(new MessageData()
+                .headline("Modified message").text("modified text").author(mainPage.getCurrentUser()));
         messagesPage.submitMessageModification();
         messagesPage.goToMessageList();
-        Assert.assertTrue(messagesPage.getMessageList().contains(editedMessage));
+        Assert.assertTrue(messagesPage.getMessageLists().contains(editedMessage));
 
 
-        messagesPage.deleteTheLatestMessage(editedMessage);
+        messagesPage.deleteSelectedMessage(editedMessage);
     }
 }

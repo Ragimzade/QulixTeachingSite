@@ -1,0 +1,1 @@
+{"uuid":"c8cf2777-64b3-4bb8-aadb-a508aed912b1","name":"ft.TestBase.logTestStop","description":"","start":1565784025159,"stop":1565784025161,"children":["dd97168d-72c5-476f-98cd-e91b8bdf6aae"],"afters":[{"name":"logTestStop","status":"passed","stage":"finished","description":"","start":1565784025160,"stop":1565784025161}]}

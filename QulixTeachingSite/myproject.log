@@ -948,3 +948,1308 @@
 17:00:10,500  INFO main MessagesPage:isLoginButtonPresent:55 - Login page is opened
 17:00:10,741  INFO main TestBase:logTestStart:43 - Start test doubleCreate
 17:00:12,827  INFO main TestBase:logTestStop:48 - Stop test doubleCreate
+11:03:06,281  INFO main TestBase:logTestStart:43 - Start test createAndExitTest
+11:03:06,482  INFO main TestBase:logTestStop:48 - Stop test createAndExitTest
+11:07:26,352  INFO main TestBase:logTestStart:43 - Start test createAndExitTest
+11:07:26,555  INFO main TestBase:logTestStop:48 - Stop test createAndExitTest
+11:08:55,258  INFO main TestBase:logTestStart:43 - Start test createAndExitTest
+11:08:55,417  INFO main TestBase:logTestStop:48 - Stop test createAndExitTest
+11:13:06,604  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+11:13:07,090  INFO main TestBase:logTestStart:43 - Start test createAndExitTest
+11:13:13,445  INFO main TestBase:logTestStop:48 - Stop test createAndExitTest
+11:14:50,548  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+11:14:50,855  INFO main TestBase:logTestStart:43 - Start test createAndExitTest
+11:14:51,123  INFO main TestBase:logTestStop:48 - Stop test createAndExitTest
+11:15:12,491  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+11:15:12,838  INFO main TestBase:logTestStart:43 - Start test createAndExitTest
+11:15:19,060  INFO main TestBase:logTestStop:48 - Stop test createAndExitTest
+12:07:37,024  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:07:37,361  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:07:38,041  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:09:21,810  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:09:22,121  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:09:22,762  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:10:08,149  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:10:08,482  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:10:09,178  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:11:01,518  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:11:01,845  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:11:02,164  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:11:41,375  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:11:41,724  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:11:42,400  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:12:29,954  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:12:30,272  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:12:33,367  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:14:10,848  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:14:11,159  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:14:14,309  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:15:26,959  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:15:27,313  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:15:30,106  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:18:07,774  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:18:08,090  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:18:10,923  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:20:00,682  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:20:00,981  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:20:03,755  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:24:18,475  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:24:18,799  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:24:21,605  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:24:57,191  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:24:57,504  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:25:00,364  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:25:29,290  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:25:29,626  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:25:32,464  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:26:00,189  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:26:00,520  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:26:03,263  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:27:08,714  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:27:09,025  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:27:16,395  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:29:07,069  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:29:07,379  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:29:10,337  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:30:00,577  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:30:00,871  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:30:03,909  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:30:58,484  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:30:58,807  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:31:05,942  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:32:49,220  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:32:49,722  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:32:52,860  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:34:40,182  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:34:40,546  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:34:43,354  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:35:05,823  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:35:06,131  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:35:08,890  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:35:28,049  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:35:28,346  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:35:29,795  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:36:06,697  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:36:07,014  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:36:08,607  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:36:29,685  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:36:29,980  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:36:33,089  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:37:13,050  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:37:13,349  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:37:16,395  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:37:54,730  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:37:55,013  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:38:00,934  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:39:16,474  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:39:16,780  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:39:19,784  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:39:39,737  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:39:40,046  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:39:43,063  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:41:53,052  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:41:53,322  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:41:56,350  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:43:56,840  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:43:57,121  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:43:59,850  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:44:28,602  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:44:28,921  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:44:31,766  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:44:50,042  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:44:50,341  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:44:53,094  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:45:13,155  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:45:13,455  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:45:16,200  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:46:01,330  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:46:01,650  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:46:04,462  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+12:47:47,575  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:47:47,862  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+12:47:49,679  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+13:11:56,103  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:11:56,728  INFO main TestBase:logTestStart:43 - Start test createAndExitTest
+13:11:57,764  INFO main TestBase:logTestStop:48 - Stop test createAndExitTest
+13:12:12,041  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:12:12,380  INFO main TestBase:logTestStart:43 - Start test createAndModifyTest
+13:12:13,666  INFO main TestBase:logTestStop:48 - Stop test createAndModifyTest
+13:14:43,895  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:14:44,204  INFO main TestBase:logTestStart:43 - Start test createAndModifyTest
+13:14:45,259  INFO main TestBase:logTestStop:48 - Stop test createAndModifyTest
+13:15:31,786  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:15:32,114  INFO main TestBase:logTestStart:43 - Start test createAndModifyTest
+13:15:33,511  INFO main TestBase:logTestStop:48 - Stop test createAndModifyTest
+13:17:47,064  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:17:47,386  INFO main TestBase:logTestStart:43 - Start test messtest
+13:17:49,591  INFO main TestBase:logTestStop:48 - Stop test messtest
+13:18:10,935  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:18:11,258  INFO main TestBase:logTestStart:43 - Start test messtest
+13:18:11,782  INFO main TestBase:logTestStop:48 - Stop test messtest
+13:18:54,495  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:18:54,793  INFO main TestBase:logTestStart:43 - Start test messtest
+13:18:55,664  INFO main TestBase:logTestStop:48 - Stop test messtest
+13:28:17,374  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:28:17,789  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+13:28:19,866  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+13:29:12,946  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:29:13,283  INFO main TestBase:logTestStart:43 - Start test messtest
+13:29:14,224  INFO main TestBase:logTestStop:48 - Stop test messtest
+13:35:50,454  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:35:50,775  INFO main TestBase:logTestStart:43 - Start test messtest
+13:35:52,980  INFO main TestBase:logTestStop:48 - Stop test messtest
+13:36:45,809  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:36:46,101  INFO main TestBase:logTestStart:43 - Start test messtest
+13:36:48,355  INFO main TestBase:logTestStop:48 - Stop test messtest
+13:37:09,448  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:37:09,770  INFO main TestBase:logTestStart:43 - Start test messtest
+13:37:12,037  INFO main TestBase:logTestStop:48 - Stop test messtest
+13:37:42,436  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:37:42,736  INFO main TestBase:logTestStart:43 - Start test messtest
+13:37:43,577  INFO main TestBase:logTestStop:48 - Stop test messtest
+13:38:34,466  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:38:34,781  INFO main TestBase:logTestStart:43 - Start test messtest
+13:38:35,303  INFO main TestBase:logTestStop:48 - Stop test messtest
+13:39:41,522  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+13:39:41,851  INFO main TestBase:logTestStart:43 - Start test messtest
+13:39:42,338  INFO main TestBase:logTestStop:48 - Stop test messtest
+14:35:36,973  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+14:35:37,390  INFO main TestBase:logTestStart:43 - Start test messtest
+14:35:37,916  INFO main TestBase:logTestStop:48 - Stop test messtest
+14:36:02,946  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+14:36:03,255  INFO main TestBase:logTestStart:43 - Start test messtest
+14:39:47,736  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+14:39:48,066  INFO main TestBase:logTestStart:43 - Start test messtest
+14:39:48,699  INFO main TestBase:logTestStop:48 - Stop test messtest
+14:47:48,184  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+14:47:48,500  INFO main TestBase:logTestStart:43 - Start test messtest
+14:47:49,004  INFO main TestBase:logTestStop:48 - Stop test messtest
+14:51:17,979  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+14:51:18,288  INFO main TestBase:logTestStart:43 - Start test messtest
+14:51:20,530  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:03:19,754  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:03:20,103  INFO main TestBase:logTestStart:43 - Start test messtest
+15:03:22,349  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:04:00,893  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:04:01,197  INFO main TestBase:logTestStart:43 - Start test messtest
+15:04:01,660  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:04:42,548  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:04:42,863  INFO main TestBase:logTestStart:43 - Start test messtest
+15:04:43,318  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:05:08,887  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:05:09,220  INFO main TestBase:logTestStart:43 - Start test messtest
+15:05:09,665  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:05:46,417  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:05:46,734  INFO main TestBase:logTestStart:43 - Start test messtest
+15:05:47,179  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:07:27,968  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:07:28,310  INFO main TestBase:logTestStart:43 - Start test messtest
+15:07:28,697  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:08:14,853  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:08:15,161  INFO main TestBase:logTestStart:43 - Start test messtest
+15:08:15,584  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:08:37,951  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:08:38,282  INFO main TestBase:logTestStart:43 - Start test messtest
+15:08:40,501  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:09:01,082  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:09:01,382  INFO main TestBase:logTestStart:43 - Start test messtest
+15:09:01,728  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:11:54,753  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:11:55,051  INFO main TestBase:logTestStart:43 - Start test messtest
+15:11:55,419  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:12:12,832  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:12:13,146  INFO main TestBase:logTestStart:43 - Start test messtest
+15:12:13,517  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:12:33,925  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:12:34,249  INFO main TestBase:logTestStart:43 - Start test messtest
+15:12:34,647  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:12:55,634  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:12:55,955  INFO main TestBase:logTestStart:43 - Start test messtest
+15:12:56,394  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:14:26,400  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:14:26,696  INFO main TestBase:logTestStart:43 - Start test messtest
+15:14:27,932  INFO main TestBase:logTestStop:48 - Stop test messtest
+15:51:01,043  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:51:01,470  INFO main TestBase:logTestStart:43 - Start test messageCreationAndViewTest
+15:51:03,004  INFO main TestBase:logTestStop:48 - Stop test messageCreationAndViewTest
+15:51:57,431  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+15:51:57,750  INFO main TestBase:logTestStart:43 - Start test messageCreationAndViewTest
+15:51:58,956  INFO main TestBase:logTestStop:48 - Stop test messageCreationAndViewTest
+16:01:50,312  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:01:50,632  INFO main TestBase:logTestStart:43 - Start test messtest
+16:01:51,258  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:10:11,623  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:10:12,038  INFO main TestBase:logTestStart:43 - Start test messtest
+16:10:12,768  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:10:32,591  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:10:32,895  INFO main TestBase:logTestStart:43 - Start test messtest
+16:10:33,564  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:11:54,898  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:11:55,194  INFO main TestBase:logTestStart:43 - Start test messageCreationAndViewTest
+16:11:56,639  INFO main TestBase:logTestStop:48 - Stop test messageCreationAndViewTest
+16:12:30,731  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:12:31,027  INFO main TestBase:logTestStart:43 - Start test messageCreationAndViewTest
+16:12:32,423  INFO main TestBase:logTestStop:48 - Stop test messageCreationAndViewTest
+16:13:05,803  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:13:06,092  INFO main TestBase:logTestStart:43 - Start test messageCreationAndViewTest
+16:13:07,472  INFO main TestBase:logTestStop:48 - Stop test messageCreationAndViewTest
+16:13:49,345  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:13:49,629  INFO main TestBase:logTestStart:43 - Start test messageCreationAndViewTest
+16:13:50,956  INFO main TestBase:logTestStop:48 - Stop test messageCreationAndViewTest
+16:14:41,502  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:14:41,787  INFO main TestBase:logTestStart:43 - Start test messtest
+16:15:48,125  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:15:55,311  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:15:55,611  INFO main TestBase:logTestStart:43 - Start test messtest
+16:15:56,218  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:16:17,718  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:16:18,024  INFO main TestBase:logTestStart:43 - Start test messtest
+16:16:18,657  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:16:36,740  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:16:37,057  INFO main TestBase:logTestStart:43 - Start test messtest
+16:16:37,688  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:16:52,529  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:16:52,864  INFO main TestBase:logTestStart:43 - Start test messtest
+16:22:47,813  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:22:55,281  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:22:55,605  INFO main TestBase:logTestStart:43 - Start test messtest
+16:22:56,270  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:29:06,418  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:29:06,810  INFO main TestBase:logTestStart:43 - Start test messtest
+16:29:07,454  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:53:47,565  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:53:47,961  INFO main TestBase:logTestStart:43 - Start test messtest
+16:53:48,728  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:53:59,916  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:54:00,220  INFO main TestBase:logTestStart:43 - Start test messtest
+16:54:52,926  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:56:32,613  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:56:32,925  INFO main TestBase:logTestStart:43 - Start test messtest
+16:56:33,552  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:58:11,246  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:58:11,581  INFO main TestBase:logTestStart:43 - Start test messtest
+16:58:12,393  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:58:23,814  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+16:58:24,110  INFO main TestBase:logTestStart:43 - Start test messtest
+17:00:45,835  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:00:53,462  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:00:53,778  INFO main TestBase:logTestStart:43 - Start test messtest
+17:02:53,371  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:03:00,741  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:03:01,055  INFO main TestBase:logTestStart:43 - Start test messtest
+17:03:23,093  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:06:41,045  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:06:41,391  INFO main TestBase:logTestStart:43 - Start test messtest
+17:07:05,697  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:07:16,454  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:07:16,756  INFO main TestBase:logTestStart:43 - Start test messtest
+17:08:16,153  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:08:56,858  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:08:57,219  INFO main TestBase:logTestStart:43 - Start test messtest
+17:09:33,248  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:09:47,474  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:09:47,834  INFO main TestBase:logTestStart:43 - Start test messtest
+17:10:21,355  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:10:21,724  INFO main TestBase:logTestStart:43 - Start test messtest
+17:10:40,010  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:11:23,462  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:11:23,890  INFO main TestBase:logTestStart:43 - Start test messtest
+17:11:24,516  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:11:44,855  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:11:45,158  INFO main TestBase:logTestStart:43 - Start test messtest
+17:11:45,820  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:12:48,260  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:12:48,595  INFO main TestBase:logTestStart:43 - Start test messtest
+17:12:49,772  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:19:01,966  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:19:02,345  INFO main TestBase:logTestStart:43 - Start test messtest
+17:19:03,422  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:44:52,274  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:44:52,655  INFO main TestBase:logTestStart:43 - Start test messtest
+17:44:54,378  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:45:36,934  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:45:37,261  INFO main TestBase:logTestStart:43 - Start test messtest
+17:45:39,066  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:46:06,665  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:46:06,996  INFO main TestBase:logTestStart:43 - Start test messtest
+17:46:08,596  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:46:55,236  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:46:55,556  INFO main TestBase:logTestStart:43 - Start test messtest
+17:46:57,191  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:47:31,532  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:47:31,921  INFO main TestBase:logTestStart:43 - Start test messtest
+17:47:33,396  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:49:52,069  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:49:52,388  INFO main TestBase:logTestStart:43 - Start test messtest
+17:49:54,047  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:50:16,691  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+17:50:17,009  INFO main TestBase:logTestStart:43 - Start test messtest
+17:50:18,793  INFO main TestBase:logTestStop:48 - Stop test messtest
+18:21:21,373  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+18:21:21,729  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+18:21:23,177  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+18:23:59,476  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+18:23:59,822  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+18:24:00,976  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+18:25:32,115  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+18:25:32,415  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+18:25:33,531  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+18:27:52,337  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+18:27:52,654  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+18:27:53,793  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+18:29:20,779  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+18:29:21,123  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+18:29:22,386  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+18:45:12,970  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+18:45:13,366  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+18:45:14,836  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+19:08:45,817  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+19:08:46,185  INFO main TestBase:logTestStart:43 - Start test createAndModifyTest
+19:08:48,499  INFO main TestBase:logTestStop:48 - Stop test createAndModifyTest
+10:35:19,795  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+10:35:20,234  INFO main TestBase:logTestStart:43 - Start test createAndModifyTest
+10:35:20,621  INFO main TestBase:logTestStop:48 - Stop test createAndModifyTest
+10:35:57,360  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+10:35:57,698  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+10:35:58,073  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+10:38:35,338  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+10:38:35,700  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+10:38:55,708  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+10:39:16,839  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+10:39:17,179  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+10:39:44,237  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+10:41:14,983  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+10:41:15,288  INFO main TestBase:logTestStart:43 - Start test createAndExitTest
+10:41:15,624  INFO main TestBase:logTestStop:48 - Stop test createAndExitTest
+10:42:09,011  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+10:42:09,328  INFO main TestBase:logTestStart:43 - Start test createAndExitTest
+10:42:10,095  INFO main TestBase:logTestStop:48 - Stop test createAndExitTest
+11:40:26,055  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+11:40:26,375  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+11:40:27,949  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+11:58:46,579  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+11:58:46,949  INFO main TestBase:logTestStart:43 - Start test viewOthersMessagesTest
+11:58:47,571  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+11:58:48,267  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+11:58:48,982  INFO main TestBase:logTestStop:48 - Stop test viewOthersMessagesTest
+12:00:32,355  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:00:32,684  INFO main TestBase:logTestStart:43 - Start test viewOthersMessagesTest
+12:00:33,278  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+12:00:34,095  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+12:00:35,337  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+12:00:35,692  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+12:00:38,449  INFO main TestBase:logTestStop:48 - Stop test viewOthersMessagesTest
+12:01:47,913  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:01:48,258  INFO main TestBase:logTestStart:43 - Start test viewOthersMessagesTest
+12:01:48,783  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+12:01:49,524  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+12:01:50,679  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+12:01:50,991  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+12:01:53,519  INFO main TestBase:logTestStop:48 - Stop test viewOthersMessagesTest
+12:04:16,826  INFO main MessagesPage:isLoginButtonPresent:57 - Login page is opened
+12:04:17,107  INFO main TestBase:logTestStart:43 - Start test viewOthersMessagesTest
+12:04:17,711  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+12:04:18,521  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+12:04:19,705  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+12:04:20,030  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+12:04:22,661  INFO main TestBase:logTestStop:48 - Stop test viewOthersMessagesTest
+13:18:15,080  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+13:18:15,492  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+13:18:16,109  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+13:18:17,000  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+13:18:41,098  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+13:18:41,408  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+13:18:42,006  INFO main MessagesPage:isShowMessageFormDisplayed:96 - Message page is displayed
+13:18:42,878  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+13:19:16,913  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+13:19:17,085  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+13:20:00,085  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+13:20:00,250  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+13:21:07,483  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+13:21:07,660  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+14:56:48,383  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+14:56:48,567  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+15:00:19,613  INFO main TestBase:logTestStart:45 - Start test createAndDeleteTest
+15:00:19,758  INFO main TestBase:logTestStop:50 - Stop test createAndDeleteTest
+15:13:02,714  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+15:13:02,893  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+16:12:25,132  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+16:12:25,565  INFO main TestBase:logTestStart:43 - Start test messtest
+16:12:26,314  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:16:49,315  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+16:16:49,728  INFO main TestBase:logTestStart:43 - Start test messtest
+16:16:50,389  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:18:41,787  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+16:18:42,103  INFO main TestBase:logTestStart:43 - Start test messtest
+16:18:42,777  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:20:02,118  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+16:20:02,453  INFO main TestBase:logTestStart:43 - Start test messtest
+16:20:03,176  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:36:44,096  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+16:36:44,488  INFO main TestBase:logTestStart:43 - Start test messtest
+16:36:45,209  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:37:45,034  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+16:37:45,356  INFO main TestBase:logTestStart:43 - Start test messtest
+16:37:46,040  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:39:09,930  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+16:39:10,279  INFO main TestBase:logTestStart:43 - Start test messtest
+16:39:10,948  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:53:48,179  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+16:53:48,567  INFO main TestBase:logTestStart:43 - Start test messtest
+16:53:51,324  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:54:38,234  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+16:54:38,611  INFO main TestBase:logTestStart:43 - Start test messtest
+16:54:41,363  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:56:21,546  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+16:56:21,914  INFO main TestBase:logTestStart:43 - Start test messtest
+16:56:26,551  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:56:52,042  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+16:56:52,398  INFO main TestBase:logTestStart:43 - Start test messtest
+16:56:54,003  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:57:18,001  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+16:57:18,329  INFO main TestBase:logTestStart:43 - Start test messtest
+16:57:19,044  INFO main TestBase:logTestStop:48 - Stop test messtest
+16:59:31,405  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+16:59:31,750  INFO main TestBase:logTestStart:43 - Start test messtest
+16:59:34,449  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:00:09,161  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+17:00:09,502  INFO main TestBase:logTestStart:43 - Start test messtest
+17:00:10,215  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:02:50,325  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+17:02:50,715  INFO main TestBase:logTestStart:43 - Start test messtest
+17:02:51,510  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:03:36,582  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+17:03:36,933  INFO main TestBase:logTestStart:43 - Start test messtest
+17:03:37,701  INFO main TestBase:logTestStop:48 - Stop test messtest
+17:37:26,220  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+17:37:26,628  INFO main TestBase:logTestStart:43 - Start test messageCreationAndViewTest
+17:37:27,959  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+17:37:29,846  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+17:37:31,422  INFO main TestBase:logTestStop:48 - Stop test messageCreationAndViewTest
+18:12:49,416  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+18:12:49,986  INFO main TestBase:logTestStart:43 - Start test viewOthersMessagesTest
+18:12:51,288  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+18:12:52,815  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+18:12:54,729  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+18:12:55,030  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+18:12:58,669  INFO main TestBase:logTestStop:48 - Stop test viewOthersMessagesTest
+14:54:25,852  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+14:54:27,013  INFO main TestBase:logTestStart:43 - Start test createAndDeleteTest
+14:54:27,889  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+14:54:28,900  INFO main TestBase:logTestStop:48 - Stop test createAndDeleteTest
+15:42:35,128  INFO main TestBase:logTestStart:51 - Start test createAndDeleteTest
+15:42:35,337  INFO main TestBase:logTestStop:56 - Stop test createAndDeleteTest
+15:43:16,828  INFO main TestBase:logTestStart:51 - Start test createAndDeleteTest
+15:43:17,011  INFO main TestBase:logTestStop:56 - Stop test createAndDeleteTest
+15:56:32,609  INFO main TestBase:logTestStart:55 - Start test createAndDeleteTest
+15:56:32,832  INFO main TestBase:logTestStop:60 - Stop test createAndDeleteTest
+15:57:00,510  INFO main TestBase:logTestStart:55 - Start test createAndDeleteTest
+15:57:00,758  INFO main TestBase:logTestStop:60 - Stop test createAndDeleteTest
+15:57:51,318  INFO main MessagesPage:isLoginButtonPresent:58 - Login page is opened
+15:57:52,440  INFO main TestBase:logTestStart:55 - Start test createAndDeleteTest
+15:57:54,384  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+15:57:55,672  INFO main TestBase:logTestStop:60 - Stop test createAndDeleteTest
+15:59:28,368  INFO main TestBase:logTestStart:53 - Start test createAndDeleteTest
+15:59:28,547  INFO main TestBase:logTestStop:58 - Stop test createAndDeleteTest
+16:00:13,954  INFO main MessagesPage:isLoginButtonPresent:68 - Login page is opened
+16:00:14,287  INFO main TestBase:logTestStart:53 - Start test createAndDeleteTest
+16:00:14,968  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+16:00:16,443  INFO main TestBase:logTestStop:58 - Stop test createAndDeleteTest
+16:16:16,847  INFO main MessagesPage:isLoginButtonPresent:68 - Login page is opened
+16:16:17,240  INFO main TestBase:logTestStart:53 - Start test createAndDeleteTest
+16:16:18,014  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+16:16:18,942  INFO main TestBase:logTestStop:58 - Stop test createAndDeleteTest
+16:16:37,897  INFO main MessagesPage:isLoginButtonPresent:68 - Login page is opened
+16:16:38,246  INFO main TestBase:logTestStart:53 - Start test createAndDeleteTest
+16:16:38,850  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+16:16:39,769  INFO main TestBase:logTestStop:58 - Stop test createAndDeleteTest
+16:19:53,427  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+16:19:53,568  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+16:20:55,497  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+16:20:55,661  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+16:22:09,907  INFO main MessagesPage:isLoginButtonPresent:67 - Login page is opened
+16:22:10,255  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+16:22:10,938  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+16:22:11,873  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+16:22:27,074  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+16:22:27,224  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+17:46:33,920  INFO main MessagesPage:isLoginButtonPresent:66 - Login page is opened
+17:46:34,377  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+17:46:35,084  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+17:46:36,144  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+17:49:13,669  INFO main MessagesPage:isLoginButtonPresent:74 - Login page is opened
+17:49:13,965  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+17:49:14,574  INFO main MessagesPage:isShowMessageFormDisplayed:99 - Message page is displayed
+17:49:15,573  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+18:55:24,633  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:55:25,304  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+18:55:26,452  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+18:55:27,430  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+19:07:16,421  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+19:07:16,745  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+19:07:17,295  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+19:07:18,190  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+19:07:21,537  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+19:07:21,789  INFO main TestBase:logTestStart:52 - Start test createAndExitTest
+19:07:22,637  INFO main TestBase:logTestStop:57 - Stop test createAndExitTest
+19:07:25,954  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+19:07:26,229  INFO main TestBase:logTestStart:52 - Start test createAndModifyTest
+19:07:26,617  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+19:07:31,129  INFO main TestBase:logTestStop:57 - Stop test createAndModifyTest
+19:07:34,463  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+19:07:34,750  INFO main TestBase:logTestStart:52 - Start test messageCreationAndViewTest
+19:07:35,144  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+19:07:36,032  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+19:07:36,939  INFO main TestBase:logTestStop:57 - Stop test messageCreationAndViewTest
+19:07:40,230  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+19:07:40,493  INFO main TestBase:logTestStart:52 - Start test messageCreationTest
+19:07:40,874  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+19:07:41,693  INFO main TestBase:logTestStop:57 - Stop test messageCreationTest
+19:07:45,038  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+19:07:45,304  INFO main TestBase:logTestStart:52 - Start test doubleCreate
+19:07:45,693  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+19:07:46,111  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+19:07:47,200  INFO main TestBase:logTestStop:57 - Stop test doubleCreate
+19:07:50,526  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+19:07:50,788  INFO main TestBase:logTestStart:52 - Start test viewOthersMessagesTest
+19:07:51,156  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+19:07:51,886  INFO main TestBase:logTestStop:57 - Stop test viewOthersMessagesTest
+19:09:10,986  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+19:09:11,275  INFO main TestBase:logTestStart:52 - Start test createAndModifyTest
+19:09:11,829  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+19:09:15,233  INFO main TestBase:logTestStop:57 - Stop test createAndModifyTest
+19:13:04,920  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+19:13:05,224  INFO main TestBase:logTestStart:52 - Start test createAndModifyTest
+19:13:05,856  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+19:13:07,040  INFO main TestBase:logTestStop:57 - Stop test createAndModifyTest
+15:09:46,560  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:09:46,908  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+15:09:47,968  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:09:48,503  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+15:09:51,918  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:09:52,184  INFO main TestBase:logTestStart:52 - Start test createAndExitTest
+15:09:52,701  INFO main TestBase:logTestStop:57 - Stop test createAndExitTest
+15:09:56,104  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:09:56,345  INFO main TestBase:logTestStart:52 - Start test createAndModifyTest
+15:09:56,758  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:09:57,862  INFO main TestBase:logTestStop:57 - Stop test createAndModifyTest
+15:10:01,255  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:10:01,495  INFO main TestBase:logTestStart:52 - Start test messageCreationAndViewTest
+15:10:01,876  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:10:02,370  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:10:02,743  INFO main TestBase:logTestStop:57 - Stop test messageCreationAndViewTest
+15:10:06,188  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:10:06,453  INFO main TestBase:logTestStart:52 - Start test messageCreationTest
+15:10:06,855  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:10:07,284  INFO main TestBase:logTestStop:57 - Stop test messageCreationTest
+15:10:10,691  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:10:10,956  INFO main TestBase:logTestStart:52 - Start test doubleCreate
+15:10:11,372  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:10:11,803  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:10:12,637  INFO main TestBase:logTestStop:57 - Stop test doubleCreate
+15:10:16,061  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:10:16,295  INFO main TestBase:logTestStart:52 - Start test viewOthersMessagesTest
+15:10:16,674  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:10:17,404  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:10:18,735  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:10:19,020  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:10:21,497  INFO main TestBase:logTestStop:57 - Stop test viewOthersMessagesTest
+15:10:45,955  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:10:46,270  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+15:10:46,841  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:10:47,701  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+15:10:51,108  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:10:51,370  INFO main TestBase:logTestStart:52 - Start test createAndExitTest
+15:10:52,222  INFO main TestBase:logTestStop:57 - Stop test createAndExitTest
+15:10:55,503  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:10:55,747  INFO main TestBase:logTestStart:52 - Start test createAndModifyTest
+15:10:56,137  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:10:58,582  INFO main TestBase:logTestStop:57 - Stop test createAndModifyTest
+15:11:01,889  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:11:02,134  INFO main TestBase:logTestStart:52 - Start test messageCreationAndViewTest
+15:11:02,511  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:11:03,324  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:11:04,013  INFO main TestBase:logTestStop:57 - Stop test messageCreationAndViewTest
+15:11:07,296  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:11:07,544  INFO main TestBase:logTestStart:52 - Start test messageCreationTest
+15:11:07,915  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:11:08,548  INFO main TestBase:logTestStop:57 - Stop test messageCreationTest
+15:11:11,877  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:11:12,138  INFO main TestBase:logTestStart:52 - Start test doubleCreate
+15:11:12,505  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:11:12,902  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:11:13,889  INFO main TestBase:logTestStop:57 - Stop test doubleCreate
+15:11:17,160  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:11:17,405  INFO main TestBase:logTestStart:52 - Start test viewOthersMessagesTest
+15:11:17,776  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:11:18,571  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:11:19,948  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:11:20,237  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+15:11:22,808  INFO main TestBase:logTestStop:57 - Stop test viewOthersMessagesTest
+16:07:14,911  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:07:15,323  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+16:07:16,042  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:07:16,888  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+16:07:20,320  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:07:20,608  INFO main TestBase:logTestStart:52 - Start test createAndExitTest
+16:07:21,757  INFO main TestBase:logTestStop:57 - Stop test createAndExitTest
+16:07:25,100  INFO main TestBase:logTestStart:52 - Start test createAndModifyTest
+16:07:25,105  INFO main TestBase:logTestStop:57 - Stop test createAndModifyTest
+16:07:39,583  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:07:39,986  INFO main TestBase:logTestStart:52 - Start test messTest
+16:07:40,607  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:07:41,434  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:08:17,861  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:08:18,190  INFO main TestBase:logTestStart:52 - Start test messTest
+16:08:18,808  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:08:46,727  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:08:47,051  INFO main TestBase:logTestStart:52 - Start test messTest
+16:08:47,605  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:08:50,785  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:13:19,018  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:13:19,477  INFO main TestBase:logTestStart:52 - Start test messTest
+16:13:20,259  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:13:23,444  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:14:28,610  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:14:28,976  INFO main TestBase:logTestStart:52 - Start test messTest
+16:14:29,477  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:14:32,646  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:15:08,588  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:15:08,956  INFO main TestBase:logTestStart:52 - Start test messTest
+16:15:09,594  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:15:43,754  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:20:20,262  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:20:20,595  INFO main TestBase:logTestStart:52 - Start test messTest
+16:20:21,202  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:20:24,380  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:30:59,628  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:30:59,971  INFO main TestBase:logTestStart:52 - Start test messTest
+16:31:00,664  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:31:10,406  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:32:05,345  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:32:05,759  INFO main TestBase:logTestStart:52 - Start test messTest
+16:32:06,345  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:32:06,507  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:32:19,097  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:32:19,431  INFO main TestBase:logTestStart:52 - Start test messTest
+16:32:19,973  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:32:20,155  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:32:39,580  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:32:39,898  INFO main TestBase:logTestStart:52 - Start test messTest
+16:32:40,449  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:32:46,704  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:36:23,576  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:36:23,952  INFO main TestBase:logTestStart:52 - Start test messTest
+16:36:24,547  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:36:27,722  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:39:15,594  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:39:15,928  INFO main TestBase:logTestStart:52 - Start test messTest
+16:39:16,473  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:39:19,698  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:52:04,750  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:52:05,213  INFO main TestBase:logTestStart:52 - Start test messTest
+16:52:05,834  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:52:12,104  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:52:54,518  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:52:54,839  INFO main TestBase:logTestStart:52 - Start test messTest
+16:52:55,405  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:52:58,658  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:53:13,622  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:53:13,924  INFO main TestBase:logTestStart:52 - Start test messTest
+16:53:14,569  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:53:20,836  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:54:03,481  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:54:03,838  INFO main TestBase:logTestStart:52 - Start test messTest
+16:54:04,354  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:54:07,535  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:54:53,087  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:54:53,389  INFO main TestBase:logTestStart:52 - Start test messTest
+16:54:53,946  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:54:54,143  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:55:09,314  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:55:09,616  INFO main TestBase:logTestStart:52 - Start test messTest
+16:55:10,183  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:55:10,385  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:55:27,937  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:55:28,278  INFO main TestBase:logTestStart:52 - Start test messTest
+16:55:28,880  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+16:55:35,175  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:02:32,506  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:02:32,916  INFO main TestBase:logTestStart:52 - Start test messTest
+17:02:33,529  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+17:02:39,721  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:03:37,422  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:03:37,778  INFO main TestBase:logTestStart:52 - Start test messTest
+17:03:38,331  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+17:03:41,745  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:04:30,593  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:04:30,930  INFO main TestBase:logTestStart:52 - Start test messTest
+17:04:31,717  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+17:04:35,090  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:05:05,590  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:05:05,959  INFO main TestBase:logTestStart:52 - Start test messTest
+17:05:06,510  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+17:05:09,876  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:06:05,216  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:06:05,561  INFO main TestBase:logTestStart:52 - Start test messTest
+17:06:06,144  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+17:06:09,505  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:24:38,986  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:24:39,305  INFO main TestBase:logTestStart:52 - Start test messTest
+17:24:39,925  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+17:24:49,239  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:25:24,450  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:25:24,885  INFO main TestBase:logTestStart:52 - Start test messTest
+17:25:25,521  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+17:25:34,791  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:26:45,971  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:26:46,293  INFO main TestBase:logTestStart:52 - Start test messTest
+17:26:46,923  INFO main MessagesPage:isShowMessageFormDisplayed:107 - Message page is displayed
+17:26:53,157  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:38:56,024  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:38:56,375  INFO main TestBase:logTestStart:52 - Start test messTest
+17:38:56,957  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:39:00,259  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:40:09,923  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:40:10,230  INFO main TestBase:logTestStart:52 - Start test messTest
+17:40:10,795  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:40:11,060  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:40:35,654  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:40:35,985  INFO main TestBase:logTestStart:52 - Start test messTest
+17:40:36,801  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:40:40,139  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:41:11,859  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:41:12,270  INFO main TestBase:logTestStart:52 - Start test messTest
+17:41:12,912  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:41:16,287  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:41:49,590  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:41:49,891  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+17:41:50,632  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:41:51,301  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+17:41:51,458  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:41:51,686  INFO main TestBase:logTestStart:52 - Start test createAndExitTest
+17:41:52,525  INFO main TestBase:logTestStop:57 - Stop test createAndExitTest
+17:41:52,677  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:41:52,903  INFO main TestBase:logTestStart:52 - Start test createAndModifyTest
+17:41:53,257  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:41:53,868  INFO main TestBase:logTestStop:57 - Stop test createAndModifyTest
+17:41:54,000  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:41:54,242  INFO main TestBase:logTestStart:52 - Start test messageCreationAndViewTest
+17:41:54,581  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:41:55,193  INFO main TestBase:logTestStop:57 - Stop test messageCreationAndViewTest
+17:41:55,347  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:41:55,592  INFO main TestBase:logTestStart:52 - Start test messageCreationTest
+17:41:55,917  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:41:56,496  INFO main TestBase:logTestStop:57 - Stop test messageCreationTest
+17:41:56,632  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:41:56,855  INFO main TestBase:logTestStart:52 - Start test doubleCreate
+17:41:57,244  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:41:57,680  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:41:58,343  INFO main TestBase:logTestStop:57 - Stop test doubleCreate
+17:41:58,476  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:41:58,687  INFO main TestBase:logTestStart:52 - Start test viewOthersMessagesTest
+17:41:59,031  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:42:17,507  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:42:17,815  INFO main TestBase:logTestStart:52 - Start test messTest
+17:42:18,369  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:42:24,621  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:43:31,184  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:43:31,523  INFO main TestBase:logTestStart:52 - Start test messTest
+17:43:32,084  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:43:38,353  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:48:23,902  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:48:24,266  INFO main TestBase:logTestStart:52 - Start test messTest
+17:48:24,870  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:48:28,121  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:58:34,255  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:58:34,687  INFO main TestBase:logTestStart:52 - Start test messTest
+17:58:35,317  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:58:35,753  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:59:02,019  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:59:02,328  INFO main TestBase:logTestStart:52 - Start test messTest
+17:59:02,924  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:59:06,254  INFO main TestBase:logTestStop:57 - Stop test messTest
+17:59:40,612  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+17:59:40,939  INFO main TestBase:logTestStart:52 - Start test messTest
+17:59:41,618  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+17:59:44,944  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:01:57,185  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:01:57,503  INFO main TestBase:logTestStart:52 - Start test messTest
+18:01:58,031  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:02:01,339  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:07:25,014  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:07:25,356  INFO main TestBase:logTestStart:52 - Start test messTest
+18:07:25,869  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:07:26,086  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:08:18,505  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:08:18,836  INFO main TestBase:logTestStart:52 - Start test messTest
+18:08:19,492  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:08:22,756  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:09:12,517  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:09:12,817  INFO main TestBase:logTestStart:52 - Start test messTest
+18:09:13,321  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:09:16,655  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:11:03,989  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:11:04,288  INFO main TestBase:logTestStart:52 - Start test messTest
+18:11:04,864  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:11:08,107  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:12:21,324  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:12:21,624  INFO main TestBase:logTestStart:52 - Start test messTest
+18:12:22,111  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:12:22,365  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:13:14,537  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:13:14,871  INFO main TestBase:logTestStart:52 - Start test messTest
+18:13:15,414  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:13:18,675  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:18:09,937  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:18:10,338  INFO main TestBase:logTestStart:52 - Start test messTest
+18:18:10,941  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:18:17,287  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:23:26,601  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:23:26,933  INFO main TestBase:logTestStart:52 - Start test messTest
+18:23:27,497  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:23:30,775  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:24:07,149  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:24:07,504  INFO main TestBase:logTestStart:52 - Start test messTest
+18:24:08,119  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:24:11,406  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:25:51,121  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:25:51,448  INFO main TestBase:logTestStart:52 - Start test messTest
+18:25:52,032  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:25:55,303  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:26:24,208  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:26:24,530  INFO main TestBase:logTestStart:52 - Start test messTest
+18:26:25,084  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:26:28,343  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:26:55,283  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:26:55,582  INFO main TestBase:logTestStart:52 - Start test messTest
+18:26:56,114  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:26:59,058  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:30:20,595  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:30:20,920  INFO main TestBase:logTestStart:52 - Start test messTest
+18:30:21,713  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:30:27,938  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:31:18,020  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:31:18,386  INFO main TestBase:logTestStart:52 - Start test messTest
+18:31:18,983  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:31:22,237  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:32:36,776  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:32:37,102  INFO main TestBase:logTestStart:52 - Start test messTest
+18:32:37,671  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:32:43,961  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:54:53,650  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:54:54,087  INFO main TestBase:logTestStart:52 - Start test messTest
+18:54:54,857  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:55:01,225  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:56:43,164  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:56:43,490  INFO main TestBase:logTestStart:52 - Start test messTest
+18:56:44,038  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:56:50,351  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:58:20,806  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:58:21,131  INFO main TestBase:logTestStart:52 - Start test messTest
+18:58:21,795  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:58:34,392  INFO main TestBase:logTestStop:57 - Stop test messTest
+18:59:08,880  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+18:59:09,261  INFO main TestBase:logTestStart:52 - Start test messTest
+18:59:09,814  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+18:59:22,441  INFO main TestBase:logTestStop:57 - Stop test messTest
+09:46:55,295  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+09:46:55,851  INFO main TestBase:logTestStart:52 - Start test messTest
+09:46:56,768  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+09:47:08,606  INFO main TestBase:logTestStop:57 - Stop test messTest
+09:47:31,477  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+09:47:32,701  INFO main TestBase:logTestStart:52 - Start test messTest
+09:47:33,390  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+09:47:38,012  INFO main TestBase:logTestStop:57 - Stop test messTest
+09:48:14,712  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+09:48:15,047  INFO main TestBase:logTestStart:52 - Start test messTest
+09:48:15,606  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+09:48:20,250  INFO main TestBase:logTestStop:57 - Stop test messTest
+09:49:20,625  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+09:49:20,940  INFO main TestBase:logTestStart:52 - Start test messTest
+09:49:21,474  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+09:49:26,109  INFO main TestBase:logTestStop:57 - Stop test messTest
+09:50:22,201  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+09:50:22,496  INFO main TestBase:logTestStart:52 - Start test messTest
+09:50:23,099  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+09:50:27,731  INFO main TestBase:logTestStop:57 - Stop test messTest
+09:50:54,413  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+09:50:54,708  INFO main TestBase:logTestStart:52 - Start test messTest
+09:50:55,231  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+09:50:57,529  INFO main TestBase:logTestStop:57 - Stop test messTest
+09:51:36,766  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+09:51:37,072  INFO main TestBase:logTestStart:52 - Start test messTest
+09:51:37,605  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+09:51:39,896  INFO main TestBase:logTestStop:57 - Stop test messTest
+09:52:14,558  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+09:52:14,941  INFO main TestBase:logTestStart:52 - Start test messTest
+09:52:15,538  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+09:52:17,870  INFO main TestBase:logTestStop:57 - Stop test messTest
+09:58:30,015  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+09:58:30,380  INFO main TestBase:logTestStart:52 - Start test messTest
+09:58:30,993  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+09:58:33,370  INFO main TestBase:logTestStop:57 - Stop test messTest
+09:58:55,340  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+09:58:55,743  INFO main TestBase:logTestStart:52 - Start test messTest
+09:58:56,307  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+09:58:58,662  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:01:45,476  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:01:45,781  INFO main TestBase:logTestStart:52 - Start test messTest
+10:01:46,309  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:01:48,677  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:02:23,018  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:02:23,322  INFO main TestBase:logTestStart:52 - Start test messTest
+10:02:23,831  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:02:25,115  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:02:38,886  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:02:39,199  INFO main TestBase:logTestStart:52 - Start test messTest
+10:02:39,701  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:02:40,996  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:03:07,162  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:03:07,516  INFO main TestBase:logTestStart:52 - Start test messTest
+10:03:08,136  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:03:08,400  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:03:24,628  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:03:24,956  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+10:03:25,491  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:03:26,407  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+10:03:26,564  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:03:26,810  INFO main TestBase:logTestStart:52 - Start test createAndExitTest
+10:03:27,662  INFO main TestBase:logTestStop:57 - Stop test createAndExitTest
+10:03:27,832  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:03:28,079  INFO main TestBase:logTestStart:52 - Start test createAndModifyTest
+10:03:28,438  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:03:29,073  INFO main TestBase:logTestStop:57 - Stop test createAndModifyTest
+10:03:29,228  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:03:29,455  INFO main TestBase:logTestStart:52 - Start test messageCreationAndViewTest
+10:03:29,804  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:03:30,418  INFO main TestBase:logTestStop:57 - Stop test messageCreationAndViewTest
+10:03:30,556  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:03:30,786  INFO main TestBase:logTestStart:52 - Start test messageCreationTest
+10:03:31,133  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:03:31,742  INFO main TestBase:logTestStop:57 - Stop test messageCreationTest
+10:03:31,908  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:03:32,137  INFO main TestBase:logTestStart:52 - Start test doubleCreate
+10:03:32,514  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:03:32,914  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:03:33,531  INFO main TestBase:logTestStop:57 - Stop test doubleCreate
+10:03:33,672  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:03:33,904  INFO main TestBase:logTestStart:52 - Start test viewOthersMessagesTest
+10:03:34,245  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:03:34,900  INFO main TestBase:logTestStop:57 - Stop test viewOthersMessagesTest
+10:06:57,509  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:06:57,833  INFO main TestBase:logTestStart:52 - Start test messTest
+10:06:58,455  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:07:00,865  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:08:54,184  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:08:54,538  INFO main TestBase:logTestStart:52 - Start test messTest
+10:08:55,096  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:08:58,550  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:09:20,604  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:09:20,925  INFO main TestBase:logTestStart:52 - Start test messTest
+10:09:21,537  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:09:23,942  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:15:23,289  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:15:23,663  INFO main TestBase:logTestStart:52 - Start test messTest
+10:15:24,240  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:15:25,461  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:32:49,851  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:32:50,298  INFO main TestBase:logTestStart:52 - Start test messTest
+10:32:50,993  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:32:53,486  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:33:12,743  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:33:13,050  INFO main TestBase:logTestStart:52 - Start test messTest
+10:33:13,572  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:33:16,045  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:33:57,504  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:33:57,855  INFO main TestBase:logTestStart:52 - Start test messTest
+10:33:58,413  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:34:00,750  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:34:31,398  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:34:31,698  INFO main TestBase:logTestStart:52 - Start test messTest
+10:34:32,279  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:34:34,612  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:35:12,354  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:35:12,659  INFO main TestBase:logTestStart:52 - Start test messTest
+10:35:13,184  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:35:14,480  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:35:31,787  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:35:32,101  INFO main TestBase:logTestStart:52 - Start test messTest
+10:35:32,635  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:35:33,921  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:36:04,722  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:36:05,012  INFO main TestBase:logTestStart:52 - Start test messTest
+10:36:05,551  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:36:05,793  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:36:23,437  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:36:23,728  INFO main TestBase:logTestStart:52 - Start test messTest
+10:36:24,301  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:36:25,628  INFO main TestBase:logTestStop:57 - Stop test messTest
+10:36:52,523  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+10:36:52,835  INFO main TestBase:logTestStart:52 - Start test messTest
+10:36:53,366  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+10:36:54,732  INFO main TestBase:logTestStop:57 - Stop test messTest
+11:00:38,536  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+11:00:38,965  INFO main TestBase:logTestStart:52 - Start test messTest
+11:00:39,622  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+11:00:39,807  INFO main TestBase:logTestStop:57 - Stop test messTest
+11:00:57,524  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+11:00:57,887  INFO main TestBase:logTestStart:52 - Start test messTest
+11:00:58,478  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+11:00:59,855  INFO main TestBase:logTestStop:57 - Stop test messTest
+11:01:58,711  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+11:01:59,025  INFO main TestBase:logTestStart:52 - Start test messTest
+11:01:59,562  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+11:02:00,932  INFO main TestBase:logTestStop:57 - Stop test messTest
+11:02:20,340  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+11:02:20,687  INFO main TestBase:logTestStart:52 - Start test messTest
+11:02:21,251  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+11:02:22,646  INFO main TestBase:logTestStop:57 - Stop test messTest
+11:02:38,381  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+11:02:38,698  INFO main TestBase:logTestStart:52 - Start test messTest
+11:02:39,244  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+11:02:40,652  INFO main TestBase:logTestStop:57 - Stop test messTest
+11:02:55,764  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+11:02:56,077  INFO main TestBase:logTestStart:52 - Start test messTest
+11:02:56,753  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+11:02:56,944  INFO main TestBase:logTestStop:57 - Stop test messTest
+11:05:33,711  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+11:05:34,015  INFO main TestBase:logTestStart:52 - Start test messTest
+11:05:34,555  INFO main MessagesPage:isShowMessageFormDisplayed:106 - Message page is displayed
+11:05:35,878  INFO main TestBase:logTestStop:57 - Stop test messTest
+13:35:23,030  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+13:35:23,428  INFO main TestBase:logTestStart:52 - Start test messTest
+13:35:24,093  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+13:35:24,348  INFO main TestBase:logTestStop:57 - Stop test messTest
+13:36:19,234  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+13:36:19,554  INFO main TestBase:logTestStart:52 - Start test messTest
+13:36:20,183  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+13:36:20,424  INFO main TestBase:logTestStop:57 - Stop test messTest
+13:37:12,413  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+13:37:12,745  INFO main TestBase:logTestStart:52 - Start test messTest
+13:37:13,321  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+13:37:14,541  INFO main TestBase:logTestStop:57 - Stop test messTest
+13:37:37,677  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+13:37:38,012  INFO main TestBase:logTestStart:52 - Start test messTest
+13:37:39,107  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+13:37:40,310  INFO main TestBase:logTestStop:57 - Stop test messTest
+13:44:35,861  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+13:44:36,231  INFO main TestBase:logTestStart:52 - Start test messTest
+13:44:36,937  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+13:44:38,181  INFO main TestBase:logTestStop:57 - Stop test messTest
+13:45:44,654  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+13:45:45,502  INFO main TestBase:logTestStart:52 - Start test messTest
+13:45:46,617  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+13:45:47,995  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:35:56,659  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:35:57,058  INFO main TestBase:logTestStart:52 - Start test messTest
+14:35:57,732  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:35:59,003  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:44:52,881  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:44:53,194  INFO main TestBase:logTestStart:52 - Start test messTest
+14:44:53,773  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:44:54,012  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:45:19,871  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:45:20,205  INFO main TestBase:logTestStart:52 - Start test messTest
+14:45:20,718  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:45:20,942  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:46:13,052  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:46:13,355  INFO main TestBase:logTestStart:52 - Start test messTest
+14:46:13,922  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:46:14,159  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:46:30,288  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:46:30,618  INFO main TestBase:logTestStart:52 - Start test messTest
+14:46:31,147  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:46:31,375  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:46:53,505  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:46:53,812  INFO main TestBase:logTestStart:52 - Start test messTest
+14:46:54,398  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:46:55,628  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:47:22,582  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:47:22,884  INFO main TestBase:logTestStart:52 - Start test messTest
+14:47:23,426  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:47:24,660  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:47:56,791  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:47:57,151  INFO main TestBase:logTestStart:52 - Start test messTest
+14:47:57,727  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:47:58,981  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:50:48,668  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:50:49,039  INFO main TestBase:logTestStart:52 - Start test messTest
+14:50:49,596  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:50:50,827  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:52:11,108  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:52:11,409  INFO main TestBase:logTestStart:52 - Start test messTest
+14:52:12,003  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:54:39,820  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:58:16,807  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:58:17,103  INFO main TestBase:logTestStart:52 - Start test messTest
+14:58:17,607  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:58:18,843  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:58:51,602  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:58:51,990  INFO main TestBase:logTestStart:52 - Start test messTest
+14:58:52,540  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:58:53,779  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:59:16,428  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:59:16,774  INFO main TestBase:logTestStart:52 - Start test messTest
+14:59:17,377  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:59:18,638  INFO main TestBase:logTestStop:57 - Stop test messTest
+14:59:38,666  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+14:59:38,970  INFO main TestBase:logTestStart:52 - Start test messTest
+14:59:39,522  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+14:59:40,772  INFO main TestBase:logTestStop:57 - Stop test messTest
+15:00:05,068  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:00:05,375  INFO main TestBase:logTestStart:52 - Start test messTest
+15:00:05,938  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+15:00:25,161  INFO main TestBase:logTestStop:57 - Stop test messTest
+15:01:20,710  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:01:21,023  INFO main TestBase:logTestStart:52 - Start test messTest
+15:01:21,652  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+15:03:49,781  INFO main TestBase:logTestStop:57 - Stop test messTest
+15:06:12,475  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:06:12,874  INFO main TestBase:logTestStart:52 - Start test messTest
+15:06:13,479  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+15:06:14,854  INFO main TestBase:logTestStop:57 - Stop test messTest
+15:06:33,411  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:06:33,744  INFO main TestBase:logTestStart:52 - Start test messTest
+15:06:34,269  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+15:06:36,614  INFO main TestBase:logTestStop:57 - Stop test messTest
+15:09:13,218  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:09:13,548  INFO main TestBase:logTestStart:52 - Start test messTest
+15:09:14,120  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+15:09:16,494  INFO main TestBase:logTestStop:57 - Stop test messTest
+15:19:15,733  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:19:16,100  INFO main TestBase:logTestStart:52 - Start test messTest
+15:19:16,681  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+15:19:17,912  INFO main TestBase:logTestStop:57 - Stop test messTest
+15:20:10,759  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:20:11,135  INFO main TestBase:logTestStart:52 - Start test messTest
+15:20:11,657  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+15:20:12,893  INFO main TestBase:logTestStop:57 - Stop test messTest
+15:21:10,428  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:21:10,819  INFO main TestBase:logTestStart:52 - Start test messTest
+15:21:11,379  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+15:21:12,641  INFO main TestBase:logTestStop:57 - Stop test messTest
+15:21:30,822  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+15:21:31,146  INFO main TestBase:logTestStart:52 - Start test messTest
+15:21:31,809  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+15:21:33,106  INFO main TestBase:logTestStop:57 - Stop test messTest
+16:32:25,228  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:32:25,571  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+16:32:26,205  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+16:32:26,936  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+16:32:50,913  INFO main MessagesPage:isLoginButtonPresent:78 - Login page is opened
+16:32:51,229  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+16:32:51,817  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+16:32:55,493  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+16:43:03,991  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+16:43:04,312  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+16:43:04,877  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+16:43:06,245  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+16:43:06,409  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+16:43:06,646  INFO main TestBase:logTestStart:52 - Start test createAndExitTest
+16:43:07,123  INFO main TestBase:logTestStop:57 - Stop test createAndExitTest
+16:43:07,286  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+16:43:07,509  INFO main TestBase:logTestStart:52 - Start test createAndModifyTest
+16:43:07,861  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+16:43:10,014  INFO main TestBase:logTestStop:57 - Stop test createAndModifyTest
+16:43:10,160  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+16:43:10,392  INFO main TestBase:logTestStart:52 - Start test messageCreationAndViewTest
+16:43:10,759  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+16:43:13,372  INFO main TestBase:logTestStop:57 - Stop test messageCreationAndViewTest
+16:43:13,541  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+16:43:13,786  INFO main TestBase:logTestStart:52 - Start test messageCreationTest
+16:43:14,149  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+16:43:15,250  INFO main TestBase:logTestStop:57 - Stop test messageCreationTest
+16:43:15,431  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+16:43:15,678  INFO main TestBase:logTestStart:52 - Start test doubleCreate
+16:43:16,620  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+16:43:17,431  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+16:43:18,648  INFO main TestBase:logTestStop:57 - Stop test doubleCreate
+16:43:18,855  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+16:43:19,099  INFO main TestBase:logTestStart:52 - Start test viewOthersMessagesTest
+16:43:19,463  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+16:43:22,263  INFO main TestBase:logTestStop:57 - Stop test viewOthersMessagesTest
+17:16:28,568  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:16:28,889  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+17:16:29,527  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:16:31,089  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+17:18:33,100  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:18:33,412  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+17:18:34,043  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:18:35,563  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+17:18:39,055  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:18:39,331  INFO main TestBase:logTestStart:52 - Start test createAndExitTest
+17:18:39,795  INFO main TestBase:logTestStop:57 - Stop test createAndExitTest
+17:18:43,231  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:18:43,498  INFO main TestBase:logTestStart:52 - Start test createAndModifyTest
+17:18:43,965  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:18:47,172  INFO main TestBase:logTestStop:57 - Stop test createAndModifyTest
+17:18:50,480  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:18:50,732  INFO main TestBase:logTestStart:52 - Start test messageCreationAndViewTest
+17:18:51,157  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:18:53,648  INFO main TestBase:logTestStop:57 - Stop test messageCreationAndViewTest
+17:18:56,995  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:18:57,233  INFO main TestBase:logTestStart:52 - Start test messageCreationTest
+17:18:57,616  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:18:58,999  INFO main TestBase:logTestStop:57 - Stop test messageCreationTest
+17:19:02,419  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:19:02,671  INFO main TestBase:logTestStart:52 - Start test doubleCreate
+17:19:03,054  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:19:03,437  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:19:06,192  INFO main TestBase:logTestStop:57 - Stop test doubleCreate
+17:19:09,590  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:19:09,842  INFO main TestBase:logTestStart:52 - Start test viewOthersMessagesTest
+17:19:10,220  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:19:12,689  INFO main TestBase:logTestStop:57 - Stop test viewOthersMessagesTest
+17:24:15,478  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:24:15,808  INFO main TestBase:logTestStart:52 - Start test viewOthersMessagesTest
+17:24:16,371  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:24:24,679  INFO main TestBase:logTestStop:57 - Stop test viewOthersMessagesTest
+17:25:51,275  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:25:51,637  INFO main TestBase:logTestStart:52 - Start test viewOthersMessagesTest
+17:25:52,240  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:26:00,582  INFO main TestBase:logTestStop:57 - Stop test viewOthersMessagesTest
+17:26:45,630  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:26:45,930  INFO main TestBase:logTestStart:52 - Start test messageCreationAndViewTest
+17:26:46,556  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:26:48,107  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:26:49,612  INFO main TestBase:logTestStop:57 - Stop test messageCreationAndViewTest
+17:28:18,077  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:28:18,384  INFO main TestBase:logTestStart:52 - Start test viewOthersMessagesTest
+17:28:18,957  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:28:20,513  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:28:21,565  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:28:23,063  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:28:27,519  INFO main TestBase:logTestStop:57 - Stop test viewOthersMessagesTest
+17:28:48,338  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:28:48,632  INFO main TestBase:logTestStart:52 - Start test createAndDeleteTest
+17:28:49,210  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:28:50,771  INFO main TestBase:logTestStop:57 - Stop test createAndDeleteTest
+17:28:54,149  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:28:54,415  INFO main TestBase:logTestStart:52 - Start test createAndExitTest
+17:28:54,919  INFO main TestBase:logTestStop:57 - Stop test createAndExitTest
+17:28:58,256  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:28:58,512  INFO main TestBase:logTestStart:52 - Start test createAndModifyTest
+17:28:58,891  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:29:02,119  INFO main TestBase:logTestStop:57 - Stop test createAndModifyTest
+17:29:05,483  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:29:05,759  INFO main TestBase:logTestStart:52 - Start test messageCreationAndViewTest
+17:29:06,144  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:29:07,679  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:29:09,177  INFO main TestBase:logTestStop:57 - Stop test messageCreationAndViewTest
+17:29:12,514  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:29:12,760  INFO main TestBase:logTestStart:52 - Start test messageCreationTest
+17:29:13,136  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:29:14,571  INFO main TestBase:logTestStop:57 - Stop test messageCreationTest
+17:29:18,164  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:29:18,423  INFO main TestBase:logTestStart:52 - Start test doubleCreate
+17:29:18,811  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:29:19,240  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:29:22,125  INFO main TestBase:logTestStop:57 - Stop test doubleCreate
+17:29:25,447  INFO main MessagesPage:isLoginButtonPresent:77 - Login page is opened
+17:29:25,696  INFO main TestBase:logTestStart:52 - Start test viewOthersMessagesTest
+17:29:26,092  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:29:27,605  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:29:28,609  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:29:30,097  INFO main MessagesPage:isShowMessageFormDisplayed:112 - Message page is displayed
+17:29:34,337  INFO main TestBase:logTestStop:57 - Stop test viewOthersMessagesTest

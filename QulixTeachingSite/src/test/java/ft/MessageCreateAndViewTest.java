@@ -5,22 +5,23 @@ import org.testng.annotations.Test;
 import pages.MessageData;
 
 public class MessageCreateAndViewTest extends TestBase {
+
     @Test
     public void messageCreationAndViewTest() {
         messagesPage.initMessageCreation();
-        Object newMessageData = messagesPage.fillMessageForm(new MessageData()
-                .withName("Here not here").withText("there not there").withAuthor(mainPage.getCurrentUser()));
+        MessageData newMessageData = messagesPage.fillMessageForm(new MessageData()
+                .headline("Here not here").text("there not there").author(mainPage.getCurrentUser()));
         messagesPage.submitMessageCreation();
         messagesPage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, messagesPage.showMessage());
+        Assert.assertEquals(newMessageData, messagesPage.getShowMessagePageData());
         messagesPage.goToMessageList();
-        Assert.assertTrue(messagesPage.getMessageList().contains(newMessageData));
-        messagesPage.viewCreatedMessage();
+        Assert.assertTrue(messagesPage.getMessageLists().contains(newMessageData));
+        messagesPage.viewSelectedMessage(newMessageData);
         messagesPage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, messagesPage.showMessage());
+        Assert.assertEquals(newMessageData, messagesPage.getShowMessagePageData());
         messagesPage.goToMessageList();
-        Assert.assertTrue(messagesPage.getMessageList().contains(newMessageData));
+        Assert.assertTrue(messagesPage.getMessageLists().contains(newMessageData));
 
-        messagesPage.deleteTheLatestMessage(newMessageData);
+        messagesPage.deleteSelectedMessage(newMessageData);
     }
 }

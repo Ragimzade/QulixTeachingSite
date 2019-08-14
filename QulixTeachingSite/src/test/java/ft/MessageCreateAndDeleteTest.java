@@ -6,19 +6,20 @@ import pages.MessageData;
 
 public class MessageCreateAndDeleteTest extends TestBase {
 
+
     @Test
     public void createAndDeleteTest() {
         messagesPage.initMessageCreation();
-        Object newMessageData = messagesPage.fillMessageForm(new MessageData() //todo а чего Object?
-                .withName("New Message").withText("MessageCreateAndDelete").withAuthor(mainPage.getCurrentUser()));
+        MessageData newMessageData = messagesPage.fillMessageForm(new MessageData() //todo а чего Object?
+                //бесы попутали
+                .headline("New Message").text("MessageCreateAndDelete").author(mainPage.getCurrentUser()));
         messagesPage.submitMessageCreation();
         messagesPage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, messagesPage.showMessage());
+        Assert.assertEquals(newMessageData, messagesPage.getShowMessagePageData());
         messagesPage.goToMessageList();
-        Assert.assertTrue(messagesPage.getMessageList().contains(newMessageData));
+        Assert.assertTrue(messagesPage.getMessageLists().contains(newMessageData));
 
-
-        messagesPage.deleteTheLatestMessage(newMessageData);
+        messagesPage.deleteSelectedMessage(newMessageData);
 
 
     }

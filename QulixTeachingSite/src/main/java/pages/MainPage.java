@@ -11,9 +11,18 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
 public class MainPage {
-    private static WebDriver driver; //todo убираем статик. В целом статик только для констант или при реализации каких-нибудь синглтонов
+    public static final String HELLO = "Hello ";
+    public static String baseUrl;
+    private WebDriver driver; //todo убираем статик. В целом статик только для констант или при реализации каких-нибудь синглтонов
+    //поправил
     private static final Logger logger = Logger.getLogger(MessagesPage.class);
+    private Properties properties;
 
     @FindBy(xpath = ".//a[@href=\"/QulixTeachingSite/user/index\"]")
     private WebElement loginLink;
@@ -33,12 +42,24 @@ public class MainPage {
     @FindBy(xpath = ".//a[@href=\"/QulixTeachingSite/user/logout\"]")
     private WebElement logoutButton;
 
-    @FindBy(xpath = ".//span[contains(.,\"Hello\")]")
+    @FindBy(xpath = ".//span[contains(.,\"" + HELLO + "\")]")
     private WebElement helloMessage;
 
 
-    public void goToMainPage() {
-        driver.get("http://localhost:8080/QulixTeachingSite/"); //todo url Должен браться из конфига
+
+    public MainPage(WebDriver driver) throws IOException {
+        this.driver = driver; //todo ну вот. Ты драйвер просишь в конструкторе. Зачем он статик тогда?
+        //у меня как-то не работал синглтон драйвер, я везде где можно копал, забыл поменять
+        PageFactory.initElements(driver, this);
+        properties = new Properties();
+        properties.load(new FileReader(new File((String.format("src/main/resources/config.properties")))));
+
+    }
+
+    public void goToMainPage() throws IOException {
+
+        driver.get(properties.getProperty("baseUrl")); //todo url Должен браться из конфига
+        //done
         Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"pageBody\"]/h1")).isDisplayed());
     }
 
@@ -50,7 +71,8 @@ public class MainPage {
 
     public void isLoginButtonPresent() {
         try {
-            new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(loginButton)); //todo 5 - из конфига
+            new WebDriverWait(driver, Long.parseLong(properties.getProperty("explicitWaits"))).until(ExpectedConditions.visibilityOf(loginButton)); //todo 5 - из конфига
+            //done
             loginButton.isDisplayed();
             logger.info("Login page is opened");
         } catch (TimeoutException e) {
@@ -59,6 +81,16 @@ public class MainPage {
             throw new RuntimeException("Test ended with critical error");
         }
     }
+
+    public void isHelloMessagePresent(String userName) {
+        //todo а что у тебя в get.. делает Assert??
+        //Проверяет отображение сообщения, переименовал метод, если в этом проблема
+        Assert.assertTrue(helloMessage.getText().contains(HELLO + userName)); //todo Hello - константа
+        //Поправил
+        new WebDriverWait(driver, Long.parseLong(properties.getProperty("explicitWaits"))).until(ExpectedConditions.visibilityOf(helloMessage)).isDisplayed();
+
+    }
+
 
     public void login(String login, String password) {
         loginField.clear();
@@ -76,22 +108,13 @@ public class MainPage {
         logoutButton.click();
     }
 
-    public boolean getHelloMessage(String userName) {
-        //todo а что у тебя в get.. делает Assert??
-        Assert.assertTrue(helloMessage.getText().contains("Hello " + userName)); //todo Hello - константа
-        return (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOf(helloMessage)).isDisplayed();
-
-    }
-
-    public MainPage(WebDriver driver) {
-        this.driver = driver; //todo ну вот. Ты драйвер просишь в конструкторе. Зачем он статик тогда?
-        PageFactory.initElements(driver, this);
-    }
 
     public String getCurrentUser() {
-        String authorText = driver.findElement(By.xpath(".//span[contains(.,\"Hello\")]")).getText();//todo Hello в константу
-        String avtor = authorText.substring((authorText.lastIndexOf("lo") + 2), authorText.indexOf("[")).trim(); //todo что-то не понятно. Почему lastIndexOf "lo", а не по пробелу? и имя переменной странной
-        return avtor;
+        String authorText = driver.findElement(By.xpath(".//span[contains(.,\"" + HELLO + "\")]")).getText();//todo Hello в константу
+        //Done
+        String author = authorText.substring((authorText.indexOf(" ")), authorText.indexOf("[")).trim(); //todo что-то не понятно. Почему lastIndexOf "lo", а не по пробелу? и имя переменной странной
+        //Поправил
+        return author;
 
 
     }
