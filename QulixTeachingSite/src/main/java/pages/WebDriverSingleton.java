@@ -5,8 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebDriverSingleton {
 
-    private static WebDriver driver; //todo почему это public?
-                                     //сделал private
+    private static WebDriver driver; 
 
     private WebDriverSingleton() {
     }
