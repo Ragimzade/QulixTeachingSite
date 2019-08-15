@@ -19,8 +19,7 @@ import java.util.Properties;
 public class MainPage {
     public static final String HELLO = "Hello ";
     public static String baseUrl;
-    private WebDriver driver; //todo убираем статик. В целом статик только для констант или при реализации каких-нибудь синглтонов
-    //поправил
+    private WebDriver driver;
     private static final Logger logger = Logger.getLogger(MessagesPage.class);
     private Properties properties;
 
@@ -48,8 +47,7 @@ public class MainPage {
 
 
     public MainPage(WebDriver driver) throws IOException {
-        this.driver = driver; //todo ну вот. Ты драйвер просишь в конструкторе. Зачем он статик тогда?
-        //у меня как-то не работал синглтон драйвер, я везде где можно копал, забыл поменять
+        this.driver = driver; 
         PageFactory.initElements(driver, this);
         properties = new Properties();
         properties.load(new FileReader(new File((String.format("src/main/resources/config.properties")))));
@@ -58,7 +56,7 @@ public class MainPage {
 
     public void goToMainPage() throws IOException {
 
-        driver.get(properties.getProperty("baseUrl")); //todo url Должен браться из конфига
+        driver.get(properties.getProperty("baseUrl")); 
         //done
         Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"pageBody\"]/h1")).isDisplayed());
     }
@@ -71,8 +69,8 @@ public class MainPage {
 
     public void isLoginButtonPresent() {
         try {
-            new WebDriverWait(driver, Long.parseLong(properties.getProperty("explicitWaits"))).until(ExpectedConditions.visibilityOf(loginButton)); //todo 5 - из конфига
-            //done
+            //todo у тебя IDE справа рисует линию - границу страницы. Оформляй код в пределах этой линии
+            new WebDriverWait(driver, Long.parseLong(properties.getProperty("explicitWaits"))).until(ExpectedConditions.visibilityOf(loginButton)); 
             loginButton.isDisplayed();
             logger.info("Login page is opened");
         } catch (TimeoutException e) {
@@ -85,6 +83,9 @@ public class MainPage {
     public void isHelloMessagePresent(String userName) {
         //todo а что у тебя в get.. делает Assert??
         //Проверяет отображение сообщения, переименовал метод, если в этом проблема
+        //todo Да, проблема в имени метода. Метод get - должен отдавать значение или выдавать исключение в случае ошибки
+        //метод is... должен возвращать true/false, а если метод isPresent, то в случае отсутствия - просто false, а не исключение
+        //если ты хочешь сделать assert так и называй метод
         Assert.assertTrue(helloMessage.getText().contains(HELLO + userName)); //todo Hello - константа
         //Поправил
         new WebDriverWait(driver, Long.parseLong(properties.getProperty("explicitWaits"))).until(ExpectedConditions.visibilityOf(helloMessage)).isDisplayed();
@@ -95,7 +96,8 @@ public class MainPage {
     public void login(String login, String password) {
         loginField.clear();
         loginField.sendKeys(login); //todo но вот тут прямо напрашивается метод а-ля enterValue(field, value){field.clear(); field.sendKeys(value);}
-        Assert.assertFalse(loginField.getAttribute("value").isEmpty());
+        //todo а чего не сделано?
+        Assert.assertFalse(loginField.getAttribute("value").isEmpty()); //todo зачем это делать, непонятно
         passwordField.clear();
         passwordField.sendKeys(password);
         Assert.assertFalse(passwordField.getAttribute("value").isEmpty());
@@ -110,10 +112,8 @@ public class MainPage {
 
 
     public String getCurrentUser() {
-        String authorText = driver.findElement(By.xpath(".//span[contains(.,\"" + HELLO + "\")]")).getText();//todo Hello в константу
-        //Done
-        String author = authorText.substring((authorText.indexOf(" ")), authorText.indexOf("[")).trim(); //todo что-то не понятно. Почему lastIndexOf "lo", а не по пробелу? и имя переменной странной
-        //Поправил
+        String authorText = driver.findElement(By.xpath(".//span[contains(.,\"" + HELLO + "\")]")).getText();
+        String author = authorText.substring((authorText.indexOf(" ")), authorText.indexOf("[")).trim();
         return author;
 
 
