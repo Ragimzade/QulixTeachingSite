@@ -31,10 +31,11 @@ public class TestBase {
     @BeforeClass
     public void init() throws IOException {
         properties = new Properties();
-        properties.load(new FileReader(new File((String.format("src/main/resources/config.properties")))));
+        properties.load(new FileReader(new File((String.format("src/main/resources/config.properties")))));//todo в отдельый класс
         WebDriver driver = webDriverSingleton.getInstance();
         mainPage = new MainPage(driver);
         messagesPage = new MessagesPage(driver);
+        //todo Я разве не говорил убрать implicitlyWait?
         driver.manage().timeouts().implicitlyWait(Long.parseLong(properties.getProperty("implicitlyWait")), TimeUnit.SECONDS);
         mainPage.goToMainPage();
         mainPage.goToLoginPage();
