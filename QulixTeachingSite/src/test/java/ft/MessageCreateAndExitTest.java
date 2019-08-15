@@ -13,6 +13,6 @@ public class MessageCreateAndExitTest extends TestBase {
         MessageData newMessageData = messagesPage.fillMessageForm(new MessageData()
                 .headline("Test").text("Test Text").author(mainPage.getCurrentUser()));
         messagesPage.goToMessageList();
-        Assert.assertFalse(messagesPage.getMessageLists().contains(newMessageData));
+        Assert.assertFalse(messagesPage.getMessageLists().contains(newMessageData));//todo не трогай messageList. Лучше вообще удали оттуда метод
     }
 }
