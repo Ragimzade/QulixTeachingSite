@@ -1,14 +1,16 @@
 package pages;
 
 import java.util.Objects;
-
-public class MessageData implements CharSequence {
+//todo Что этот класс делает в pages?
+public class MessageData implements CharSequence {//todo А накой ты имплементишь тут CharSequence????
     private String headline;
     private String text;
     private String author;
 
     public MessageData headline(String headline) { //todo а почему with? Такие имена больше характерны для builder-а. У тебя не builder
         //поправил
+        //todo headline - это в лучшем случае getter
+        //здесь должен быть set
         this.headline = headline;
         return this;
     }
@@ -37,7 +39,7 @@ public class MessageData implements CharSequence {
 
 
     @Override
-    public int length() {
+    public int length() { 
         return 0;
     }
 
@@ -60,7 +62,9 @@ public class MessageData implements CharSequence {
                 '}';
     }
 
-    public String findByXpath() {
+    public String findByXpath() {//todo createXpathForList - это корректнее
+        //todo Не здесь в собственно в листе такой метод. Зачем метод поиска сообщения в списке засовывать в сообщение. 
+        //Не забывай про логику
         return "[contains(.,'"+ headline + "')" + "and contains(.,'" + text + "')" + "and contains(.,'" + author + "')]";
     }
 
