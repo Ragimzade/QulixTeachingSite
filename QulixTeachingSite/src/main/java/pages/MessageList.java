@@ -132,30 +132,34 @@ public class MessageList {
 
     }
 
+
     public WebElement findMessageInMessageList(MessageData messageData) {
-        try {
 
-            WebElement message = findMessageOnPage(messageData);
-            if (message != null && !isElementPresent(".//a[@class=\"nextLink\"]")) {
-                return message;
-            } else if (nextPage.isDisplayed()) {
-                do {
-                    nextPage.click();
-                } while (findMessageOnPage(messageData) == null);
-                return findMessageOnPage(messageData);
+        WebElement message = findMessageOnPage(messageData);
 
-            } else if (previousPage.isDisplayed()) {
-                do {
-                    previousPage.click();
-                } while (findMessageOnPage(messageData) == null);
-                return findMessageOnPage(messageData);
-            }
-        } catch (NoSuchElementException ex) {
-            logger.info("Message is not found in list");
-
+        if (message != null) {
+            return message;
         }
-        return null;
+
+        if (nextPage.isDisplayed()) {
+            message = findMessageWithPaginator(messageData, nextPage);
+        } else if (previousPage.isDisplayed()) {
+            message = findMessageWithPaginator(messageData, previousPage);
+        }
+
+        return message;
     }
+
+
+    private WebElement findMessageWithPaginator(MessageData messageData, WebElement paginator) {
+        WebElement message = null;
+        while (message == null && paginator.isDisplayed()) {
+            paginator.click();
+            message = findMessageOnPage(messageData);
+        }
+        return message;
+    }
+
 
 
     public String createXpathForList(MessageData messageData) {
