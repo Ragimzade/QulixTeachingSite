@@ -69,7 +69,8 @@ public class MessageList {
     }
 
     public boolean isMessageListTablePresent() {
-        return (new WebDriverWait(driver, Long.parseLong(properties.getProperty("explicitWaits")))).until(ExpectedConditions.visibilityOf(messageListTable)).isDisplayed();
+        return (new WebDriverWait(driver, Long.parseLong(properties.getProperty("explicitWaits")))).
+                until(ExpectedConditions.visibilityOf(messageListTable)).isDisplayed();
     }
 
     public void showMessagesOfAllUsers() {
@@ -77,7 +78,7 @@ public class MessageList {
     }
 
 
-    public void deleteSelectedMessage(MessageData messageData) {
+    public void deleteFoundMessage(MessageData messageData) {
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[3]")).click();
 
         //  Assert.assertFalse(table.getText().contains(messageData));//todo такая проверка очень дорогая по времени. getMessagesList отнимает солидно времени
@@ -92,11 +93,11 @@ public class MessageList {
         //  "Assert.assertTrue(messagesPage.findMessageInMessageList(newMessageData) == null);"
     }
 
-    public void viewSelectedMessage(MessageData messageData) {
+    public void viewFoundMessage(MessageData messageData) {
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[1]")).click();
     }
 
-    public void modifySelectedMessage(MessageData messageData) {
+    public void modifyFoundMessage(MessageData messageData) {
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[2]")).click();
 
     }
@@ -157,7 +158,6 @@ public class MessageList {
         }
         return exists;
     }
-
 
 }
 

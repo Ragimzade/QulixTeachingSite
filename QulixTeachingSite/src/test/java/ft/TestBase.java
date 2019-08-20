@@ -3,9 +3,7 @@ package ft;
 import model.WebDriverSingleton;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 import pages.*;
 import model.MessageData;
 
@@ -43,13 +41,14 @@ public class TestBase {
         mainPage.goToLoginPage();
         loginPage.isLoginButtonPresent();
         loginPage.login(properties.getProperty("creds.Login"), properties.getProperty("creds.Password"));
+        messageList.isMessageListTablePresent();
 
     }
 
-//    @AfterClass
-//    public void tearDown() {
-//        WebDriverSingleton.quit();
-//    }
+    @AfterSuite
+    public void tearDown() {
+        WebDriverSingleton.quit();
+    }
 
     @BeforeMethod(alwaysRun = true)
     public void logTestStart(Method m) {

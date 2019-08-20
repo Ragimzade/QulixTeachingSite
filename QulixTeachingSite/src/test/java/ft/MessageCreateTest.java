@@ -12,13 +12,14 @@ public class MessageCreateTest extends TestBase {
 
         createMessage.initMessageCreation();
         MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
-                .setHeadline("MessageCreateTest").setText("Test Text")).setAuthor(loginPage.getCurrentUser());
+                .setHeadline("MessageCreateTest").setText("Test Text")).setAuthor(showMessage.getCurrentUser());
         createMessage.submitMessageCreation();
+
         showMessage.isShowMessageFormDisplayed();
         messageList.goToMessageList();
         Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
 
-        messageList.deleteSelectedMessage(newMessageData);
+        messageList.deleteFoundMessage(newMessageData);
 
 
     }

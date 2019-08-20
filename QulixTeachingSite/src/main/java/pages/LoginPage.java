@@ -1,7 +1,6 @@
 package pages;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,6 +20,7 @@ public class LoginPage {
     private static final Logger logger = Logger.getLogger(MessageList.class);
     private Properties properties;
     public static final String HELLO = "Hello ";
+
 
     public LoginPage(WebDriver driver) throws IOException {
         this.driver = driver;
@@ -69,7 +69,8 @@ public class LoginPage {
         enterValue(passwordField, password);
         //Assert.assertFalse(passwordField.getAttribute("value").isEmpty());
         loginButton.click();
-        //Assert.assertTrue(messageList.isDisplayed());
+
+
     }
 
     private void enterValue(WebElement field, String value) {
@@ -97,9 +98,5 @@ public class LoginPage {
     }
 
 
-    public String getCurrentUser() {
-        String authorText = driver.findElement(By.xpath(".//span[contains(.,\"" + HELLO + "\")]")).getText();
-        String author = authorText.substring((authorText.indexOf(" ")), authorText.indexOf("[")).trim();
-        return author;
-    }
+
 }

@@ -14,10 +14,10 @@
 //
 //        messagesPage.submitMessageCreation();
 //        messagesPage.goToMessageList();
-//     messagesPage.viewSelectedMessage(newMessageData);
+//     messagesPage.viewFoundMessage(newMessageData);
 //
 //
-//        //   messagesPage.deleteSelectedMessage(newMessageData);
+//        //   messagesPage.deleteFoundMessage(newMessageData);
 //
 //    }
 //}

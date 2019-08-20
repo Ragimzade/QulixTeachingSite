@@ -1,65 +1,72 @@
-//package ft;
-//
-//import org.testng.Assert;
-//import org.testng.annotations.Test;
-//import model.MessageData;
-//
-//public class ViewOthersMessagesTest extends TestBase {
-//
-//
-//    @Test
-//    public void viewOthersMessagesTest() {
-//        createMessage.initMessageCreation();
-//        MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
-//                .setHeadline("Edited messagfe").setText("new message").setAuthor(mainPage.getCurrentUser()));
-//        createMessage.submitMessageCreation();
-//        messagesPage.isShowMessageFormDisplayed();
-//        Assert.assertEquals(newMessageData, messagesPage.getShowMessagePageData());
-//        messagesPage.goToMessageList();
-//        Assert.assertTrue(messagesPage.getMessageLists().contains(newMessageData));
-//        messagesPage.viewSelectedMessage(newMessageData);
-//        messagesPage.isShowMessageFormDisplayed();
-//        Assert.assertEquals(newMessageData, messagesPage.getShowMessagePageData());
-//        messagesPage.goToMessageList();
-//        Assert.assertTrue(messagesPage.getMessageLists().contains(newMessageData));
-//        mainPage.logout();
-//
-//
-//        mainPage.login("jdoe", "password");
-//        mainPage.isHelloMessagePresent("John Doe");
-//        messagesPage.isMessageListTablePresent();
-//        messagesPage.initMessageCreation();
-//        MessageData secondMessageData = messagesPage.fillMessageForm(new MessageData()
-//                .setHeadline("Edited messagfe")
-//                .setText("edited setText")
-//                .setAuthor(mainPage.getCurrentUser()));
-//        messagesPage.submitMessageCreation();
-//        messagesPage.isShowMessageFormDisplayed();
-//        Assert.assertEquals(secondMessageData, messagesPage.getShowMessagePageData());
-//        messagesPage.goToMessageList();
-//        Assert.assertTrue(messagesPage.getMessageLists().contains(secondMessageData));
-//        messagesPage.viewSelectedMessage(secondMessageData);
-//        messagesPage.isShowMessageFormDisplayed();
-//        Assert.assertEquals(secondMessageData, messagesPage.getShowMessagePageData());
-//        messagesPage.goToMessageList();
-//        Assert.assertTrue(messagesPage.getMessageLists().contains(secondMessageData));
-//        mainPage.logout();
-//
-//        mainPage.login("admin", "password");
-//        mainPage.isHelloMessagePresent("Administrator");
-//        messagesPage.showMessagesOfAllUsers();
-//        Assert.assertTrue(messagesPage.getMessageLists().contains(secondMessageData));
-//        Assert.assertTrue(messagesPage.getMessageLists().contains(newMessageData));
-//
-//        messagesPage.showMessagesOfAllUsers();
-//        Assert.assertFalse(messagesPage.getMessageLists().contains(secondMessageData));
-//        Assert.assertTrue(messagesPage.getMessageLists().contains(newMessageData));
-//
-//        messagesPage.deleteSelectedMessage(newMessageData);
-//        mainPage.logout();
-//
-//        mainPage.login("jdoe", "password");
-//        messagesPage.deleteSelectedMessage(secondMessageData);
-//
-//    }
-//}
+package ft;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import model.MessageData;
+
+public class ViewOthersMessagesTest extends TestBase {
+
+
+    @Test
+    public void viewOthersMessagesTest() {
+        createMessage.initMessageCreation();
+        MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
+                .setHeadline("Edited messagfe").setText("new message").setAuthor(showMessage.getCurrentUser()));
+        createMessage.submitMessageCreation();
+        showMessage.isShowMessageFormDisplayed();
+        Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
+        messageList.goToMessageList();
+        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
+        messageList.viewFoundMessage(newMessageData);
+        showMessage.isShowMessageFormDisplayed();
+        Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
+
+        messageList.goToMessageList();
+        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
+        loginPage.logout();
+
+
+        loginPage.login("jdoe", "password");
+        loginPage.assertHelloMessagePresent("John Doe");
+        messageList.isMessageListTablePresent();
+        createMessage.initMessageCreation();
+        MessageData secondMessageData = createMessage.fillMessageForm(new MessageData()
+                .setHeadline("Edited messagfe")
+                .setText("edited setText")
+                .setAuthor(showMessage.getCurrentUser()));
+        createMessage.submitMessageCreation();
+
+        showMessage.isShowMessageFormDisplayed();
+        Assert.assertEquals(secondMessageData, showMessage.getShowMessagePageData());
+
+        messageList.goToMessageList();
+        Assert.assertTrue(messageList.findMessageInMessageList(secondMessageData).isDisplayed());
+        messageList.viewFoundMessage(secondMessageData);
+        showMessage.isShowMessageFormDisplayed();
+        Assert.assertEquals(secondMessageData, showMessage.getShowMessagePageData());
+        messageList.goToMessageList();
+        Assert.assertTrue(messageList.findMessageInMessageList(secondMessageData).isDisplayed());
+        loginPage.logout();
+
+        loginPage.login("admin", "password");
+        loginPage.assertHelloMessagePresent("Administrator");
+
+        messageList.showMessagesOfAllUsers();
+        Assert.assertTrue(messageList.findMessageInMessageList(secondMessageData).isDisplayed());
+        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
+
+
+        messageList.showMessagesOfAllUsers();
+        Assert.assertTrue(messageList.findMessageInMessageList(secondMessageData) == null);
+        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
+
+
+        messageList.deleteFoundMessage(newMessageData);
+        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData) == null);
+        loginPage.logout();
+
+        loginPage.login("jdoe", "password");
+        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData) == null);
+
+    }
+}

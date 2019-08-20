@@ -15,6 +15,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+import static pages.LoginPage.HELLO;
+
 public class ShowMessage {
 
     private WebDriver driver;
@@ -51,15 +53,16 @@ public class ShowMessage {
         }
     }
 
-    public MessageData getEditFormData() {
+    public MessageData getEditFormData() throws IOException {
         //todo а почему этот метод у списка?
         //todo и снова, что он делает то?
         //достает введенные данные из формы "Edit Message", переименовал метод
         //todo Я все равно не понимаю. Что этот метод делает здесь
-        String name = driver.findElement(By.xpath(".//input[@name=\"setHeadline\"]")).getAttribute("value");
-        String text = driver.findElement(By.xpath(".//input[@name=\"setText\"]")).getAttribute("value");
+        String name = driver.findElement(By.xpath(".//input[@name=\"headline\"]")).getAttribute("value");
+        String text = driver.findElement(By.xpath(".//input[@name=\"text\"]")).getAttribute("value");
+        String author = getCurrentUser();
 
-        MessageData editMessageForm = new MessageData().setHeadline(name).setText(text).setAuthor(loginPage.getCurrentUser());
+        MessageData editMessageForm = new MessageData().setHeadline(name).setText(text).setAuthor(author);
         return editMessageForm;
 
     }
@@ -74,5 +77,12 @@ public class ShowMessage {
 
         MessageData showMessageData = new MessageData().setHeadline(headline).setText(text).setAuthor(author);
         return showMessageData;
+    }
+
+
+    public  String getCurrentUser() {
+        String authorText = driver.findElement(By.xpath(".//span[contains(.,\"" + HELLO + "\")]")).getText();
+        String author = authorText.substring((authorText.indexOf(" ")), authorText.indexOf("[")).trim();
+        return author;
     }
 }

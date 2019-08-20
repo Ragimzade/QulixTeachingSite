@@ -73,4 +73,5 @@ public class CreateMessage {
     public void submitMessageModification() {
         submitMessageModification.click();
     }
+
 }

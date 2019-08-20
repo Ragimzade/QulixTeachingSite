@@ -10,18 +10,19 @@ public class MessageCreateAndViewTest extends TestBase {
     public void messageCreationAndViewTest() {
         createMessage.initMessageCreation();
         MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
-                .setHeadline("Here not here").setText("there not there").setAuthor(loginPage.getCurrentUser()));
+                .setHeadline("Here not here").setText("there not there").setAuthor(showMessage.getCurrentUser()));
         createMessage.submitMessageCreation();
+
         showMessage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
         messageList.goToMessageList();
         Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
-        messageList.viewSelectedMessage(newMessageData);
+        messageList.viewFoundMessage(newMessageData);
         showMessage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
         messageList.goToMessageList();
         Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
 
-        messageList.deleteSelectedMessage(newMessageData);
+        messageList.deleteFoundMessage(newMessageData);
     }
 }

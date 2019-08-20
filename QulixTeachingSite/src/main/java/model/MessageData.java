@@ -16,6 +16,7 @@ public class MessageData {//todo А накой ты имплементишь т�
         return this;
     }
 
+
     public MessageData setText(String text) {
         this.text = text;
         return this;
