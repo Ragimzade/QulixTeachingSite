@@ -16,7 +16,7 @@ public class MessageCreateTest extends TestBase {
         createMessage.submitMessageCreation();
         showMessage.isShowMessageFormDisplayed();
         messageList.goToMessageList();
-        Assert.assertTrue(messageList.getMessageLists().contains(newMessageData));
+        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
 
         messageList.deleteSelectedMessage(newMessageData);
 

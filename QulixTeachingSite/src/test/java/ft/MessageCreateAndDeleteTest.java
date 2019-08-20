@@ -11,7 +11,7 @@ public class MessageCreateAndDeleteTest extends TestBase {
     public void createAndDeleteTest() {
         createMessage.initMessageCreation();
         MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
-                .setHeadline("dmkgndflsg[ds[").setText("sfdbgb234234234").setAuthor(loginPage.getCurrentUser()));
+                .setHeadline("dfgsdfgsdfg2123123[ds[").setText("sfdbgb234234234").setAuthor(loginPage.getCurrentUser()));
         createMessage.submitMessageCreation();
         showMessage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
@@ -19,8 +19,8 @@ public class MessageCreateAndDeleteTest extends TestBase {
         Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
 
 
-        messageList.viewSelectedMessage(newMessageData);
-
+        messageList.deleteSelectedMessage(newMessageData);
+        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData) == null);
 
     }
 }

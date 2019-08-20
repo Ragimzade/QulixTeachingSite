@@ -68,26 +68,6 @@ public class MessageList {
         messageList.click();
     }
 
-    public List<MessageData> getMessageLists() {
-        List<MessageData> messages = new ArrayList<>();
-        //todo несмотря на то что это работает - так коллектить неправильно. Собирай все tr. А уже у них собирай td по индексу в цикле
-        //поправил
-
-        List<WebElement> elements = driver.findElements(By.xpath("//tbody//tr"));
-
-        for (WebElement element : elements) {//todo for(element:elements)
-
-            String name = element.findElement(By.xpath(".//td[2]")).getText();
-            String text = element.findElement(By.xpath(".//td[3]")).getText();
-            String author = element.findElement(By.xpath(".//td[4]")).getText();
-
-            MessageData messageData = new MessageData().setHeadline(name).setText(text).setAuthor(author);
-            messages.add(messageData);
-        }
-
-        return messages;
-    }
-
     public boolean isMessageListTablePresent() {
         return (new WebDriverWait(driver, Long.parseLong(properties.getProperty("explicitWaits")))).until(ExpectedConditions.visibilityOf(messageListTable)).isDisplayed();
     }
@@ -141,9 +121,9 @@ public class MessageList {
             return message;
         }
 
-        if (nextPage.isDisplayed()) {
+        if (isElementPresent(nextPage)) {
             message = findMessageWithPaginator(messageData, nextPage);
-        } else if (previousPage.isDisplayed()) {
+        } else if (isElementPresent( previousPage)) {
             message = findMessageWithPaginator(messageData, previousPage);
         }
 
@@ -153,13 +133,12 @@ public class MessageList {
 
     private WebElement findMessageWithPaginator(MessageData messageData, WebElement paginator) {
         WebElement message = null;
-        while (message == null && paginator.isDisplayed()) {
+        while (message == null && isElementPresent(paginator)) {
             paginator.click();
             message = findMessageOnPage(messageData);
         }
         return message;
     }
-
 
 
     public String createXpathForList(MessageData messageData) {
@@ -168,13 +147,15 @@ public class MessageList {
                 + "and contains(.,'" + messageData.getAuthor() + "')]";
     }
 
-    public boolean isElementPresent(String xpath) {
+    public boolean isElementPresent(WebElement element) {
+        boolean exists = false;
         try {
-            driver.findElement(By.xpath(xpath));
-            return true;
+            element.getTagName();
+            exists = true;
         } catch (NoSuchElementException e) {
-            return false;
+
         }
+        return exists;
     }
 
 

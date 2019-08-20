@@ -15,12 +15,12 @@ public class MessageCreateAndViewTest extends TestBase {
         showMessage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
         messageList.goToMessageList();
-        Assert.assertTrue(messageList.getMessageLists().contains(newMessageData));
+        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
         messageList.viewSelectedMessage(newMessageData);
         showMessage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
         messageList.goToMessageList();
-        Assert.assertTrue(messageList.getMessageLists().contains(newMessageData));
+        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
 
         messageList.deleteSelectedMessage(newMessageData);
     }

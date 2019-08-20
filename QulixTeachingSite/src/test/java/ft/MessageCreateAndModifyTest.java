@@ -17,14 +17,14 @@ public class MessageCreateAndModifyTest extends TestBase {
         showMessage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
         messageList.goToMessageList();
-        Assert.assertTrue(messageList.getMessageLists().contains(newMessageData));
+        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
         messageList.modifySelectedMessage(newMessageData);
         Assert.assertEquals(newMessageData, showMessage.getEditFormData());
         MessageData editedMessage = createMessage.fillMessageForm(new MessageData()
                 .setHeadline("Modified message").setText("modified setText").setAuthor(loginPage.getCurrentUser()));
         createMessage.submitMessageModification();
         messageList.goToMessageList();
-        Assert.assertTrue(messageList.getMessageLists().contains(editedMessage));
+        Assert.assertTrue(messageList.findMessageInMessageList(editedMessage).isDisplayed());
 
 
         messageList.deleteSelectedMessage(editedMessage);
