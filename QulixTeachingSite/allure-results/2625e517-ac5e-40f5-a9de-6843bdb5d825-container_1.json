@@ -1,1 +1,0 @@
-{"uuid":"2625e517-ac5e-40f5-a9de-6843bdb5d825","name":"ft.MessageCreationAndViewTest","start":1564408757072,"stop":1564408762541,"children":["6391c38d-8fd6-4d5d-887b-8c0337980b6a"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1564408761918,"stop":1564408762538}]}

@@ -2,17 +2,17 @@ package ft;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.MessageData;
+import model.MessageData;
 
 public class MessageCreateAndExitTest extends TestBase {
 
 
     @Test
     public void createAndExitTest() {
-        messagesPage.initMessageCreation();
-        MessageData newMessageData = messagesPage.fillMessageForm(new MessageData()
-                .headline("Test").text("Test Text").author(mainPage.getCurrentUser()));
-        messagesPage.goToMessageList();
-        Assert.assertFalse(messagesPage.getMessageLists().contains(newMessageData));//todo не трогай messageList. Лучше вообще удали оттуда метод
+        createMessage.initMessageCreation();
+        MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
+                .setHeadline("Test").setText("Test Text").setAuthor(loginPage.getCurrentUser()));
+        messageList.goToMessageList();
+        Assert.assertFalse(messageList.getMessageLists().contains(newMessageData));//todo не трогай messageList. Лучше вообще удали оттуда метод
     }
 }

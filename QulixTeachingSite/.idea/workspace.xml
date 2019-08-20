@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb6fbd40-b1ce-472e-ba5e-74b6c002d496" name="Default Changelist" comment="" />
+    <list default="true" id="fb6fbd40-b1ce-472e-ba5e-74b6c002d496" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject.log" beforeDir="false" afterPath="$PROJECT_DIR$/myproject.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CreateMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CreateMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MessageList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MessageList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ft/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ft/TestBase.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,55 +26,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/MessagesPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-448">
-              <caret line="176" column="40" selection-start-line="176" selection-start-column="40" selection-end-line="176" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/WebDriverSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/MessageList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="88" selection-start-line="88" selection-end-line="89" />
+            <state relative-caret-position="238">
+              <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/MessageData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-193">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2127#2128#0" expanded="true" />
+                <element signature="e#2162#2163#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,17 +43,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndExitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="221">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/ShowMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+            <state relative-caret-position="413">
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,10 +62,77 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreateTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ft/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="345">
+              <caret line="44" column="95" selection-start-line="44" selection-start-column="95" selection-end-line="44" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="-39687" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndViewTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/CreateMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="63" column="61" lean-forward="true" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="65" column="77" selection-start-line="65" selection-start-column="77" selection-end-line="65" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ft/MessafeCreationAndViewTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreationAndViewTest.java" />
@@ -127,26 +164,33 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/Collection.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/Abc.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreate.java" />
         <option value="$PROJECT_DIR$/src/main/resources/local.properties" />
         <option value="$PROJECT_DIR$/src/main/java/pages/PropertiesFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/ReadPropertyFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/MessageData.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/WebDriverSingleton.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/MessList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndExitTest.java" />
         <option value="$PROJECT_DIR$/src/suite.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/ft/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/MessageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndViewTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndModifyTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreateTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/MessageData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/MessageData.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/MessagesPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreateTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ft/MessTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/ShowMessage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndExitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndModifyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndViewTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ft/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/CreateMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/MessageList.java" />
       </list>
     </option>
   </component>
@@ -157,11 +201,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
-    <option name="y" value="34" />
-    <option name="width" value="1766" />
-    <option name="height" value="974" />
+    <option name="width" value="1768" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,14 +243,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QulixTeachingSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="QulixTeachingSite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QulixTeachingSite" type="b2602c69:ProjectViewProjectNode" />
@@ -234,8 +278,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,7 +290,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="IntroduceConstantDialog.RECENTS_KEY">
@@ -278,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Todo/QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d/QulixTeachingSite/src/suite.xml">
+  <component name="RunManager" selected="TestNG.MessageCreateAndDeleteTest">
     <configuration name="D:/Todo/QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d/QulixTeachingSite/src/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QulixTeachingSite" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/suite.xml" />
@@ -289,7 +334,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageCreateAndDeleteTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MessTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QulixTeachingSite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ft" />
+      <option name="MAIN_CLASS_NAME" value="ft.MessTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessTest.createAndDeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QulixTeachingSite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ft" />
+      <option name="MAIN_CLASS_NAME" value="ft.MessTest" />
+      <option name="METHOD_NAME" value="createAndDeleteTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageCreateAndDeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QulixTeachingSite" />
       <extension name="coverage">
         <pattern>
@@ -306,7 +386,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageCreateAndViewTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MessageCreateAndExitTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QulixTeachingSite" />
       <extension name="coverage">
         <pattern>
@@ -315,41 +395,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ft" />
-      <option name="MAIN_CLASS_NAME" value="ft.MessageCreateAndViewTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MessageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QulixTeachingSite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ft" />
-      <option name="MAIN_CLASS_NAME" value="ft.MessageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ViewOthersMessagesTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QulixTeachingSite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ft" />
-      <option name="MAIN_CLASS_NAME" value="ft.ViewOthersMessagesTest" />
+      <option name="MAIN_CLASS_NAME" value="ft.MessageCreateAndExitTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -358,19 +404,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.MessageCreateAndDeleteTest (1)" />
       <item itemvalue="TestNG.D:/Todo/QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d/QulixTeachingSite/src/suite.xml" />
-      <item itemvalue="TestNG.MessageTest" />
-      <item itemvalue="TestNG.ViewOthersMessagesTest" />
-      <item itemvalue="TestNG.MessageCreateAndViewTest" />
+      <item itemvalue="TestNG.MessTest" />
+      <item itemvalue="TestNG.MessTest.createAndDeleteTest" />
+      <item itemvalue="TestNG.MessageCreateAndDeleteTest" />
+      <item itemvalue="TestNG.MessageCreateAndExitTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MessageCreateAndDeleteTest" />
+        <item itemvalue="TestNG.MessageCreateAndExitTest" />
+        <item itemvalue="TestNG.MessTest" />
+        <item itemvalue="TestNG.MessTest.createAndDeleteTest" />
         <item itemvalue="TestNG.D:/Todo/QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d/QulixTeachingSite/src/suite.xml" />
-        <item itemvalue="TestNG.ViewOthersMessagesTest" />
-        <item itemvalue="TestNG.MessageCreateAndViewTest" />
-        <item itemvalue="TestNG.MessageCreateAndDeleteTest (1)" />
-        <item itemvalue="TestNG.MessageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -388,42 +434,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MessageCreateAndDeleteTest_(1) - 2019.08.14 at 16h 32m 27s.xml">
-      <configuration name="MessageCreateAndDeleteTest (1)" configurationId="TestNG" />
+    <history-entry file="MessageCreateAndDeleteTest - 2019.08.19 at 23h 11m 00s.xml">
+      <configuration name="MessageCreateAndDeleteTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MessageCreateAndDeleteTest_(1) - 2019.08.14 at 16h 32m 55s.xml">
-      <configuration name="MessageCreateAndDeleteTest (1)" configurationId="TestNG" />
+    <history-entry file="MessageCreateAndDeleteTest - 2019.08.19 at 23h 25m 31s.xml">
+      <configuration name="MessageCreateAndDeleteTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Todo_QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d_QulixTeachingSite_src_suite_xml - 2019.08.14 at 16h 43m 22s.xml">
-      <configuration name="D:/Todo/QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d/QulixTeachingSite/src/suite.xml" configurationId="TestNG" />
+    <history-entry file="MessageCreateAndDeleteTest - 2019.08.19 at 23h 28m 37s.xml">
+      <configuration name="MessageCreateAndDeleteTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MessageCreateAndDeleteTest_(1) - 2019.08.14 at 17h 16m 31s.xml">
-      <configuration name="MessageCreateAndDeleteTest (1)" configurationId="TestNG" />
+    <history-entry file="MessageCreateAndDeleteTest - 2019.08.19 at 23h 29m 17s.xml">
+      <configuration name="MessageCreateAndDeleteTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Todo_QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d_QulixTeachingSite_src_suite_xml - 2019.08.14 at 17h 19m 13s.xml">
-      <configuration name="D:/Todo/QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d/QulixTeachingSite/src/suite.xml" configurationId="TestNG" />
+    <history-entry file="MessageCreateAndDeleteTest - 2019.08.19 at 23h 29m 53s.xml">
+      <configuration name="MessageCreateAndDeleteTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ViewOthersMessagesTest - 2019.08.14 at 17h 24m 25s.xml">
-      <configuration name="ViewOthersMessagesTest" configurationId="TestNG" />
+    <history-entry file="MessageCreateAndDeleteTest - 2019.08.19 at 23h 30m 51s.xml">
+      <configuration name="MessageCreateAndDeleteTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ViewOthersMessagesTest - 2019.08.14 at 17h 26m 01s.xml">
-      <configuration name="ViewOthersMessagesTest" configurationId="TestNG" />
+    <history-entry file="MessageCreateAndDeleteTest - 2019.08.19 at 23h 31m 17s.xml">
+      <configuration name="MessageCreateAndDeleteTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MessageCreateAndViewTest - 2019.08.14 at 17h 26m 50s.xml">
-      <configuration name="MessageCreateAndViewTest" configurationId="TestNG" />
+    <history-entry file="MessageCreateAndDeleteTest - 2019.08.19 at 23h 32m 18s.xml">
+      <configuration name="MessageCreateAndDeleteTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ViewOthersMessagesTest - 2019.08.14 at 17h 28m 28s.xml">
-      <configuration name="ViewOthersMessagesTest" configurationId="TestNG" />
+    <history-entry file="MessageCreateAndDeleteTest - 2019.08.19 at 23h 32m 46s.xml">
+      <configuration name="MessageCreateAndDeleteTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Todo_QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d_QulixTeachingSite_src_suite_xml - 2019.08.14 at 17h 29m 35s.xml">
-      <configuration name="D:/Todo/QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d/QulixTeachingSite/src/suite.xml" configurationId="TestNG" />
+    <history-entry file="MessageCreateAndDeleteTest - 2019.08.19 at 23h 33m 14s.xml">
+      <configuration name="MessageCreateAndDeleteTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="85" y="34" width="1766" height="974" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -431,16 +476,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3294271" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29488704" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3079667" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.35410765" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30736545" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3296582" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.33144477" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32699168" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932885" weight="0.32577905" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -452,17 +497,8 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/TestTeaching/build.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/QulixTeachingSite.iml" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -486,28 +522,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/Collection.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/Abc.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/List.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest_1.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest_1.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreate_1.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j_1.properties" />
     <entry file="file://$PROJECT_DIR$/src/suite_1.xml" />
-    <entry file="file://$PROJECT_DIR$/myproject.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/PropertiesFile.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/ReadPropertyFile.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessList.java" />
@@ -515,13 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -542,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/internal/MethodRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -556,65 +562,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Repository2/QulixTeachingSite/src/main/java/pages/MainPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-column="2" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret selection-end-line="32" />
+          <folding>
+            <element signature="e#0#1436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#1379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/internal/TestInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        <state relative-caret-position="6528">
+          <caret line="427" selection-start-line="427" selection-end-line="427" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/internal/TestMethodWorker.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/WebDriverSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/TestRunner.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndModifyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="368" column="16" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/SuiteRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="275">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding>
-            <element signature="e#2489#2490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/TestNG.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-392">
-          <caret line="920" selection-start-line="920" selection-end-line="920" />
-          <folding>
-            <element signature="e#35194#35195#0" expanded="true" />
-            <element signature="e#35240#35241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ft/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1595#1596#0" expanded="true" />
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#1865#1866#0" expanded="true" />
-            <marker date="1565792305398" expanded="true" signature="1515:1601" ph="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -622,24 +622,130 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndModifyTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/internal/ConfigInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="138">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/internal/TestMethodWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/TestRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="368" column="16" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/SuiteRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#2489#2490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/MessageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/TestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13957">
+          <caret line="920" selection-start-line="920" selection-end-line="920" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject.log">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-39687" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndViewTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ShowMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="413">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ft/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="44" column="95" selection-start-line="44" selection-start-column="95" selection-end-line="44" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="65" column="77" selection-start-line="65" selection-start-column="77" selection-end-line="65" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -648,39 +754,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndExitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="221">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CreateMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Repository2/QulixTeachingSite/src/main/java/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="294">
+          <caret line="63" column="61" lean-forward="true" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -689,44 +771,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="85">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MessageData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MessageList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MessagesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-448">
-          <caret line="176" column="40" selection-start-line="176" selection-start-column="40" selection-end-line="176" selection-end-column="40" />
+        <state relative-caret-position="238">
+          <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/WebDriverSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="88" selection-start-line="88" selection-end-line="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -748,6 +808,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -770,7 +831,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -807,6 +868,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

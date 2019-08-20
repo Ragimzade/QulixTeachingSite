@@ -2,7 +2,7 @@ package ft;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.MessageData;
+import model.MessageData;
 
 public class MessageCreateTest extends TestBase {
 
@@ -10,15 +10,15 @@ public class MessageCreateTest extends TestBase {
     @Test
     public void messageCreationTest() {
 
-        messagesPage.initMessageCreation();
-        MessageData newMessageData = messagesPage.fillMessageForm(new MessageData()
-                .headline("MessageCreateTest").text("Test Text")).author(mainPage.getCurrentUser());
-        messagesPage.submitMessageCreation();
-        messagesPage.isShowMessageFormDisplayed();
-        messagesPage.goToMessageList();
-        Assert.assertTrue(messagesPage.getMessageLists().contains(newMessageData));
+        createMessage.initMessageCreation();
+        MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
+                .setHeadline("MessageCreateTest").setText("Test Text")).setAuthor(loginPage.getCurrentUser());
+        createMessage.submitMessageCreation();
+        showMessage.isShowMessageFormDisplayed();
+        messageList.goToMessageList();
+        Assert.assertTrue(messageList.getMessageLists().contains(newMessageData));
 
-        messagesPage.deleteSelectedMessage(newMessageData);
+        messageList.deleteSelectedMessage(newMessageData);
 
 
     }

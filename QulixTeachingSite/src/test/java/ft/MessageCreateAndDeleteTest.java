@@ -2,24 +2,25 @@ package ft;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.MessageData;
+import model.MessageData;
 
 public class MessageCreateAndDeleteTest extends TestBase {
 
 
     @Test
     public void createAndDeleteTest() {
-        messagesPage.initMessageCreation();
-        MessageData newMessageData = messagesPage.fillMessageForm(new MessageData()
-                .headline("New Message").text("MessageCreateAndDelete").author(mainPage.getCurrentUser()));
-        messagesPage.submitMessageCreation();
-        messagesPage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, messagesPage.getShowMessagePageData());
-        messagesPage.goToMessageList();
-        Assert.assertTrue(messagesPage.getMessageLists().contains(newMessageData));
+        createMessage.initMessageCreation();
+        MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
+                .setHeadline("fdsb").setText("sfdbgb234234234").setAuthor(loginPage.getCurrentUser()));
+        createMessage.submitMessageCreation();
+        showMessage.isShowMessageFormDisplayed();
+        Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
+        messageList.goToMessageList();
+        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
 
-        messagesPage.deleteSelectedMessage(newMessageData);
 
+        messageList.deleteSelectedMessage(newMessageData);
+        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData) == null);
 
     }
 }

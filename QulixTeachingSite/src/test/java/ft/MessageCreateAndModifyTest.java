@@ -2,7 +2,7 @@ package ft;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.MessageData;
+import model.MessageData;
 
 public class MessageCreateAndModifyTest extends TestBase {
 
@@ -10,23 +10,23 @@ public class MessageCreateAndModifyTest extends TestBase {
     @Test
     public void createAndModifyTest() {
 
-        messagesPage.initMessageCreation();
-        MessageData newMessageData = messagesPage.fillMessageForm(new MessageData()
-                .headline("Edited message").text("edited text").author(mainPage.getCurrentUser()));
-        messagesPage.submitMessageCreation();
-        messagesPage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, messagesPage.getShowMessagePageData());
-        messagesPage.goToMessageList();
-        Assert.assertTrue(messagesPage.getMessageLists().contains(newMessageData));
-        messagesPage.modifySelectedMessage(newMessageData);
-        Assert.assertEquals(newMessageData, messagesPage.getEditFormData());
-        MessageData editedMessage = messagesPage.fillMessageForm(new MessageData()
-                .headline("Modified message").text("modified text").author(mainPage.getCurrentUser()));
-        messagesPage.submitMessageModification();
-        messagesPage.goToMessageList();
-        Assert.assertTrue(messagesPage.getMessageLists().contains(editedMessage));
+        createMessage.initMessageCreation();
+        MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
+                .setHeadline("Edited message").setText("edited setText").setAuthor(loginPage.getCurrentUser()));
+        createMessage.submitMessageCreation();
+        showMessage.isShowMessageFormDisplayed();
+        Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
+        messageList.goToMessageList();
+        Assert.assertTrue(messageList.getMessageLists().contains(newMessageData));
+        messageList.modifySelectedMessage(newMessageData);
+        Assert.assertEquals(newMessageData, showMessage.getEditFormData());
+        MessageData editedMessage = createMessage.fillMessageForm(new MessageData()
+                .setHeadline("Modified message").setText("modified setText").setAuthor(loginPage.getCurrentUser()));
+        createMessage.submitMessageModification();
+        messageList.goToMessageList();
+        Assert.assertTrue(messageList.getMessageLists().contains(editedMessage));
 
 
-        messagesPage.deleteSelectedMessage(editedMessage);
+        messageList.deleteSelectedMessage(editedMessage);
     }
 }

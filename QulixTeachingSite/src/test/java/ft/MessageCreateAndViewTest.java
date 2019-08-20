@@ -2,26 +2,26 @@ package ft;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.MessageData;
+import model.MessageData;
 
 public class MessageCreateAndViewTest extends TestBase {
 
     @Test
     public void messageCreationAndViewTest() {
-        messagesPage.initMessageCreation();
-        MessageData newMessageData = messagesPage.fillMessageForm(new MessageData()
-                .headline("Here not here").text("there not there").author(mainPage.getCurrentUser()));
-        messagesPage.submitMessageCreation();
-        messagesPage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, messagesPage.getShowMessagePageData());
-        messagesPage.goToMessageList();
-        Assert.assertTrue(messagesPage.getMessageLists().contains(newMessageData));
-        messagesPage.viewSelectedMessage(newMessageData);
-        messagesPage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, messagesPage.getShowMessagePageData());
-        messagesPage.goToMessageList();
-        Assert.assertTrue(messagesPage.getMessageLists().contains(newMessageData));
+        createMessage.initMessageCreation();
+        MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
+                .setHeadline("Here not here").setText("there not there").setAuthor(loginPage.getCurrentUser()));
+        createMessage.submitMessageCreation();
+        showMessage.isShowMessageFormDisplayed();
+        Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
+        messageList.goToMessageList();
+        Assert.assertTrue(messageList.getMessageLists().contains(newMessageData));
+        messageList.viewSelectedMessage(newMessageData);
+        showMessage.isShowMessageFormDisplayed();
+        Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
+        messageList.goToMessageList();
+        Assert.assertTrue(messageList.getMessageLists().contains(newMessageData));
 
-        messagesPage.deleteSelectedMessage(newMessageData);
+        messageList.deleteSelectedMessage(newMessageData);
     }
 }
