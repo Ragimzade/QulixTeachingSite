@@ -49,7 +49,6 @@ public class LoginPage {
 
     public void isLoginButtonPresent() {
         try {
-            //todo у тебя IDE справа рисует линию - границу страницы. Оформляй код в пределах этой линии
             new WebDriverWait(driver, Long.parseLong(properties.getProperty("explicitWaits")))
                     .until(ExpectedConditions.visibilityOf(loginButton));
             loginButton.isDisplayed();
@@ -64,8 +63,6 @@ public class LoginPage {
 
     public void login(String login, String password) {
         enterValue(loginField, login);
-        //todo а чего не сделано? //сделал, не сразу понял, что имеется ввиду
-        //Assert.assertFalse(loginField.getAttribute("value").isEmpty()); //todo зачем это делать, непонятно
         enterValue(passwordField, password);
         loginButton.click();
 
@@ -73,20 +70,19 @@ public class LoginPage {
     }
 
     private void enterValue(WebElement field, String value) {
+        //todo не смущает, что делать это надо не только здесь?
         field.clear();
-        field.sendKeys(value); //todo но вот тут прямо напрашивается метод а-ля enterValue(field, value){field.clear(); field.sendKeys(value);}
+        field.sendKeys(value);
     }
 
 
     public void assertHelloMessagePresent(String userName) {
-        //todo а что у тебя в get.. делает Assert??
-        //Проверяет отображение сообщения, переименовал метод, если в этом проблема
-        //todo Да, проблема в имени метода. Метод get - должен отдавать значение или выдавать исключение в случае ошибки
-        //метод is... должен возвращать true/false, а если метод isPresent, то в случае отсутствия - просто false, а не исключение
-        //если ты хочешь сделать assert так и называй метод
-        //понял
-        Assert.assertTrue(helloMessage.getText().contains(HELLO + userName)); //todo Hello - константа
-        //Поправил
+        Assert.assertTrue(helloMessage.getText().contains(HELLO + userName));
+        //todo ну вот тут снова...
+        //1. Что это и зачем
+        //2. если элемент не будет найден, получим снова Exception непонятного происхождения:
+        // я попросил assertHelloMessage, а в ответ получаю Web driver exceptioт причем после асерта.
+        // если у меня не будет stacktrace-а, то этот метод будет последним куда я полезу искать причину ошибки
         new WebDriverWait(driver, Long.parseLong(properties.getProperty("explicitWaits")))
                 .until(ExpectedConditions.visibilityOf(helloMessage)).isDisplayed();
     }
