@@ -25,9 +25,6 @@ public class MessageList {
     private MessageData messageData;
     private MainPage mainPage;
     private LoginPage loginPage;
-    //todo зачем нам это хранить?
-    // для метода fillMessageForm
-    // todo Вот я тебе прозрачно намекнул, что этого быть не должно. Если тебе это надо в том методе, значит что-то не то с методом
 
 
     public MessageList(WebDriver driver) throws IOException {
@@ -80,18 +77,8 @@ public class MessageList {
 
 
     public void deleteFoundMessage(MessageData messageData) {
+        //todo так findMessageInMessageList может вернуть null? А потом ищи откуда эти чертовы NPE лезут
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[3]")).click();
-
-        //  Assert.assertFalse(table.getText().contains(messageData));//todo такая проверка очень дорогая по времени. getMessagesList отнимает солидно времени
-        //заменил на такую проверку
-        //todo НЕТ!!!!!!!!!!!!! это бред:
-        //  1. Факт, что getText() можно напрямую сравнивать с messageData - не очевиден и ломает мозг, любому кто читает метод
-        //  2. Даже если ты хочешь метод сравнения текста с messageData, то у тебя должен быть метод,
-        //     явно приводящий messageData к требуемой! строке, а не просто toString(),
-        //     и уж точно здесь метод toString() должен был бы вызываться явно
-        //  3. Я не понял, почему нет конверсии messageData в xpath и поиска по xpath?
-        //убрал проверку из метода, добавил в тестовые классы ассерты вида:
-        //  "Assert.assertTrue(messagesPage.findMessageInMessageList(newMessageData) == null);"
     }
 
     public void viewFoundMessage(MessageData messageData) {
@@ -100,22 +87,21 @@ public class MessageList {
 
     public void modifyFoundMessage(MessageData messageData) {
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[2]")).click();
-
     }
 
     private WebElement findMessageOnPage(MessageData messageData) {
 
         try {
             return driver.findElement(By.xpath("//tbody/tr" + createXpathForList(messageData)));
-
+            //todo почему createXpathForList не формирует полный xpath? Зачем эти дописывания //tbody/tr?
         } catch (NoSuchElementException e) {
-            return null;
+            return null;  
         }
 
     }
 
 
-    public WebElement findMessageInMessageList(MessageData messageData) {
+    public WebElement findMessageInMessageList(MessageData messageData) {//Возвращать WebElement в public - плохо
 
         WebElement message = findMessageOnPage(messageData);
 
@@ -124,17 +110,19 @@ public class MessageList {
         }
 
         if (isElementPresent(nextPage)) {
+            //todo что будет в твоей логике если я сейчас на 3ей странице из 5ти?
             message = findMessageWithPaginator(messageData, nextPage);
         } else if (isElementPresent(previousPage)) {
             message = findMessageWithPaginator(messageData, previousPage);
         }
 
-        return message;
+        return message;//todo Возвращение null - это плохая практика. Для публичных методов лучше Exception
     }
 
 
     private WebElement findMessageWithPaginator(MessageData messageData, WebElement paginator) {
         WebElement message = null;
+        //ты этот метод проверял на количестве страниц >2? Это не должно работать
         while (message == null && isElementPresent(paginator)) {
             paginator.click();
             message = findMessageOnPage(messageData);
@@ -154,7 +142,7 @@ public class MessageList {
         try {
             element.getTagName();
             exists = true;
-        } catch (NoSuchElementException e) {
+        } catch (NoSuchElementException e) {//todo работает? не должно
 
         }
         return exists;
