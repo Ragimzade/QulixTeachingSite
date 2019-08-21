@@ -22,7 +22,7 @@ public class ShowMessage {
     private WebDriver driver;
     private Properties properties;
     private static final Logger logger = Logger.getLogger(MessageList.class);
-    private MessageData messageData;
+    private MessageData messageData; //todo нет
     private MainPage mainPage;
     private LoginPage loginPage;
 
@@ -40,8 +40,6 @@ public class ShowMessage {
 
 
     public boolean isShowMessageFormDisplayed() {
-        //todo boolean метод предполагает, что вернется true/false. У тебя если элемент будет не найден/не виден вылетит Exception
-        //поправил
         try {
             new WebDriverWait(driver, Long.parseLong(properties.getProperty("explicitWaits"))).until(ExpectedConditions
                     .visibilityOf(showMessagePage));
@@ -49,29 +47,28 @@ public class ShowMessage {
             return true;
         } catch (RuntimeException ex) {//todo почитай гайд, какое исключение приходит из WebDriverWait
             //без гайдов очевидно
+            //todo не очевидно, как видим. Почитай
             logger.error("Message page is not displayed");
             return false;
         }
     }
 
     public MessageData getEditFormData() throws IOException {
-        //todo а почему этот метод у списка?
-        //todo и снова, что он делает то?
         //достает введенные данные из формы "Edit Message", переименовал метод
+        //todo Я все равно не понимаю. Что этот метод делает здесь
         //todo Я все равно не понимаю. Что этот метод делает здесь
         String name = driver.findElement(By.xpath(".//input[@name=\"headline\"]")).getAttribute("value");
         String text = driver.findElement(By.xpath(".//input[@name=\"text\"]")).getAttribute("value");
-        String author = getCurrentUser();
+        String author = getCurrentUser();//todo откуда информация, 
+        //что на странице редактирования открыто сообщение, созданное этим пользователем?
 
+        //todo имена переменных нормальные должны быть
         MessageData editMessageForm = new MessageData().setHeadline(name).setText(text).setAuthor(author);
         return editMessageForm;
 
     }
 
-    public MessageData getShowMessagePageData() {
-        //todo что-то я не понимаю, что метод делает
-        //Достает данные из страницы "Show Message", переименовал метод
-        //todo Я все равно не понимаю. Что этот метод делает здесь
+    public MessageData getShowMessagePageData() {//todo просто getMessageData()
         String headline = driver.findElement(By.xpath("(.//td[@class=\"value\"])[1]")).getText();
         String text = driver.findElement(By.xpath("(.//td[@class=\"value\"])[3]")).getText();
         String author = driver.findElement(By.xpath("(.//td[@class=\"value\"])[2]")).getText();
@@ -81,7 +78,7 @@ public class ShowMessage {
     }
 
 
-    public  String getCurrentUser() {
+    public  String getCurrentUser() {//todo Не сюда. Должен быть base class для этой страницы и страницы списка
         String authorText = driver.findElement(By.xpath(".//span[contains(.,\"" + HELLO + "\")]")).getText();
         String author = authorText.substring((authorText.indexOf(" ")), authorText.indexOf("[")).trim();
         return author;
