@@ -2,17 +2,14 @@ package model;
 
 import java.util.Objects;
 
-//todo Что этот класс делает в pages?
 public class MessageData {//todo А накой ты имплементишь тут CharSequence????
                          //идеа предложила, я решил не отказываться)
+  //Она тебе предложила потому что ты где-то пытался MessageData использовать как строку. Почитаешь - удаляй этот todo
     private String headline;
     private String text;
     private String author;
 
-    public MessageData setHeadline(String headline) { //todo а почему with? Такие имена больше характерны для builder-а. У тебя не builder
-        //поправил
-        //todo setHeadline - это в лучшем случае getter
-        //здесь должен быть set
+    public MessageData setHeadline(String headline) { 
         this.headline = headline;
         return this;
     }
