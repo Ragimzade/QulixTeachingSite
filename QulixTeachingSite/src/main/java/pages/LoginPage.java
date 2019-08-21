@@ -1,6 +1,7 @@
 package pages;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -65,9 +66,7 @@ public class LoginPage {
         enterValue(loginField, login);
         //todo а чего не сделано? //сделал, не сразу понял, что имеется ввиду
         //Assert.assertFalse(loginField.getAttribute("value").isEmpty()); //todo зачем это делать, непонятно
-        // так это в кейсах просят такую проверку
         enterValue(passwordField, password);
-        //Assert.assertFalse(passwordField.getAttribute("value").isEmpty());
         loginButton.click();
 
 

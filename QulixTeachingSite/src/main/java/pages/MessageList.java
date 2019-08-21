@@ -25,7 +25,7 @@ public class MessageList {
     private MessageData messageData;
     private MainPage mainPage;
     private LoginPage loginPage;
-//todo зачем нам это хранить?
+    //todo зачем нам это хранить?
     // для метода fillMessageForm
     // todo Вот я тебе прозрачно намекнул, что этого быть не должно. Если тебе это надо в том методе, значит что-то не то с методом
 
@@ -33,6 +33,7 @@ public class MessageList {
     public MessageList(WebDriver driver) throws IOException {
         this.driver = driver;
         PageFactory.initElements(driver, this);
+
         properties = new Properties();
         properties.load(new FileReader(new File((String.format("src/main/resources/config.properties")))));
         //todo properties загружать как ресурс, а не через путь. MessagePage.class.getResource()
@@ -124,7 +125,7 @@ public class MessageList {
 
         if (isElementPresent(nextPage)) {
             message = findMessageWithPaginator(messageData, nextPage);
-        } else if (isElementPresent( previousPage)) {
+        } else if (isElementPresent(previousPage)) {
             message = findMessageWithPaginator(messageData, previousPage);
         }
 

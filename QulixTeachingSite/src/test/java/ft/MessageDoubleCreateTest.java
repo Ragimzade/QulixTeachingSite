@@ -15,7 +15,8 @@ public class MessageDoubleCreateTest extends TestBase {
         Assert.assertEquals(firstMessage, showMessage.getShowMessagePageData());
 
         createMessage.initMessageCreation();
-        MessageData secondMessage = createMessage.fillMessageForm(new MessageData().setHeadline("Second message").setText("there not there")
+        MessageData secondMessage = createMessage.fillMessageForm(new MessageData().setHeadline("Second message")
+                .setText("there not there")
                 .setAuthor(showMessage.getCurrentUser()));
         createMessage.submitMessageCreation();
         showMessage.isShowMessageFormDisplayed();

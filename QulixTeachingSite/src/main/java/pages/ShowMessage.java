@@ -43,7 +43,8 @@ public class ShowMessage {
         //todo boolean метод предполагает, что вернется true/false. У тебя если элемент будет не найден/не виден вылетит Exception
         //поправил
         try {
-            new WebDriverWait(driver, Long.parseLong(properties.getProperty("explicitWaits"))).until(ExpectedConditions.visibilityOf(showMessagePage));
+            new WebDriverWait(driver, Long.parseLong(properties.getProperty("explicitWaits"))).until(ExpectedConditions
+                    .visibilityOf(showMessagePage));
             logger.info("Message page is displayed");
             return true;
         } catch (RuntimeException ex) {//todo почитай гайд, какое исключение приходит из WebDriverWait

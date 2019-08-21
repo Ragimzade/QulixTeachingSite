@@ -5,30 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject.log" beforeDir="false" afterPath="$PROJECT_DIR$/myproject.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/MessageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/MessageData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CreateMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CreateMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MessageList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MessageList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ShowMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ShowMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ft/MessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ft/MessTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndExitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndExitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndModifyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndModifyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndViewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ft/MessageCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ft/MessageCreateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreate.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ft/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ft/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/MessageData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/MessageData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/MessageList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MessageList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ShowMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ShowMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ft/MessageCreateAndDeleteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ft/MessageCreateAndDeleteTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ft/MessageCreateAndExitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ft/MessageCreateAndExitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ft/MessageCreateAndModifyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ft/MessageCreateAndModifyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ft/MessageCreateAndViewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ft/MessageCreateAndViewTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ft/MessageCreateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ft/MessageCreateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ft/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ft/TestBase.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,61 +26,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/MessageList.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ft/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-              <folding>
-                <element signature="e#2214#2215#0" expanded="true" />
-                <element signature="e#2249#2250#0" expanded="true" />
-                <element signature="e#3368#3369#0" expanded="true" />
-                <element signature="e#3408#3409#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="59">
+              <caret line="36" column="46" lean-forward="true" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/ShowMessage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndViewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="212">
+              <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +61,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -130,8 +79,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/CreateMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="56" lean-forward="true" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
+            <state relative-caret-position="286">
+              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="22" column="81" lean-forward="true" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,8 +103,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="1249">
+              <caret line="82" column="80" lean-forward="true" selection-start-line="82" selection-start-column="80" selection-end-line="82" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/ShowMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/MessageList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1488">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -188,20 +170,23 @@
         <option value="$PROJECT_DIR$/src/test/java/ft/MessTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/ShowMessage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndExitTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndModifyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/MessageData.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/CreateMessage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreate.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreateTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndViewTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/MessageList.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/HelperBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/NavigationHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/ReadPropertyFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/MessageList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/MessageData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/ShowMessage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreateTest.java" />
       </list>
     </option>
   </component>
@@ -223,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -298,6 +282,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
     </panes>
   </component>
@@ -311,22 +296,25 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="IntroduceConstantDialog.RECENTS_KEY">
-      <recent name="pages.MainPage" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PvtFinalProject-master\QulixTeachingSite\src\test" />
-      <recent name="D:\PvtFinalProject-master\QulixTeachingSite\src\main" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pages" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Todo\QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d\QulixTeachingSite\src" />
       <recent name="D:\Todo\QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d\QulixTeachingSite\src\test" />
       <recent name="D:\Todo\QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d\QulixTeachingSite\src\test\java" />
       <recent name="D:\Todo\QulixTeachingSite-3adddbabfff3100bf857e20e4275245f1ade503d\QulixTeachingSite\src\test\java\ft" />
       <recent name="D:\PvtFinalProject-master\QulixTeachingSite\src\test\java\ft" />
+    </key>
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="pages.MainPage" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PvtFinalProject-master\QulixTeachingSite\src\test" />
+      <recent name="D:\PvtFinalProject-master\QulixTeachingSite\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -431,9 +419,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/newRepository/QulixTeachingSite/src/suite.xml" />
+        <item itemvalue="TestNG.MessageCreateAndDeleteTest" />
         <item itemvalue="TestNG.ViewOthersMessagesTest" />
         <item itemvalue="TestNG.ViewOthersMessagesTest.viewOthersMessagesTest" />
-        <item itemvalue="TestNG.MessageCreateAndDeleteTest" />
         <item itemvalue="TestNG.MessageDoubleCreateTest" />
       </list>
     </recent_temporary>
@@ -452,15 +440,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ViewOthersMessagesTest - 2019.08.20 at 17h 09m 26s.xml">
-      <configuration name="ViewOthersMessagesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ViewOthersMessagesTest_viewOthersMessagesTest - 2019.08.20 at 17h 10m 14s.xml">
-      <configuration name="ViewOthersMessagesTest.viewOthersMessagesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ViewOthersMessagesTest - 2019.08.20 at 17h 11m 35s.xml">
-      <configuration name="ViewOthersMessagesTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ViewOthersMessagesTest - 2019.08.20 at 17h 13m 12s.xml">
       <configuration name="ViewOthersMessagesTest" configurationId="TestNG" />
     </history-entry>
@@ -482,11 +461,21 @@
     <history-entry file="D__newRepository_QulixTeachingSite_src_suite_xml - 2019.08.20 at 17h 17m 06s.xml">
       <configuration name="D:/newRepository/QulixTeachingSite/src/suite.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="MessageCreateAndDeleteTest - 2019.08.20 at 17h 20m 56s.xml">
+      <configuration name="MessageCreateAndDeleteTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MessageCreateAndDeleteTest - 2019.08.20 at 17h 24m 27s.xml">
+      <configuration name="MessageCreateAndDeleteTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__newRepository_QulixTeachingSite_src_suite_xml - 2019.08.21 at 12h 21m 01s.xml">
+      <configuration name="D:/newRepository/QulixTeachingSite/src/suite.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="0" width="1768" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27340183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27340183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -494,8 +483,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.3263506" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.37596473" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.07938258" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.37596473" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30650496" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -515,20 +504,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/QulixTeachingSite.iml" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#1407#1408#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -576,13 +551,6 @@
     <entry file="file://D:/Repository2/QulixTeachingSite/src/main/java/pages/MainPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageTest.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/WebDriverSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/internal/ConfigInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -628,34 +596,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myproject.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/MessageData.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/internal/TestInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="490">
+          <caret line="445" column="47" lean-forward="true" selection-start-line="445" selection-start-column="47" selection-end-line="445" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreateTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HelperBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/NavigationHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/WebDriverSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/MessageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -666,30 +650,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreateTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/ReadPropertyFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        <state relative-caret-position="221">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar!/org/testng/internal/TestInvoker.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="445" column="47" lean-forward="true" selection-start-line="445" selection-start-column="47" selection-end-line="445" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ft/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -703,7 +679,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndModifyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="263">
           <caret line="28" column="98" selection-start-line="28" selection-start-column="98" selection-end-line="28" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -713,7 +689,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="212">
           <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -723,86 +699,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="391">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MessageList.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageDoubleCreateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="303">
+          <caret line="22" column="81" lean-forward="true" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
           <folding>
-            <element signature="e#2214#2215#0" expanded="true" />
-            <element signature="e#2249#2250#0" expanded="true" />
-            <element signature="e#3368#3369#0" expanded="true" />
-            <element signature="e#3408#3409#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ft/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="36" column="46" lean-forward="true" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CreateMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1249">
+          <caret line="82" column="80" lean-forward="true" selection-start-line="82" selection-start-column="80" selection-end-line="82" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="286">
+          <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MessageList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CreateMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="56" lean-forward="true" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1488">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/ShowMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ft/MessageCreateAndDeleteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ft/ViewOthersMessagesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="969">
+          <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
         </state>
       </provider>
     </entry>

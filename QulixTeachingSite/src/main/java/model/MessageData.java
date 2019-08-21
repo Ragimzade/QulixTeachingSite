@@ -4,6 +4,7 @@ import java.util.Objects;
 
 //todo Что этот класс делает в pages?
 public class MessageData {//todo А накой ты имплементишь тут CharSequence????
+                         //идеа предложила, я решил не отказываться)
     private String headline;
     private String text;
     private String author;
