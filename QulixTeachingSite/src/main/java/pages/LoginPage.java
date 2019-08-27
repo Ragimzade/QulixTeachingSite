@@ -47,7 +47,8 @@ public class LoginPage extends PageBase {
             logger.info("Login page is opened");
         } catch (TimeoutException e) {
             logger.fatal(e + "Login page is not opened");
-            driver.quit();
+            driver.quit(); //todo Почему это здесь? 
+            //todo Зачем создавать новый, если у тебя уже есть TimeoutException e
             throw new TimeoutException("Test ended with critical error");
         }
     }
@@ -68,12 +69,16 @@ public class LoginPage extends PageBase {
         //2. если элемент не будет найден, получим снова Exception непонятного происхождения:
         // я попросил assertHelloMessage, а в ответ получаю Web driver exceptioт причем после асерта.
         // если у меня не будет stacktrace-а, то этот метод будет последним куда я полезу искать причину ошибки
+        //todo Простой вобщем-то метод, но мы по нему скоро три тома коментов составим
         try {
             new WebDriverWait(driver, Long.parseLong(configFileReader.getExplicitWait()))
                     .until(ExpectedConditions.visibilityOf(helloMessage)).isDisplayed();
-            Assert.assertTrue(helloMessage.getText().contains(HELLO + userName));
+            Assert.assertTrue(helloMessage.getText().contains(HELLO + userName)); //todo ну у тебя метод булевый, ну верни ты просто 
+            //helloMessage.getText().contains(HELLO + userName). 
+            //Я не понимаю, зачем ты делаешь этот чертов асерт, чем он тебе помогает????
             return true;
-        } catch (Exception e) {
+        } catch (Exception e) { //todo это не споймает ошибку Assert и не надо делать таких широких catch. 
+            //Лови то, что считаешь допустимым
             logger.error(e);
             return false;
         }
