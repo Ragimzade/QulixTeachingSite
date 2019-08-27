@@ -65,13 +65,11 @@ public class MessageList extends PageBase {
     }
 
     public void showMessagesOfAllUsers() {
-        allUsersCheckBox.click();
+        allUsersCheckBox.click(); //todo А если он уже был выбран?
     }
 
 
     public void deleteFoundMessage(MessageData messageData) {
-        //todo так findMessageInMessageList может вернуть null? А потом ищи откуда эти чертовы NPE лезут
-        //теперь NoSuchElementEx
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[3]")).click();
     }
 
@@ -79,13 +77,12 @@ public class MessageList extends PageBase {
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[1]")).click();
     }
 
-    public void modifyFoundMessage(MessageData messageData) {
+    public void modifyFoundMessage(MessageData messageData) {//todo editMessage
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[2]")).click();
     }
 
 
-    private WebElement findMessageInMessageList(MessageData messageData) {//Возвращать WebElement в public - плохо
-        //поправил
+    private WebElement findMessageInMessageList(MessageData messageData) {
         WebElement message = findMessageOnPage(messageData);
         if (message != null) {
             return message;
@@ -93,23 +90,18 @@ public class MessageList extends PageBase {
         if (isElementPresent(paginator) && getCurrentPage() != 1) {
             goToFirstPage();
             message = findMessageWithPaginator(messageData, nextPage);
-            //todo что будет в твоей логике если я сейчас на 3ей странице из 5ти?
-            //поправил
         } else if (isElementPresent(nextPage) && getCurrentPage() == 1) {
             message = findMessageWithPaginator(messageData, nextPage);
         }
         if (message != null) {
-            return message; //todo Возвращение null - это плохая практика. Для публичных методов лучше Exception
-            //поправил
+            return message; 
         }
-        throw new NoSuchElementException("Message is not found");
+        throw new NoSuchElementException("Message is not found"); //todo ну добавил бы уже какой message not found
     }
 
 
     private WebElement findMessageWithPaginator(MessageData messageData, WebElement paginator) {
         WebElement message = null;
-        //ты этот метод проверял на количестве страниц >2? Это не должно работать
-        //проверял на 1-5 страницах. Почему не должно работать, из-за @FindBy?
         while (message == null && isElementPresent(paginator)) {
             paginator.click();
             message = findMessageOnPage(messageData);
