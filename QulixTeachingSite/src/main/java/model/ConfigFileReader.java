@@ -9,7 +9,7 @@ import java.util.Properties;
 public class ConfigFileReader {
 
     private Properties properties;
-    private final String propertyFilePath = "src/main/resources/config.properties";
+    private final String propertyFilePath = "src/main/resources/config.properties"; //todo я говорил, использовать class.getResourceAsStream
 
 
     public ConfigFileReader() {
