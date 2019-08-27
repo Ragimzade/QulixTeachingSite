@@ -8,11 +8,11 @@ public class MessageCreateAndExitTest extends TestBase {
 
 
     @Test
-    public void createAndExitTest() throws NoSuchFieldException {
+    public void createAndExitTest() {
         createMessage.initMessageCreation();
         MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
-                .setHeadline("!2ваыпп").setText("Test Text").setAuthor(showMessage.getCurrentUser()));
+                .setHeadline("!createAndExitTest").setText("Test Text").setAuthor(showMessage.getCurrentUser()));
         messageList.goToMessageList();
-        Assert.assertFalse(messageList.assertMessageIsPresent(newMessageData));
+        Assert.assertFalse(messageList.assertMessageInList(newMessageData));
     }
 }

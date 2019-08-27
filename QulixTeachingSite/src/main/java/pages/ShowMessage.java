@@ -11,19 +11,13 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Properties;
-
 public class ShowMessage extends PageBase {
 
-    private Properties properties;
-    private static final Logger logger = Logger.getLogger(MessageList.class);
-    private MainPage mainPage;
-    private LoginPage loginPage;
 
-    public ShowMessage(WebDriver driver) throws IOException {
+    private static final Logger logger = Logger.getLogger(MessageList.class);
+
+
+    public ShowMessage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
     }
@@ -48,11 +42,13 @@ public class ShowMessage extends PageBase {
     public MessageData getEditFormData() {
         String name = driver.findElement(By.xpath(".//input[@name=\"headline\"]")).getAttribute("value");
         String text = driver.findElement(By.xpath(".//input[@name=\"text\"]")).getAttribute("value");
-       // String author = getAuthorOfMessage(messageData);//todo откуда информация,
+        String author = getCurrentUser();
+        // String author = getAuthorOfMessage(messageData);//todo откуда информация,
         //что на странице редактирования открыто сообщение, созданное этим пользователем?
+        //если чек-бокс "Show messages of all users" отжат, то показываются сообщения текущего пользователя
 
         //todo имена переменных нормальные должны быть
-        MessageData editFormData = new MessageData().setHeadline(name).setText(text);
+        MessageData editFormData = new MessageData().setHeadline(name).setText(text).setAuthor(author);
         return editFormData;
 
     }

@@ -13,11 +13,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class TestBase {
     private static final Logger logger = Logger.getLogger(TestBase.class);
     MainPage mainPage;
-    MessageData messageData;
     CreateMessage createMessage;
     LoginPage loginPage;
     MessageList messageList;

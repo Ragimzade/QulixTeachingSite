@@ -2,26 +2,21 @@ package pages;
 
 import model.MessageData;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Properties;
-
 public class MessageList extends PageBase {
-    private Properties properties;
+
     private static final Logger logger = Logger.getLogger(MessageList.class);
-    private MessageData messageData;
-    private MainPage mainPage;
-    private LoginPage loginPage;
 
 
-    public MessageList(WebDriver driver) throws IOException {
+    public MessageList(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
 
@@ -139,7 +134,7 @@ public class MessageList extends PageBase {
     }
 
 
-    public boolean assertMessageIsPresent(MessageData messageData) {
+    public boolean assertMessageInList(MessageData messageData) {
         try {
             findMessageInMessageList(messageData);
             return true;

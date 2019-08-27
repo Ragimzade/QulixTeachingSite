@@ -8,15 +8,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import java.io.IOException;
-import java.util.Properties;
-
 public class CreateMessage extends PageBase {
 
     private static final Logger logger = Logger.getLogger(MessageList.class);
-    private Properties properties;
 
-    public CreateMessage(WebDriver driver) throws IOException {
+
+    public CreateMessage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
     }

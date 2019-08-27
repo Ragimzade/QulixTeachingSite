@@ -18,7 +18,7 @@ public class PageBase {
     }
 
 
-    public String getCurrentUser() {//todo Не сюда. Должен быть base class для этой страницы и страницы списка
+    public String getCurrentUser() {
         String authorText = driver.findElement(By.xpath(".//span[contains(.,\"" + HELLO + "\")]")).getText();
         String author = authorText.substring((authorText.indexOf(" ")), authorText.indexOf("[")).trim();
         return author;

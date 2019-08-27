@@ -10,19 +10,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.NoSuchElementException;
-import java.util.Properties;
-
 public class LoginPage extends PageBase {
 
     private static final Logger logger = Logger.getLogger(MessageList.class);
-    public static final String HELLO = "Hello";
+    public static final String HELLO = "Hello ";
 
 
-    public LoginPage(WebDriver driver) throws IOException {
+    public LoginPage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
 
@@ -39,7 +33,7 @@ public class LoginPage extends PageBase {
     private WebElement passwordField;
 
 
-    @FindBy(xpath = ".//a[contains(.,\"" + HELLO + "\")]")
+    @FindBy(xpath = ".//span[contains(.,\"" + HELLO + "\")]")
     private WebElement helloMessage;
 
     @FindBy(xpath = ".//a[@href=\"/QulixTeachingSite/user/logout\"]")
@@ -66,7 +60,6 @@ public class LoginPage extends PageBase {
 
 
     }
-
 
     public boolean isHelloMessagePresent(String userName) {
 
