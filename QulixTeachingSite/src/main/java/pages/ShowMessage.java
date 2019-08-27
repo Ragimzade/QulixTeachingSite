@@ -46,6 +46,9 @@ public class ShowMessage extends PageBase {
         // String author = getAuthorOfMessage(messageData);//todo откуда информация,
         //что на странице редактирования открыто сообщение, созданное этим пользователем?
         //если чек-бокс "Show messages of all users" отжат, то показываются сообщения текущего пользователя
+        //todo Так а откуда ты знаешь, что чекбокс не нажат??
+        //todo А если завтра логика отображения поменяется или дефект?
+        //Не можешь ты здесь определить автора - смирись и не пытайся
 
         //todo имена переменных нормальные должны быть
         MessageData editFormData = new MessageData().setHeadline(name).setText(text).setAuthor(author);
