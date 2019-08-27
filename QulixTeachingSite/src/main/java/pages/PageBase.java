@@ -25,8 +25,6 @@ public class PageBase {
     }
 
     public void enterValue(WebElement field, String value) {
-        //todo не смущает, что делать это надо не только здесь?
-        //вынес сюда в общий класс
         field.clear();
         field.sendKeys(value);
     }
