@@ -8,12 +8,11 @@ public class MessageCreateAndExitTest extends TestBase {
 
 
     @Test
-    public void createAndExitTest() {
+    public void createAndExitTest() throws NoSuchFieldException {
         createMessage.initMessageCreation();
         MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
                 .setHeadline("!2ваыпп").setText("Test Text").setAuthor(showMessage.getCurrentUser()));
         messageList.goToMessageList();
-        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData)==null);//todo не трогай messageList. Лучше вообще удали оттуда метод
-                                                                                  //удалил метод
+        Assert.assertFalse(messageList.assertMessageIsPresent(newMessageData));
     }
 }

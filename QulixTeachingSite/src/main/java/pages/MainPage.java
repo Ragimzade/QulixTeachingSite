@@ -13,10 +13,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
-public class MainPage {
+public class MainPage extends PageBase {
 
     public static String baseUrl;
-    private WebDriver driver;
+
     private static final Logger logger = Logger.getLogger(MessageList.class);
     private Properties properties;
     private LoginPage loginPage;
@@ -27,23 +27,17 @@ public class MainPage {
 
 
     public MainPage(WebDriver driver) throws IOException {
-        this.driver = driver; 
+        super(driver);
         PageFactory.initElements(driver, this);
-        properties = new Properties();
-        properties.load(new FileReader(new File((String.format("src/main/resources/config.properties")))));
-
     }
 
     public void goToMainPage(){
-
-        driver.get(properties.getProperty("baseUrl")); 
-        //done
+        driver.get(configFileReader.getApplicationUrl());
         Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"pageBody\"]/h1")).isDisplayed());
     }
 
-    public void goToLoginPage() throws IOException {
+    public void goToLoginPage(){
         loginLink.click();
-
     }
 
 }

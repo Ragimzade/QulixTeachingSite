@@ -14,22 +14,21 @@ public class MessageCreateAndModifyTest extends TestBase {
 
         createMessage.initMessageCreation();
         MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
-                .setHeadline("Edited message").setText("edited setText").setAuthor(showMessage.getCurrentUser()));
+                .setHeadline("Edited message").setText("edited setText").setAuthor(loginPage.getCurrentUser()));
         System.out.println(newMessageData);
         createMessage.submitMessageCreation();
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
+        Assert.assertEquals(newMessageData, showMessage.getMessageData());
         messageList.goToMessageList();
-        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
+        Assert.assertTrue(messageList.assertMessageIsPresent(newMessageData));
         messageList.modifyFoundMessage(newMessageData);
-        System.out.println( showMessage.getEditFormData());
         Assert.assertEquals(newMessageData, showMessage.getEditFormData());
 
         MessageData editedMessage = createMessage.fillMessageForm(new MessageData()
-                .setHeadline("Modified message").setText("modified setText").setAuthor(showMessage.getCurrentUser()));
+                .setHeadline("Modified message").setText("modified setText"));
         createMessage.submitMessageModification();
         messageList.goToMessageList();
-        Assert.assertTrue(messageList.findMessageInMessageList(editedMessage).isDisplayed());
+        Assert.assertTrue(messageList.assertMessageIsPresent(newMessageData));
 
 
         messageList.deleteFoundMessage(editedMessage);

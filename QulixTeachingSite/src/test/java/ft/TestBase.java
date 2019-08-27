@@ -1,5 +1,6 @@
 package ft;
 
+import model.ConfigFileReader;
 import model.WebDriverSingleton;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -22,25 +23,22 @@ public class TestBase {
     MessageList messageList;
     ShowMessage showMessage;
     private WebDriverSingleton webDriverSingleton;
-    private Properties properties;
+    ConfigFileReader configFileReader;
 
 
     @BeforeClass
     public void init() throws IOException {
-        properties = new Properties();
-        properties.load(new FileReader(new File((String.format("src/main/resources/config.properties")))));//todo в отдельый класс
+        configFileReader = new ConfigFileReader();
         WebDriver driver = webDriverSingleton.getInstance();
         mainPage = new MainPage(driver);
         loginPage = new LoginPage(driver);
         messageList = new MessageList(driver);
         createMessage = new CreateMessage(driver);
         showMessage = new ShowMessage(driver);
-        //todo Я разве не говорил убрать implicitlyWait?
-        //не говорил, только явные ожидания использовать?
         mainPage.goToMainPage();
         mainPage.goToLoginPage();
         loginPage.isLoginButtonPresent();
-        loginPage.login(properties.getProperty("creds.Login"), properties.getProperty("creds.Password"));
+        loginPage.login(configFileReader.getAdminLogin(), configFileReader.getAdminPassword());
         messageList.isMessageListTablePresent();
 
     }

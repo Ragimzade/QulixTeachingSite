@@ -2,9 +2,8 @@ package model;
 
 import java.util.Objects;
 
-public class MessageData {//todo А накой ты имплементишь тут CharSequence????
-                         //идеа предложила, я решил не отказываться)
-  //Она тебе предложила потому что ты где-то пытался MessageData использовать как строку. Почитаешь - удаляй этот todo
+public class MessageData {
+
     private String headline;
     private String text;
     private String author;

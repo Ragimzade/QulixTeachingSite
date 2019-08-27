@@ -6,13 +6,13 @@ import model.MessageData;
 
 public class MessageDoubleCreateTest extends TestBase {
     @Test
-    public void doubleCreateTest() {
+    public void doubleCreateTest() throws NoSuchFieldException {
         createMessage.initMessageCreation();
         MessageData firstMessage = createMessage.fillMessageForm(new MessageData()
                 .setHeadline("First message").setText("there not there").setAuthor(showMessage.getCurrentUser()));
         createMessage.submitMessageCreation();
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(firstMessage, showMessage.getShowMessagePageData());
+        Assert.assertEquals(firstMessage, showMessage.getMessageData());
 
         createMessage.initMessageCreation();
         MessageData secondMessage = createMessage.fillMessageForm(new MessageData().setHeadline("Second message")
@@ -20,18 +20,18 @@ public class MessageDoubleCreateTest extends TestBase {
                 .setAuthor(showMessage.getCurrentUser()));
         createMessage.submitMessageCreation();
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(secondMessage, showMessage.getShowMessagePageData());
+        Assert.assertEquals(secondMessage, showMessage.getMessageData());
         messageList.goToMessageList();
 
-        Assert.assertTrue(messageList.findMessageInMessageList(firstMessage).isDisplayed());
-        Assert.assertTrue(messageList.findMessageInMessageList(secondMessage).isDisplayed());
+        Assert.assertTrue(messageList.assertMessageIsPresent(firstMessage));
+        Assert.assertTrue(messageList.assertMessageIsPresent(secondMessage));
 
 
         messageList.deleteFoundMessage(secondMessage);
-        Assert.assertTrue(messageList.findMessageInMessageList(secondMessage) == null);
+        Assert.assertTrue(messageList.assertMessageIsPresent(secondMessage));
 
         messageList.deleteFoundMessage(firstMessage);
-        Assert.assertTrue(messageList.findMessageInMessageList(firstMessage) == null);
+        Assert.assertTrue(messageList.assertMessageIsPresent(firstMessage));
 
     }
 }

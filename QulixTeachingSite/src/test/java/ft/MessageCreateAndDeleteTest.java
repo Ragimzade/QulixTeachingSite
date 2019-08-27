@@ -8,20 +8,20 @@ public class MessageCreateAndDeleteTest extends TestBase {
 
 
     @Test
-    public void createAndDeleteTest() {
+    public void createAndDeleteTest() throws NoSuchFieldException {
         createMessage.initMessageCreation();
         MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
-                .setHeadline("dfg123[ds[").setText("sfdbgb234234234").setAuthor(showMessage.getCurrentUser()));
+                .setHeadline("fghdfghdgfh dfgsdfgsdfg").setText("sfdbgb234234234").setAuthor(showMessage.getCurrentUser()));
         createMessage.submitMessageCreation();
 
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, showMessage.getShowMessagePageData());
+        Assert.assertEquals(newMessageData, showMessage.getMessageData());
         messageList.goToMessageList();
-        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData)!= null);
+        Assert.assertTrue(messageList.assertMessageIsPresent(newMessageData));
 
 
         messageList.deleteFoundMessage(newMessageData);
-        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData) == null);
+        Assert.assertFalse(messageList.assertMessageIsPresent(newMessageData));
 
     }
 }

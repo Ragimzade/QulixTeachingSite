@@ -8,7 +8,7 @@ public class MessageCreateTest extends TestBase {
 
 
     @Test
-    public void messageCreationTest() {
+    public void messageCreationTest() throws NoSuchFieldException {
 
         createMessage.initMessageCreation();
         MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
@@ -17,9 +17,10 @@ public class MessageCreateTest extends TestBase {
 
         showMessage.isShowMessageFormDisplayed();
         messageList.goToMessageList();
-        Assert.assertTrue(messageList.findMessageInMessageList(newMessageData).isDisplayed());
+        Assert.assertTrue(messageList.assertMessageIsPresent(newMessageData));
 
         messageList.deleteFoundMessage(newMessageData);
+        Assert.assertFalse(messageList.assertMessageIsPresent(newMessageData));
 
 
     }
