@@ -39,6 +39,8 @@ public class PageBase {
             exists = true;
         } catch (NoSuchElementException e) {//todo работает? не должно
             //а почему не должно, работает
+            //todo Это будет работать только с элементами, аннотированными @FindBy. Если сделать просто driver.findElement() и передать сюда 
+            //работать не будет, будет другое исключение
         }
         return exists;
     }
