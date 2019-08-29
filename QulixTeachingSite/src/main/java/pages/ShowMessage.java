@@ -13,7 +13,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ShowMessage extends PageBase {
 
-
     private static final Logger logger = Logger.getLogger(MessageList.class);
 
 
@@ -29,12 +28,12 @@ public class ShowMessage extends PageBase {
 
     public boolean isShowMessageFormDisplayed() {
         try {
-            new WebDriverWait(driver, Long.parseLong(configFileReader.getExplicitWait())).until(ExpectedConditions
+            new WebDriverWait(driver, Long.parseLong(config.getExplicitWait())).until(ExpectedConditions
                     .visibilityOf(showMessagePage));
             logger.info("Message page is displayed");
             return true;
         } catch (TimeoutException ex) {
-            logger.error("Message page is not displayed" + ex);
+            logger.error("Message page is not displayed " + ex);
             return false;
         }
     }
@@ -42,29 +41,35 @@ public class ShowMessage extends PageBase {
     public MessageData getEditFormData() {
         String name = driver.findElement(By.xpath(".//input[@name=\"headline\"]")).getAttribute("value");
         String text = driver.findElement(By.xpath(".//input[@name=\"text\"]")).getAttribute("value");
-        String author = getCurrentUser();
         // String author = getAuthorOfMessage(messageData);//todo откуда информация,
         //что на странице редактирования открыто сообщение, созданное этим пользователем?
         //если чек-бокс "Show messages of all users" отжат, то показываются сообщения текущего пользователя
         //todo Так а откуда ты знаешь, что чекбокс не нажат??
         //todo А если завтра логика отображения поменяется или дефект?
         //Не можешь ты здесь определить автора - смирись и не пытайся
+        //В принципе можно определить проверкой чек-бокса "Show messages of all users", но ладно не буду
 
-        //todo имена переменных нормальные должны быть
-        MessageData editFormData = new MessageData().setHeadline(name).setText(text).setAuthor(author);
+
+        MessageData editFormData = new MessageData().setHeadline(name).setText(text);
         return editFormData;
 
     }
 
 
-    public MessageData getMessageData() {
-        String headline = driver.findElement(By.xpath("(.//td[@class=\"value\"])[1]")).getText();
-        String text = driver.findElement(By.xpath("(.//td[@class=\"value\"])[3]")).getText();
-        String author = driver.findElement(By.xpath("(.//td[@class=\"value\"])[2]")).getText();
+    public MessageData getMessageData(boolean isAuthorRequired) {
+        MessageData showMessageData;
+        if (isAuthorRequired) {
+            String headline = driver.findElement(By.xpath("(.//td[@class=\"value\"])[1]")).getText();
+            String text = driver.findElement(By.xpath("(.//td[@class=\"value\"])[3]")).getText();
+            String author = driver.findElement(By.xpath("(.//td[@class=\"value\"])[2]")).getText();
+            showMessageData = new MessageData().setHeadline(headline).setText(text).setAuthor(author);
 
-        MessageData showMessageData = new MessageData().setHeadline(headline).setText(text).setAuthor(author);
+        } else {
+            String headline = driver.findElement(By.xpath("(.//td[@class=\"value\"])[1]")).getText();
+            String text = driver.findElement(By.xpath("(.//td[@class=\"value\"])[3]")).getText();
+            showMessageData = new MessageData().setHeadline(headline).setText(text);
+        }
         return showMessageData;
     }
-
 
 }

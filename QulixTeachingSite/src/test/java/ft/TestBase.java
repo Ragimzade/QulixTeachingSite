@@ -23,22 +23,23 @@ public class TestBase {
     MessageList messageList;
     ShowMessage showMessage;
     private WebDriverSingleton webDriverSingleton;
-    ConfigFileReader configFileReader;
 
 
     @BeforeClass
-    public void init() throws IOException {
-        configFileReader = new ConfigFileReader();
+    public void init() {
+
+
         WebDriver driver = webDriverSingleton.getInstance();
         mainPage = new MainPage(driver);
         loginPage = new LoginPage(driver);
         messageList = new MessageList(driver);
         createMessage = new CreateMessage(driver);
         showMessage = new ShowMessage(driver);
+        ConfigFileReader config = new ConfigFileReader();
         mainPage.goToMainPage();
         mainPage.goToLoginPage();
         loginPage.isLoginButtonPresent();
-        loginPage.login(configFileReader.getAdminLogin(), configFileReader.getAdminPassword());
+        loginPage.login(config.getLogin(), config.getPassword());
         messageList.isMessageListTablePresent();
 
     }

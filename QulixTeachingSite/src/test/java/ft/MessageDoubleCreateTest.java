@@ -12,7 +12,7 @@ public class MessageDoubleCreateTest extends TestBase {
                 .setHeadline("First message").setText("there not there").setAuthor(showMessage.getCurrentUser()));
         createMessage.submitMessageCreation();
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(firstMessage, showMessage.getMessageData());
+        Assert.assertEquals(firstMessage, showMessage.getMessageData(true));
 
         createMessage.initMessageCreation();
         MessageData secondMessage = createMessage.fillMessageForm(new MessageData().setHeadline("Second message")
@@ -20,7 +20,7 @@ public class MessageDoubleCreateTest extends TestBase {
                 .setAuthor(showMessage.getCurrentUser()));
         createMessage.submitMessageCreation();
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(secondMessage, showMessage.getMessageData());
+        Assert.assertEquals(secondMessage, showMessage.getMessageData(true));
         messageList.goToMessageList();
 
         Assert.assertTrue(messageList.assertMessageInList(firstMessage));

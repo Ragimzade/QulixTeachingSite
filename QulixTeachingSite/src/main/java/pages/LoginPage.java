@@ -8,18 +8,17 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+
+import java.util.Properties;
 
 public class LoginPage extends PageBase {
 
     private static final Logger logger = Logger.getLogger(MessageList.class);
-    public static final String HELLO = "Hello ";
 
 
     public LoginPage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
-
     }
 
     @FindBy(xpath = ".//input[@value='Login']")
@@ -39,18 +38,20 @@ public class LoginPage extends PageBase {
     @FindBy(xpath = ".//a[@href=\"/QulixTeachingSite/user/logout\"]")
     private WebElement logoutButton;
 
-    public void isLoginButtonPresent() {
+    public boolean isLoginButtonPresent() {
+
         try {
-            new WebDriverWait(driver, Long.parseLong(configFileReader.getExplicitWait()))
-                    .until(ExpectedConditions.visibilityOf(loginButton));
-            loginButton.isDisplayed();
-            logger.info("Login page is opened");
-        } catch (TimeoutException e) {
-            logger.fatal(e + "Login page is not opened");
-            driver.quit(); //todo Почему это здесь? 
-            //todo Зачем создавать новый, если у тебя уже есть TimeoutException e
-            throw new TimeoutException("Test ended with critical error");
+            new WebDriverWait(driver, Long.parseLong(config.getExplicitWait()))
+                    .until(ExpectedConditions.visibilityOf(loginButton)).isDisplayed();
+            return true;
+        } catch (TimeoutException ex) {
+            logger.error(loginButton + " is not found on page");
+            return false;
         }
+
+        //todo Почему это здесь?
+        //todo Зачем создавать новый, если у тебя уже есть TimeoutException e
+
     }
 
 
@@ -62,7 +63,7 @@ public class LoginPage extends PageBase {
 
     }
 
-    public boolean isHelloMessagePresent(String userName) {
+    public boolean isHelloMessagePresent() {
 
         //todo ну вот тут снова...
         //1. Что это и зачем
@@ -70,18 +71,21 @@ public class LoginPage extends PageBase {
         // я попросил assertHelloMessage, а в ответ получаю Web driver exceptioт причем после асерта.
         // если у меня не будет stacktrace-а, то этот метод будет последним куда я полезу искать причину ошибки
         //todo Простой вобщем-то метод, но мы по нему скоро три тома коментов составим
-        try {
-            new WebDriverWait(driver, Long.parseLong(configFileReader.getExplicitWait()))
-                    .until(ExpectedConditions.visibilityOf(helloMessage)).isDisplayed();
-            Assert.assertTrue(helloMessage.getText().contains(HELLO + userName)); //todo ну у тебя метод булевый, ну верни ты просто 
-            //helloMessage.getText().contains(HELLO + userName). 
-            //Я не понимаю, зачем ты делаешь этот чертов асерт, чем он тебе помогает????
+        //todo ну у тебя метод булевый, ну верни ты просто
+        //helloMessage.getText().contains(HELLO + userName).
+        //Я не понимаю, зачем ты делаешь этот чертов асерт, чем он тебе помогает????
+        // да что-то намудрил. Разбил на 2 метода, проверка отображения и проверка на корректность
+        return new WebDriverWait(driver, Long.parseLong(config.getExplicitWait()))
+                .until(ExpectedConditions.visibilityOf(helloMessage)).isDisplayed();
+    }
+
+    public boolean isHelloMessageCorrect(String userName) {
+
+        if (helloMessage.getText().equals(HELLO + userName)) {
+            logger.info("Hello message is correct");
             return true;
-        } catch (Exception e) { //todo это не споймает ошибку Assert и не надо делать таких широких catch. 
-            //Лови то, что считаешь допустимым
-            logger.error(e);
-            return false;
-        }
+        } else logger.error("Hello message is not correct");
+        return false;
     }
 
     public void logout() {

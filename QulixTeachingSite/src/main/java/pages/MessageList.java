@@ -15,13 +15,9 @@ public class MessageList extends PageBase {
 
     private static final Logger logger = Logger.getLogger(MessageList.class);
 
-
     public MessageList(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
-
-        //todo properties загружать как ресурс, а не через путь. MessagePage.class.getResource()
-        //todo этого здесь быть не должно. Отдельный класс для работы с конфигом
     }
 
     @FindBy(linkText = "Message List")
@@ -60,14 +56,22 @@ public class MessageList extends PageBase {
     }
 
     public boolean isMessageListTablePresent() {
-        return (new WebDriverWait(driver, Long.parseLong((configFileReader.getExplicitWait())))).
-                until(ExpectedConditions.visibilityOf(messageListTable)).isDisplayed();
+        return (new WebDriverWait(driver, Long.parseLong(config.getExplicitWait())).
+                until(ExpectedConditions.visibilityOf(messageListTable)).isDisplayed());
     }
 
     public void showMessagesOfAllUsers() {
-        allUsersCheckBox.click(); //todo А если он уже был выбран?
+        if (!allUsersCheckBox.isSelected()) {
+            allUsersCheckBox.click();
+        } //todo А если он уже был выбран?
+        //добавил проверки
     }
 
+    public void showMessagesOfCurrentUser() {
+        if (allUsersCheckBox.isSelected()) {
+            allUsersCheckBox.click();
+        }
+    }
 
     public void deleteFoundMessage(MessageData messageData) {
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[3]")).click();
@@ -77,7 +81,7 @@ public class MessageList extends PageBase {
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[1]")).click();
     }
 
-    public void modifyFoundMessage(MessageData messageData) {//todo editMessage
+    public void editFoundMessage(MessageData messageData) {//todo editMessage
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[2]")).click();
     }
 
@@ -94,9 +98,10 @@ public class MessageList extends PageBase {
             message = findMessageWithPaginator(messageData, nextPage);
         }
         if (message != null) {
-            return message; 
+            return message;
         }
         throw new NoSuchElementException("Message is not found"); //todo ну добавил бы уже какой message not found
+        //не совсем понял, я ж добавил сообщение "Message is not found"
     }
 
 
@@ -121,8 +126,7 @@ public class MessageList extends PageBase {
 
     public String createXpathForList(MessageData messageData) {
 
-        return "//tbody/tr" + "[contains(.,'" + messageData.getHeadline() + "')" + "and contains(.,'" + messageData.getText() + "')"
-                + "and contains(.,'" + messageData.getAuthor() + "')]";
+        return "//tbody/tr" + "[contains(.,'" + messageData.getHeadline() + "')" + "and contains(.,'" + messageData.getText() + "')]";
     }
 
 

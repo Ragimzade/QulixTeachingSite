@@ -14,12 +14,12 @@ public class MessageCreateAndViewTest extends TestBase {
         createMessage.submitMessageCreation();
 
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, showMessage.getMessageData());
+        Assert.assertEquals(newMessageData, showMessage.getMessageData(true));
         messageList.goToMessageList();
         Assert.assertTrue(messageList.assertMessageInList(newMessageData));
         messageList.viewFoundMessage(newMessageData);
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, showMessage.getMessageData());
+        Assert.assertEquals(newMessageData, showMessage.getMessageData(true));
         messageList.goToMessageList();
         Assert.assertTrue(messageList.assertMessageInList(newMessageData));
 

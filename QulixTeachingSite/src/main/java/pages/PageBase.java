@@ -6,15 +6,15 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import static pages.LoginPage.HELLO;
 
 public class PageBase {
-    ConfigFileReader configFileReader;
+    ConfigFileReader config;
     protected WebDriver driver;
+    protected static final String HELLO = "Hello ";
 
     public PageBase(WebDriver driver) {
         this.driver = driver;
-        configFileReader= new ConfigFileReader();
+        config = new ConfigFileReader();
     }
 
 
@@ -22,6 +22,7 @@ public class PageBase {
         String authorText = driver.findElement(By.xpath(".//span[contains(.,\"" + HELLO + "\")]")).getText();
         String author = authorText.substring((authorText.indexOf(" ")), authorText.indexOf("[")).trim();
         return author;
+
     }
 
     public void enterValue(WebElement field, String value) {
@@ -39,6 +40,7 @@ public class PageBase {
             //а почему не должно, работает
             //todo Это будет работать только с элементами, аннотированными @FindBy. Если сделать просто driver.findElement() и передать сюда 
             //работать не будет, будет другое исключение
+            //так я этот метод сделал специально для элементов с @FindBy
         }
         return exists;
     }
