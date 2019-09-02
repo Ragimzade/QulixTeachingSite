@@ -39,7 +39,7 @@ public class LoginPage extends PageBase {
     public boolean isLoginButtonPresent() {
 
         try {
-            new WebDriverWait(driver, (instance.getExplicitWait()))
+            new WebDriverWait(driver, (instance.getExplicitWaitTimeout()))
                     .until(ExpectedConditions.visibilityOf(loginButton)).isDisplayed();
             return true;
         } catch (TimeoutException ex) {
@@ -59,7 +59,7 @@ public class LoginPage extends PageBase {
     public boolean isHelloMessagePresent() {
 
         try {
-            new WebDriverWait(driver, (instance.getExplicitWait()))
+            new WebDriverWait(driver, (instance.getExplicitWaitTimeout()))
                     .until(ExpectedConditions.visibilityOf(helloMessage)).isDisplayed();
             return true;
         } catch (TimeoutException ex) {

@@ -40,7 +40,7 @@ public class ConfigFileReader {
         return prop.getProperty("creds.Password");
     }
 
-    public int getExplicitWait() {
+    public int getExplicitWaitTimeout() {
         return Integer.parseInt(prop.getProperty("timeout"));
     }
 

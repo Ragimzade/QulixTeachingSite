@@ -10,7 +10,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
 public class ShowMessage extends PageBase {
 
@@ -29,7 +28,7 @@ public class ShowMessage extends PageBase {
 
     public boolean isShowMessageFormDisplayed() {
         try {
-            new WebDriverWait(driver, (instance.getExplicitWait())).until(ExpectedConditions
+            new WebDriverWait(driver, (instance.getExplicitWaitTimeout())).until(ExpectedConditions
                     .visibilityOf(showMessagePage));
             logger.info("Message page is displayed");
             return true;

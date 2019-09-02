@@ -33,7 +33,7 @@ public class PageBase {
     }
 
 
-    public boolean isElementPresent(WebElement wrappedElement) {
+    public boolean isWrappedElementPresent(WebElement wrappedElement) {
         boolean exists = false;
         try {
             wrappedElement.getTagName();

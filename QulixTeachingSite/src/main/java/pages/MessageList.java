@@ -56,7 +56,7 @@ public class MessageList extends PageBase {
     }
 
     public boolean isMessageListTablePresent() {
-        return (new WebDriverWait(driver, (instance.getExplicitWait())).
+        return (new WebDriverWait(driver, (instance.getExplicitWaitTimeout())).
                 until(ExpectedConditions.visibilityOf(messageListTable)).isDisplayed());
     }
 
@@ -90,10 +90,10 @@ public class MessageList extends PageBase {
         if (message != null) {
             return message;
         }
-        if (isElementPresent(paginator) && getCurrentPage() != 1) {
+        if (isWrappedElementPresent(paginator) && getCurrentPage() != 1) {
             goToFirstPage();
             message = findMessageWithPaginator(messageData, nextPage);
-        } else if (isElementPresent(nextPage) && getCurrentPage() == 1) {
+        } else if (isWrappedElementPresent(nextPage) && getCurrentPage() == 1) {
             message = findMessageWithPaginator(messageData, nextPage);
         }
         if (message != null) {
@@ -105,7 +105,7 @@ public class MessageList extends PageBase {
 
     private WebElement findMessageWithPaginator(MessageData messageData, WebElement paginator) {
         WebElement message = null;
-        while (message == null && isElementPresent(paginator)) {
+        while (message == null && isWrappedElementPresent(paginator)) {
             paginator.click();
             message = findMessageOnPage(messageData);
         }
