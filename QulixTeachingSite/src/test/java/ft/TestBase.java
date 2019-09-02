@@ -1,19 +1,13 @@
 package ft;
 
-import model.ConfigFileReader;
+import utils.ConfigFileReader;
 import model.WebDriverSingleton;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import pages.*;
-import model.MessageData;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
 import java.lang.reflect.Method;
-import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 public class TestBase {
     private static final Logger logger = Logger.getLogger(TestBase.class);

@@ -4214,3 +4214,6 @@ Driver info: driver.version: unknown
 11:18:38,545  INFO main TestBase:logTestStart:55 - Start test createAndDeleteTest
 11:18:38,972  INFO main MessageList:isShowMessageFormDisplayed:34 - Message page is displayed
 11:18:39,276  INFO main TestBase:logTestStop:60 - Stop test createAndDeleteTest
+12:33:37,561  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+12:33:37,972  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+12:33:38,251  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest

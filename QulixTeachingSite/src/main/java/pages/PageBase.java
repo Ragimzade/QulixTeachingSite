@@ -1,6 +1,6 @@
 package pages;
 
-import model.ConfigFileReader;
+import utils.ConfigFileReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
