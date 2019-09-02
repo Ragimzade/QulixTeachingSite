@@ -8,13 +8,15 @@ import org.openqa.selenium.WebElement;
 
 
 public class PageBase {
-    ConfigFileReader config;
+
+    private ConfigFileReader configFileReader;
+    ConfigFileReader instance = ConfigFileReader.getInstance();
     protected WebDriver driver;
     protected static final String HELLO = "Hello ";
 
     public PageBase(WebDriver driver) {
         this.driver = driver;
-        config = new ConfigFileReader();
+
     }
 
 
@@ -31,10 +33,10 @@ public class PageBase {
     }
 
 
-    public boolean isElementPresent(WebElement element) {
+    public boolean isElementPresent(WebElement wrappedElement) {
         boolean exists = false;
         try {
-            element.getTagName();
+            wrappedElement.getTagName();
             exists = true;
         } catch (NoSuchElementException e) {//todo работает? не должно
             //а почему не должно, работает

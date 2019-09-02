@@ -15,7 +15,7 @@ public class MessageCreateAndDeleteTest extends TestBase {
         createMessage.submitMessageCreation();
 
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, showMessage.getMessageData(true));
+        Assert.assertEquals(newMessageData, showMessage.getMessageData());
         messageList.goToMessageList();
         Assert.assertTrue(messageList.assertMessageInList(newMessageData));
 

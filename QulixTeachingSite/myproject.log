@@ -4178,3 +4178,39 @@ Driver info: driver.version: unknown
 12:39:11,519  INFO main TestBase:logTestStart:54 - Start test createAndDeleteTest
 12:39:11,917  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
 12:39:12,194  INFO main TestBase:logTestStop:59 - Stop test createAndDeleteTest
+15:53:57,541  INFO main TestBase:logTestStart:54 - Start test createAndDeleteTest
+15:53:58,461  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:53:58,751  INFO main TestBase:logTestStop:59 - Stop test createAndDeleteTest
+19:06:42,435  INFO main TestBase:logTestStart:54 - Start test createAndModifyTest
+19:06:42,874  INFO main MessageList:isShowMessageFormDisplayed:34 - Message page is displayed
+19:06:43,798  INFO main TestBase:logTestStop:59 - Stop test createAndModifyTest
+19:07:18,684  INFO main TestBase:logTestStart:54 - Start test createAndModifyTest
+19:07:19,094  INFO main MessageList:isShowMessageFormDisplayed:34 - Message page is displayed
+19:07:19,385  INFO main TestBase:logTestStop:59 - Stop test createAndModifyTest
+18:31:49,862  INFO main TestBase:logTestStart:54 - Start test createAndModifyTest
+18:31:50,801  INFO main MessageList:isShowMessageFormDisplayed:34 - Message page is displayed
+18:31:51,815  INFO main TestBase:logTestStop:59 - Stop test createAndModifyTest
+18:32:09,061  INFO main TestBase:logTestStart:54 - Start test createAndModifyTest
+18:32:09,427  INFO main MessageList:isShowMessageFormDisplayed:34 - Message page is displayed
+18:32:09,694  INFO main TestBase:logTestStop:59 - Stop test createAndModifyTest
+18:43:20,692  INFO main TestBase:logTestStart:54 - Start test viewOthersMessagesTest
+18:43:21,065  INFO main MessageList:isShowMessageFormDisplayed:34 - Message page is displayed
+18:43:21,324  INFO main MessageList:isShowMessageFormDisplayed:34 - Message page is displayed
+18:43:21,837 ERROR main MessageList:isHelloMessageCorrect:75 - Hello message is not correct
+18:43:22,247  INFO main MessageList:isShowMessageFormDisplayed:34 - Message page is displayed
+18:43:22,487  INFO main MessageList:isShowMessageFormDisplayed:34 - Message page is displayed
+18:43:22,967 ERROR main MessageList:isHelloMessageCorrect:75 - Hello message is not correct
+18:43:23,681  INFO main TestBase:logTestStop:59 - Stop test viewOthersMessagesTest
+18:43:47,807  INFO main TestBase:logTestStart:54 - Start test viewOthersMessagesTest
+18:43:48,185  INFO main MessageList:isShowMessageFormDisplayed:34 - Message page is displayed
+18:43:48,419  INFO main MessageList:isShowMessageFormDisplayed:34 - Message page is displayed
+18:43:49,842 ERROR main MessageList:isHelloMessagePresent:65 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[contains(.,"Hello ")]' is not found on page
+18:43:49,856  INFO main TestBase:logTestStop:59 - Stop test viewOthersMessagesTest
+11:15:09,931  INFO main TestBase:logTestStart:55 - Start test createAndDeleteTest
+11:15:09,944  INFO main TestBase:logTestStop:60 - Stop test createAndDeleteTest
+11:16:43,681  INFO main TestBase:logTestStart:55 - Start test createAndDeleteTest
+11:16:44,482  INFO main MessageList:isShowMessageFormDisplayed:34 - Message page is displayed
+11:16:44,779  INFO main TestBase:logTestStop:60 - Stop test createAndDeleteTest
+11:18:38,545  INFO main TestBase:logTestStart:55 - Start test createAndDeleteTest
+11:18:38,972  INFO main MessageList:isShowMessageFormDisplayed:34 - Message page is displayed
+11:18:39,276  INFO main TestBase:logTestStop:60 - Stop test createAndDeleteTest

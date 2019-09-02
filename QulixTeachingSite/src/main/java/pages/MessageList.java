@@ -56,15 +56,14 @@ public class MessageList extends PageBase {
     }
 
     public boolean isMessageListTablePresent() {
-        return (new WebDriverWait(driver, Long.parseLong(config.getExplicitWait())).
+        return (new WebDriverWait(driver, (instance.getExplicitWait())).
                 until(ExpectedConditions.visibilityOf(messageListTable)).isDisplayed());
     }
 
     public void showMessagesOfAllUsers() {
         if (!allUsersCheckBox.isSelected()) {
             allUsersCheckBox.click();
-        } //todo А если он уже был выбран?
-        //добавил проверки
+        }
     }
 
     public void showMessagesOfCurrentUser() {
@@ -81,7 +80,7 @@ public class MessageList extends PageBase {
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[1]")).click();
     }
 
-    public void editFoundMessage(MessageData messageData) {//todo editMessage
+    public void editFoundMessage(MessageData messageData) {
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[2]")).click();
     }
 
@@ -100,8 +99,7 @@ public class MessageList extends PageBase {
         if (message != null) {
             return message;
         }
-        throw new NoSuchElementException("Message is not found"); //todo ну добавил бы уже какой message not found
-        //не совсем понял, я ж добавил сообщение "Message is not found"
+        throw new NoSuchElementException("Message is not found");
     }
 
 

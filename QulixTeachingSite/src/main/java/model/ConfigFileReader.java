@@ -1,22 +1,29 @@
 package model;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Properties;
 
 public class ConfigFileReader {
+    private static ConfigFileReader instance;
+    private Properties prop;
 
-    protected Properties prop = null;
-    protected InputStream input = ConfigFileReader.class.getClassLoader().getResourceAsStream("config.properties"); //todo я говорил, использовать class.getResourceAsStream
 
-    public ConfigFileReader() {
+    private ConfigFileReader() {
         prop = new Properties();
         try {
-            prop.load(input);
+            prop.load(ConfigFileReader.class.getClassLoader().getResourceAsStream("config.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
+
+    public static ConfigFileReader getInstance() {
+        if (instance == null) {
+            instance = new ConfigFileReader();
+        }
+        return instance;
+    }
+
 
     public String getBaseUrl() {
         String url = prop.getProperty("baseUrl");
@@ -33,8 +40,8 @@ public class ConfigFileReader {
         return prop.getProperty("creds.Password");
     }
 
-    public String getExplicitWait() {
-        return prop.getProperty("explicitWaits");
+    public int getExplicitWait() {
+        return Integer.parseInt(prop.getProperty("timeout"));
     }
 
 

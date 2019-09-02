@@ -14,12 +14,12 @@ public class ViewOthersMessagesTest extends TestBase {
                 .setHeadline("Edited messagfe").setText("new message").setAuthor(showMessage.getCurrentUser()));
         createMessage.submitMessageCreation();
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, showMessage.getMessageData(true));
+        Assert.assertEquals(newMessageData, showMessage.getMessageData());
         messageList.goToMessageList();
         Assert.assertTrue(messageList.assertMessageInList(newMessageData));
         messageList.viewFoundMessage(newMessageData);
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, showMessage.getMessageData(true));
+        Assert.assertEquals(newMessageData, showMessage.getMessageData());
 
         messageList.goToMessageList();
         Assert.assertTrue(messageList.assertMessageInList(newMessageData));
@@ -39,13 +39,13 @@ public class ViewOthersMessagesTest extends TestBase {
         createMessage.submitMessageCreation();
 
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(secondMessageData, showMessage.getMessageData(true));
+        Assert.assertEquals(secondMessageData, showMessage.getMessageData());
 
         messageList.goToMessageList();
         Assert.assertTrue(messageList.assertMessageInList(secondMessageData));
         messageList.viewFoundMessage(secondMessageData);
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(secondMessageData, showMessage.getMessageData(true));
+        Assert.assertEquals(secondMessageData, showMessage.getMessageData());
         messageList.goToMessageList();
         Assert.assertTrue(messageList.assertMessageInList(secondMessageData));
         loginPage.logout();

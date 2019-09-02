@@ -1,6 +1,5 @@
 package pages;
 
-import model.ConfigFileReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,7 +20,7 @@ public class MainPage extends PageBase {
 
     public void goToMainPage() {
 
-        driver.get(config.getBaseUrl());
+        driver.get(instance.getBaseUrl());
         Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"pageBody\"]/h1")).isDisplayed());
     }
 

@@ -23,23 +23,24 @@ public class TestBase {
     MessageList messageList;
     ShowMessage showMessage;
     private WebDriverSingleton webDriverSingleton;
+    private ConfigFileReader configFileReader;
 
 
     @BeforeClass
     public void init() {
 
-
+        ConfigFileReader instance = ConfigFileReader.getInstance();
         WebDriver driver = webDriverSingleton.getInstance();
         mainPage = new MainPage(driver);
         loginPage = new LoginPage(driver);
         messageList = new MessageList(driver);
         createMessage = new CreateMessage(driver);
         showMessage = new ShowMessage(driver);
-        ConfigFileReader config = new ConfigFileReader();
+
         mainPage.goToMainPage();
         mainPage.goToLoginPage();
         loginPage.isLoginButtonPresent();
-        loginPage.login(config.getLogin(), config.getPassword());
+        loginPage.login(instance.getLogin(), instance.getPassword());
         messageList.isMessageListTablePresent();
 
     }

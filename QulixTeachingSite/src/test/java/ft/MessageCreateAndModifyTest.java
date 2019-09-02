@@ -12,17 +12,18 @@ public class MessageCreateAndModifyTest extends TestBase {
 
         createMessage.initMessageCreation();
         MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
-                .setHeadline("Edited message").setText("edited setText"));
+                .setHeadline("Edited message").setText("edited setText")).setAuthor(showMessage.getCurrentUser());
         System.out.println(newMessageData);
         createMessage.submitMessageCreation();
         showMessage.isShowMessageFormDisplayed();
-        Assert.assertEquals(newMessageData, showMessage.getMessageData(false));
+        Assert.assertEquals(newMessageData, showMessage.getMessageData());
         messageList.goToMessageList();
         System.out.println(messageList.createXpathForList(newMessageData));
         Assert.assertTrue(messageList.assertMessageInList(newMessageData));
         messageList.editFoundMessage(newMessageData);
-        System.out.println(showMessage.getEditFormData());
-        Assert.assertEquals(newMessageData, showMessage.getEditFormData());
+
+        Assert.assertEquals(showMessage.getEditFormData().getHeadline(), newMessageData.getHeadline());
+        Assert.assertEquals(showMessage.getEditFormData().getText(), newMessageData.getText());
 
         MessageData editedMessage = createMessage.fillMessageForm(new MessageData()
                 .setHeadline("Modified message").setText("createAndModifyTest"));
