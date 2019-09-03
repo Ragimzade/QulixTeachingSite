@@ -2,10 +2,7 @@ package pages;
 
 import model.MessageData;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -56,9 +53,16 @@ public class MessageList extends PageBase {
     }
 
     public boolean isMessageListTablePresent() {
-        return (new WebDriverWait(driver, (instance.getExplicitWaitTimeout())).
-                until(ExpectedConditions.visibilityOf(messageListTable)).isDisplayed());
+        try {
+            return (new WebDriverWait(driver, (instance.getExplicitWaitTimeout())).
+                    until(ExpectedConditions.visibilityOf(messageListTable)).isDisplayed());
+
+        } catch (TimeoutException e) {
+            logger.error(messageListTable + " is not found on page");
+            return false;
+        }
     }
+
 
     public void showMessagesOfAllUsers() {
         if (!allUsersCheckBox.isSelected()) {
@@ -90,10 +94,10 @@ public class MessageList extends PageBase {
         if (message != null) {
             return message;
         }
-        if (isWrappedElementPresent(paginator) && getCurrentPage() != 1) {
+        if (isElementPresent(paginator) && getCurrentPage() != 1) {
             goToFirstPage();
             message = findMessageWithPaginator(messageData, nextPage);
-        } else if (isWrappedElementPresent(nextPage) && getCurrentPage() == 1) {
+        } else if (isElementPresent(nextPage) && getCurrentPage() == 1) {
             message = findMessageWithPaginator(messageData, nextPage);
         }
         if (message != null) {
@@ -105,7 +109,7 @@ public class MessageList extends PageBase {
 
     private WebElement findMessageWithPaginator(MessageData messageData, WebElement paginator) {
         WebElement message = null;
-        while (message == null && isWrappedElementPresent(paginator)) {
+        while (message == null && isElementPresent(paginator)) {
             paginator.click();
             message = findMessageOnPage(messageData);
         }

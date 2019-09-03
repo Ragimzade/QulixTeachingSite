@@ -4217,3 +4217,443 @@ Driver info: driver.version: unknown
 12:33:37,561  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
 12:33:37,972  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
 12:33:38,251  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+17:32:45,944  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+17:32:46,384  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:32:46,694  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+17:32:47,114  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+17:32:47,482  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+17:32:47,899  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+17:32:48,241  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:32:49,100  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+17:32:49,493  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+17:32:49,832  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:32:50,051  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:32:50,306  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+17:32:50,689  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+17:32:51,046  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:32:51,229  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+17:32:51,580  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+17:32:51,902  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:32:52,278  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:32:52,649  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+17:32:53,052  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+17:32:53,368  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:32:53,595  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:32:54,013 ERROR main MessageList:isHelloMessageCorrect:76 - Hello message is not correct
+17:32:54,353  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:32:54,569  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:32:54,974 ERROR main MessageList:isHelloMessageCorrect:76 - Hello message is not correct
+17:32:55,280  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+17:33:28,577  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+17:33:28,922  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:33:29,165  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:33:29,592 ERROR main MessageList:isHelloMessageCorrect:76 - Hello message is not correct
+17:33:29,934  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:33:30,141  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+17:33:30,542 ERROR main MessageList:isHelloMessageCorrect:76 - Hello message is not correct
+17:33:30,834  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+13:02:06,161  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+13:02:06,173  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+13:03:01,652  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+13:03:01,655  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+13:27:01,972 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@value='Login']' is not found on page
+13:27:02,204  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+13:27:02,207  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+13:27:03,413 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@value='Login']' is not found on page
+13:27:03,562  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+13:27:03,563  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+13:27:04,776 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@value='Login']' is not found on page
+13:27:04,910  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+13:27:04,911  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+13:27:06,073 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@value='Login']' is not found on page
+13:27:06,210  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+13:27:06,212  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+13:27:07,384 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@value='Login']' is not found on page
+13:27:07,512  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+13:27:07,513  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+13:27:08,664 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@value='Login']' is not found on page
+13:27:08,792  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+13:27:08,793  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+13:27:09,982 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@value='Login']' is not found on page
+13:27:10,106  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+13:27:10,107  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+13:27:40,824  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+13:27:41,419  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:27:41,755  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+13:27:42,153  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+13:27:42,505  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+13:27:42,870  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+13:27:43,193  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:27:44,007  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+13:27:44,364  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+13:27:44,688  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:27:44,914  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:27:45,173  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+13:27:45,515  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+13:27:45,824  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:27:46,063  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+13:27:46,417  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+13:27:47,306  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:27:48,216  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:27:49,160  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+13:27:49,514  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+13:27:50,105  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:27:50,331  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:27:50,876 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+13:27:51,227  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:27:51,446  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:27:51,861 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+13:27:52,210  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+13:29:46,878  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+13:29:47,269  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:29:49,009 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:29:49,010  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+13:29:49,382  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+13:29:50,939 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:29:50,940  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+13:29:51,312  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+13:29:51,622  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:29:53,506 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:29:53,507  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+13:29:53,875  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+13:29:54,178  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:29:54,598  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:29:56,266 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:29:56,267  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+13:29:56,637  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+13:29:56,953  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:29:58,575 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:29:58,576  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+13:29:58,944  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+13:29:59,250  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:29:59,612  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:30:01,304 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:30:02,622 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:30:02,623  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+13:30:02,981  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+13:30:03,280  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:30:03,484  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:30:03,892 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+13:30:04,225  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:30:04,441  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:30:04,850 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+13:30:06,304 ERROR main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:30:06,395  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+13:52:49,996  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+13:52:50,424  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:52:50,686  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:52:51,130 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+13:52:51,507  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:52:51,737  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:52:52,186 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+13:53:01,263  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:55:42,979  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+13:55:43,373  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:55:45,119  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:55:45,121  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+13:55:45,497  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+13:55:47,072  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:55:47,073  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+13:55:47,451  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+13:55:47,786  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:55:49,678  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:55:49,679  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+13:55:50,059  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+13:55:50,358  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:55:50,766  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:55:52,433  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:55:52,434  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+13:55:52,845  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+13:55:53,169  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:55:54,772  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:55:54,773  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+13:55:55,120  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+13:55:55,448  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:55:55,860  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:55:58,113  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:55:59,446  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:55:59,446  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+13:55:59,799  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+13:56:00,103  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:56:00,324  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:56:00,788 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+13:56:01,138  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:56:01,861  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:56:02,281 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+13:56:04,220  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:56:04,305  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+13:56:40,945  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+13:56:48,321  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+13:56:48,673  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:56:49,157  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:56:49,804 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+13:56:50,149  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:56:50,354  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:56:50,765 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+13:56:52,649  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:56:53,974  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+13:56:54,300  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+13:58:22,835  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+13:58:23,203  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:58:23,680  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:58:24,300 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+13:58:24,677  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:58:24,861  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+13:59:25,430  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+13:59:26,227  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:59:26,744  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:59:27,438 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+13:59:27,811  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+13:59:28,000  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+14:00:12,550  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+14:00:12,909  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:00:14,341  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+14:00:14,345  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+14:00:14,720  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+14:00:16,278  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+14:00:16,279  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+14:00:16,664  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+14:00:16,991  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:00:19,455  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+14:00:19,456  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+14:00:19,821  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+14:00:20,165  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:00:21,540  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+14:00:21,541  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+14:00:21,920  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+14:00:22,338  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:00:23,674  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+14:00:23,675  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+14:00:24,068  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+14:00:24,388  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:00:24,755  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:00:26,101  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+14:00:26,102  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+14:00:26,484  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+14:00:26,795  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:00:27,237  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:00:27,848 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+14:00:28,197  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:00:28,361  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+14:52:57,384  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+14:52:58,174  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:52:58,515  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+14:52:58,937  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+14:52:59,457  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+14:52:59,860  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+14:53:00,197  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:01,350  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+14:53:01,720  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+14:53:02,053  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:02,525  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:03,125  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+14:53:03,487  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+14:53:03,818  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:04,371  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+14:53:04,769  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+14:53:05,089  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:05,447  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:06,130  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+14:53:06,492  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+14:53:06,796  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:07,147  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:07,719 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+14:53:08,065  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:08,209  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+14:53:47,632  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+14:53:47,996  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:48,176  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+14:53:48,591  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+14:53:48,915  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+14:53:49,264  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+14:53:49,584  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:49,721  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+14:53:50,070  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+14:53:50,399  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:50,527  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+14:53:50,868  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+14:53:51,242  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:51,361  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+14:53:51,721  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+14:53:52,026  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:52,377  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:52,506  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+14:53:52,864  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+14:53:53,163  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:53:53,297  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+14:54:41,864  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+14:54:42,690  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:54:42,876  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+14:54:43,269  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+14:54:43,603  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+14:54:43,972  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+14:54:44,312  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:54:44,455  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+14:54:44,803  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+14:54:45,122  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:54:45,470  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:54:45,837  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+14:54:46,205  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+14:54:46,521  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:54:46,851  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+14:54:47,210  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+14:54:47,526  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:54:47,896  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:54:48,492  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+14:54:48,866  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+14:54:49,187  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:54:49,521  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:54:50,075 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+14:54:50,410  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:54:50,633  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+14:54:51,045 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+14:54:52,096  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+15:21:08,101  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+15:21:08,739  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:21:09,343  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+15:21:09,762  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+15:21:10,277  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+15:21:10,672  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+15:21:11,011  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:21:12,201  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+15:21:12,558  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+15:21:12,863  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:21:13,208  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:21:13,712  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+15:21:14,076  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+15:21:14,400  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:21:14,875  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+15:21:15,258  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+15:21:15,580  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:21:15,930  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:21:16,673  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+15:21:17,023  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+15:21:17,352  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:21:17,720  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:21:18,281 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+15:21:18,617  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:21:18,767  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+15:22:19,144  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+15:22:19,509  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:22:21,247  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+15:22:21,253  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+15:22:21,638  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+15:22:23,181  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+15:22:23,181  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+15:22:23,539  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+15:22:23,865  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:22:26,142  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+15:22:26,143  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+15:22:26,502  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+15:22:26,829  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:22:27,246  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:22:28,888  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+15:22:28,889  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+15:22:29,236  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+15:22:29,532  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:22:31,143  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+15:22:31,144  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+15:22:31,509  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+15:22:31,810  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:22:32,178  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:22:33,768  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+15:22:33,772  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+15:22:34,130  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+15:22:34,427  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:22:34,850  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:22:35,457 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+15:22:35,793  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:22:35,953  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+15:22:48,960  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+15:22:49,303  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:22:49,682  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:22:51,793  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+15:22:53,155  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+15:22:53,157  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+15:23:06,608  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+15:23:06,948  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:23:08,359  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+15:23:08,363  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+15:23:08,736  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+15:23:10,272  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+15:23:10,272  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+15:23:10,654  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+15:23:10,988  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:23:13,539  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+15:23:13,540  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+15:23:13,905  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+15:23:14,216  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:23:14,726  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:23:16,505  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+15:23:16,506  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+15:23:16,861  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+15:23:17,166  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:23:18,901  INFO main PageBase:isElementPresent:53 - Proxy element for: DefaultElementLocator 'By.xpath: .//a[@class="nextLink"]' is not found on page
+15:23:18,902  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+15:23:19,273  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+15:23:19,576  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:23:19,936  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:23:20,780  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+15:23:21,123  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+15:23:21,425  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:23:21,841  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:23:22,476 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+15:23:22,815  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:23:22,978  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+15:23:32,943  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+15:23:33,377  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:23:34,508  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+15:24:04,791  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+15:24:05,133  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:24:05,423  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+15:24:05,784  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+15:24:06,128  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+15:24:07,561  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+15:24:07,884  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:24:08,598  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+15:24:08,946  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+15:24:09,278  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:24:09,500  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:24:09,746  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+15:24:10,088  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+15:24:10,419  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:24:10,608  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+15:24:10,949  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+15:24:11,259  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:24:11,607  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:24:11,997  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+15:24:12,359  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+15:24:12,677  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:24:12,890  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:24:13,301 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+15:24:13,632  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:24:13,863  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:24:14,276 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+15:24:14,987  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+15:25:36,314  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+15:25:36,654  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:25:36,956  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+15:25:37,322  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+15:25:37,714  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+15:25:38,122  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+15:25:38,444  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:25:39,089  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+15:25:39,410  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+15:25:39,712  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:25:39,920  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:25:40,144  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+15:25:40,483  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+15:25:40,790  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:25:40,963  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+15:25:41,290  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+15:25:41,591  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:25:41,937  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:25:42,307  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+15:25:42,665  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+15:25:42,968  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:25:43,167  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:25:43,563 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+15:25:43,897  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:25:44,107  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:25:44,504 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
+15:25:45,166  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest

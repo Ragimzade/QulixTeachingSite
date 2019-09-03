@@ -36,16 +36,10 @@ public class LoginPage extends PageBase {
     @FindBy(xpath = ".//a[@href=\"/QulixTeachingSite/user/logout\"]")
     private WebElement logoutButton;
 
+
     public boolean isLoginButtonPresent() {
 
-        try {
-            new WebDriverWait(driver, (instance.getExplicitWaitTimeout()))
-                    .until(ExpectedConditions.visibilityOf(loginButton)).isDisplayed();
-            return true;
-        } catch (TimeoutException ex) {
-            logger.error(loginButton + " is not found on page");
-            return false;
-        }
+        return isElementPresent(loginButton);
 
     }
 
@@ -58,15 +52,10 @@ public class LoginPage extends PageBase {
 
     public boolean isHelloMessagePresent() {
 
-        try {
-            new WebDriverWait(driver, (instance.getExplicitWaitTimeout()))
-                    .until(ExpectedConditions.visibilityOf(helloMessage)).isDisplayed();
-            return true;
-        } catch (TimeoutException ex) {
-            logger.error(helloMessage + " is not found on page");
-            return false;
-        }
+        return isElementPresent(helloMessage);
     }
+
+
 
     public boolean isHelloMessageCorrect(String userName) {
 

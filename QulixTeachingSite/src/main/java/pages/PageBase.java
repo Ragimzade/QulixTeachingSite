@@ -1,14 +1,15 @@
 package pages;
 
+import org.apache.log4j.Logger;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.ConfigFileReader;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 
 public class PageBase {
 
+    private static final Logger logger = Logger.getLogger(PageBase.class);
     private ConfigFileReader configFileReader;
     ConfigFileReader instance = ConfigFileReader.getInstance();
     protected WebDriver driver;
@@ -33,17 +34,15 @@ public class PageBase {
     }
 
 
-    public boolean isWrappedElementPresent(WebElement wrappedElement) {
-        boolean exists = false;
+
+    public boolean isElementPresent(WebElement element) {
         try {
-            wrappedElement.getTagName();
-            exists = true;
-        } catch (NoSuchElementException e) {//todo работает? не должно
-            //а почему не должно, работает
-            //todo Это будет работать только с элементами, аннотированными @FindBy. Если сделать просто driver.findElement() и передать сюда 
-            //работать не будет, будет другое исключение
-            //так я этот метод сделал специально для элементов с @FindBy
+            new WebDriverWait(driver, (instance.getExplicitWaitTimeout()))
+                    .until(ExpectedConditions.visibilityOf(element)).isDisplayed();
+            return true;
+        } catch (TimeoutException ex) {
+            logger.info(element + " is not found on page");
+            return false;
         }
-        return exists;
     }
 }

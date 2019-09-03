@@ -11,7 +11,7 @@ public class ViewOthersMessagesTest extends TestBase {
     public void viewOthersMessagesTest() {
         createMessage.initMessageCreation();
         MessageData newMessageData = createMessage.fillMessageForm(new MessageData()
-                .setHeadline("Edited messagfe").setText("new message").setAuthor(showMessage.getCurrentUser()));
+                .setHeadline("Edited sdfadsfadf").setText("new message").setAuthor(showMessage.getCurrentUser()));
         createMessage.submitMessageCreation();
         showMessage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, showMessage.getMessageData());
@@ -33,7 +33,7 @@ public class ViewOthersMessagesTest extends TestBase {
 
         createMessage.initMessageCreation();
         MessageData secondMessageData = createMessage.fillMessageForm(new MessageData()
-                .setHeadline("Edited messagfe")
+                .setHeadline("Edited 123213")
                 .setText("edited setText")
                 .setAuthor(showMessage.getCurrentUser()));
         createMessage.submitMessageCreation();
