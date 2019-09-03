@@ -4657,3 +4657,30 @@ Driver info: driver.version: unknown
 15:25:44,107  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
 15:25:44,504 ERROR main MessageList:isHelloMessageCorrect:65 - Hello message is not correct
 15:25:45,166  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest
+15:32:16,536  INFO main TestBase:logTestStart:49 - Start test createAndDeleteTest
+15:32:16,953  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:32:17,247  INFO main TestBase:logTestStop:54 - Stop test createAndDeleteTest
+15:32:17,601  INFO main TestBase:logTestStart:49 - Start test createAndExitTest
+15:32:17,979  INFO main TestBase:logTestStop:54 - Stop test createAndExitTest
+15:32:18,342  INFO main TestBase:logTestStart:49 - Start test createAndModifyTest
+15:32:18,646  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:32:19,300  INFO main TestBase:logTestStop:54 - Stop test createAndModifyTest
+15:32:19,649  INFO main TestBase:logTestStart:49 - Start test messageCreationAndViewTest
+15:32:19,964  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:32:20,163  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:32:20,388  INFO main TestBase:logTestStop:54 - Stop test messageCreationAndViewTest
+15:32:20,733  INFO main TestBase:logTestStart:49 - Start test messageCreationTest
+15:32:21,048  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:32:21,250  INFO main TestBase:logTestStop:54 - Stop test messageCreationTest
+15:32:21,594  INFO main TestBase:logTestStart:49 - Start test doubleCreateTest
+15:32:21,909  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:32:22,267  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:32:22,661  INFO main TestBase:logTestStop:54 - Stop test doubleCreateTest
+15:32:23,014  INFO main TestBase:logTestStart:49 - Start test viewOthersMessagesTest
+15:32:23,326  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:32:23,526  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:32:23,922 ERROR main MessageList:isHelloMessageCorrect:62 - Hello message is not correct
+15:32:24,260  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:32:24,489  INFO main MessageList:isShowMessageFormDisplayed:33 - Message page is displayed
+15:32:24,883 ERROR main MessageList:isHelloMessageCorrect:62 - Hello message is not correct
+15:32:25,574  INFO main TestBase:logTestStop:54 - Stop test viewOthersMessagesTest

@@ -10,7 +10,6 @@ import utils.ConfigFileReader;
 public class PageBase {
 
     private static final Logger logger = Logger.getLogger(PageBase.class);
-    private ConfigFileReader configFileReader;
     ConfigFileReader instance = ConfigFileReader.getInstance();
     protected WebDriver driver;
     protected static final String HELLO = "Hello ";
