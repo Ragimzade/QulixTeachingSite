@@ -27,15 +27,7 @@ public class ShowMessage extends PageBase {
 
 
     public boolean isShowMessageFormDisplayed() {
-        try {
-            new WebDriverWait(driver, (config.getExplicitWaitTimeout())).until(ExpectedConditions
-                    .visibilityOf(showMessagePage));
-            logger.info("Message page is displayed");
-            return true;
-        } catch (TimeoutException ex) {
-            logger.error("Message page is not displayed " + ex);
-            return false;
-        }
+        return isElementPresent(showMessagePage);
     }
 
     public MessageData getEditFormData() {

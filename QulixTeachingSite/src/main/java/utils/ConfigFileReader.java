@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigFileReader {
-    private static ConfigFileReader config;
+    private static ConfigFileReader instance;
     private Properties prop;
 
 
@@ -18,10 +18,10 @@ public class ConfigFileReader {
     }
 
     public static ConfigFileReader getInstance() {
-        if (config == null) {
-            config = new ConfigFileReader();
+        if (instance == null) {
+            instance = new ConfigFileReader();
         }
-        return config;
+        return instance;
     }
 
 

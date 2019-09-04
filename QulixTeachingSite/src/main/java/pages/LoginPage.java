@@ -53,7 +53,6 @@ public class LoginPage extends PageBase {
     }
 
 
-
     public boolean isHelloMessageCorrect(String userName) {
 
         if (helloMessage.getText().equals(HELLO + userName)) {
