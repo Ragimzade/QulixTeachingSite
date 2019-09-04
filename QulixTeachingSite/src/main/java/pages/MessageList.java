@@ -2,11 +2,12 @@ package pages;
 
 import model.MessageData;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MessageList extends PageBase {
 
@@ -53,16 +54,8 @@ public class MessageList extends PageBase {
     }
 
     public boolean isMessageListTablePresent() {
-        try {
-            return (new WebDriverWait(driver, (instance.getExplicitWaitTimeout())).
-                    until(ExpectedConditions.visibilityOf(messageListTable)).isDisplayed());
-
-        } catch (TimeoutException e) {
-            logger.error(messageListTable + " is not found on page");
-            return false;
-        }
+        return isElementPresent(messageListTable);
     }
-
 
     public void showMessagesOfAllUsers() {
         if (!allUsersCheckBox.isSelected()) {
@@ -88,7 +81,6 @@ public class MessageList extends PageBase {
         findMessageInMessageList(messageData).findElement(By.xpath(".//a[2]")).click();
     }
 
-
     private WebElement findMessageInMessageList(MessageData messageData) {
         WebElement message = findMessageOnPage(messageData);
         if (message != null) {
@@ -105,7 +97,6 @@ public class MessageList extends PageBase {
         }
         throw new NoSuchElementException("Message is not found");
     }
-
 
     private WebElement findMessageWithPaginator(MessageData messageData, WebElement paginator) {
         WebElement message = null;
@@ -130,7 +121,6 @@ public class MessageList extends PageBase {
 
         return "//tbody/tr" + "[contains(.,'" + messageData.getHeadline() + "')" + "and contains(.,'" + messageData.getText() + "')]";
     }
-
 
     public boolean assertMessageInList(MessageData messageData) {
         try {

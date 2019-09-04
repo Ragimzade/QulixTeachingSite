@@ -28,7 +28,7 @@ public class ShowMessage extends PageBase {
 
     public boolean isShowMessageFormDisplayed() {
         try {
-            new WebDriverWait(driver, (instance.getExplicitWaitTimeout())).until(ExpectedConditions
+            new WebDriverWait(driver, (config.getExplicitWaitTimeout())).until(ExpectedConditions
                     .visibilityOf(showMessagePage));
             logger.info("Message page is displayed");
             return true;

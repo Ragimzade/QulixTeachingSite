@@ -15,8 +15,10 @@ public class ViewOthersMessagesTest extends TestBase {
         createMessage.submitMessageCreation();
         showMessage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, showMessage.getMessageData());
+
         messageList.goToMessageList();
         Assert.assertTrue(messageList.assertMessageInList(newMessageData));
+
         messageList.viewFoundMessage(newMessageData);
         showMessage.isShowMessageFormDisplayed();
         Assert.assertEquals(newMessageData, showMessage.getMessageData());
@@ -24,7 +26,6 @@ public class ViewOthersMessagesTest extends TestBase {
         messageList.goToMessageList();
         Assert.assertTrue(messageList.assertMessageInList(newMessageData));
         loginPage.logout();
-
 
         loginPage.login("jdoe", "password");
         loginPage.isHelloMessagePresent();

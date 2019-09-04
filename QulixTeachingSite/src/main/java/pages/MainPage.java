@@ -20,7 +20,7 @@ public class MainPage extends PageBase {
 
     public void goToMainPage() {
 
-        driver.get(instance.getBaseUrl());
+        driver.get(config.getBaseUrl());
         Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"pageBody\"]/h1")).isDisplayed());
     }
 

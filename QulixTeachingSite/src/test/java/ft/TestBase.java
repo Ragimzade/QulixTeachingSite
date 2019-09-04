@@ -23,7 +23,7 @@ public class TestBase {
     @BeforeClass
     public void init() {
 
-        ConfigFileReader instance = ConfigFileReader.getInstance();
+        ConfigFileReader config = configFileReader.getInstance();
         WebDriver driver = webDriverSingleton.getInstance();
         mainPage = new MainPage(driver);
         loginPage = new LoginPage(driver);
@@ -34,7 +34,7 @@ public class TestBase {
         mainPage.goToMainPage();
         mainPage.goToLoginPage();
         loginPage.isLoginButtonPresent();
-        loginPage.login(instance.getLogin(), instance.getPassword());
+        loginPage.login(config.getLogin(), config.getPassword());
         messageList.isMessageListTablePresent();
 
     }

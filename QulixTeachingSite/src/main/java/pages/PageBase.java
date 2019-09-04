@@ -10,13 +10,13 @@ import utils.ConfigFileReader;
 public class PageBase {
 
     private static final Logger logger = Logger.getLogger(PageBase.class);
-    ConfigFileReader instance = ConfigFileReader.getInstance();
+    protected ConfigFileReader configFileReader;
+    ConfigFileReader config = configFileReader.getInstance();
     protected WebDriver driver;
     protected static final String HELLO = "Hello ";
 
     public PageBase(WebDriver driver) {
         this.driver = driver;
-
     }
 
 
@@ -24,7 +24,6 @@ public class PageBase {
         String authorText = driver.findElement(By.xpath(".//span[contains(.,\"" + HELLO + "\")]")).getText();
         String author = authorText.substring((authorText.indexOf(" ")), authorText.indexOf("[")).trim();
         return author;
-
     }
 
     public void enterValue(WebElement field, String value) {
@@ -33,10 +32,9 @@ public class PageBase {
     }
 
 
-
     public boolean isElementPresent(WebElement element) {
         try {
-            new WebDriverWait(driver, (instance.getExplicitWaitTimeout()))
+            new WebDriverWait(driver, (config.getExplicitWaitTimeout()))
                     .until(ExpectedConditions.visibilityOf(element)).isDisplayed();
             return true;
         } catch (TimeoutException ex) {
