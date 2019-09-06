@@ -1,20 +1,21 @@
 package pages;
 
-import model.ConfigFileReader;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.ConfigFileReader;
 
-import static pages.LoginPage.HELLO;
 
 public class PageBase {
-    ConfigFileReader configFileReader;
+
+    private static final Logger logger = Logger.getLogger(PageBase.class);
+    protected ConfigFileReader config = ConfigFileReader.getInstance();
     protected WebDriver driver;
+    protected static final String HELLO = "Hello ";
 
     public PageBase(WebDriver driver) {
         this.driver = driver;
-        configFileReader= new ConfigFileReader();
     }
 
 
@@ -31,15 +32,13 @@ public class PageBase {
 
 
     public boolean isElementPresent(WebElement element) {
-        boolean exists = false;
         try {
-            element.getTagName();
-            exists = true;
-        } catch (NoSuchElementException e) {//todo работает? не должно
-            //а почему не должно, работает
-            //todo Это будет работать только с элементами, аннотированными @FindBy. Если сделать просто driver.findElement() и передать сюда 
-            //работать не будет, будет другое исключение
+            new WebDriverWait(driver, (config.getExplicitWaitTimeout()))
+                    .until(ExpectedConditions.visibilityOf(element)).isDisplayed();
+            return true;
+        } catch (TimeoutException ex) {
+            logger.info(element + " is not found on page");
+            return false;
         }
-        return exists;
     }
 }

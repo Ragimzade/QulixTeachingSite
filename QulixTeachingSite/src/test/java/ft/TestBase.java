@@ -1,19 +1,13 @@
 package ft;
 
-import model.ConfigFileReader;
+import utils.ConfigFileReader;
 import model.WebDriverSingleton;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import pages.*;
-import model.MessageData;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
 import java.lang.reflect.Method;
-import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 public class TestBase {
     private static final Logger logger = Logger.getLogger(TestBase.class);
@@ -23,22 +17,23 @@ public class TestBase {
     MessageList messageList;
     ShowMessage showMessage;
     private WebDriverSingleton webDriverSingleton;
-    ConfigFileReader configFileReader;
 
 
     @BeforeClass
-    public void init() throws IOException {
-        configFileReader = new ConfigFileReader();
+    public void init() {
+
+        ConfigFileReader config = ConfigFileReader.getInstance();
         WebDriver driver = webDriverSingleton.getInstance();
         mainPage = new MainPage(driver);
         loginPage = new LoginPage(driver);
         messageList = new MessageList(driver);
         createMessage = new CreateMessage(driver);
         showMessage = new ShowMessage(driver);
+
         mainPage.goToMainPage();
         mainPage.goToLoginPage();
         loginPage.isLoginButtonPresent();
-        loginPage.login(configFileReader.getAdminLogin(), configFileReader.getAdminPassword());
+        loginPage.login(config.getLogin(), config.getPassword());
         messageList.isMessageListTablePresent();
 
     }

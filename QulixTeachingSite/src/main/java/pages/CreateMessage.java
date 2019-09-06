@@ -1,7 +1,6 @@
 package pages;
 
 import model.MessageData;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,7 +9,6 @@ import org.testng.Assert;
 
 public class CreateMessage extends PageBase {
 
-    private static final Logger logger = Logger.getLogger(MessageList.class);
 
 
     public CreateMessage(WebDriver driver) {
