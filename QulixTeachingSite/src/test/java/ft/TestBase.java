@@ -17,13 +17,12 @@ public class TestBase {
     MessageList messageList;
     ShowMessage showMessage;
     private WebDriverSingleton webDriverSingleton;
-    private ConfigFileReader configFileReader;
 
 
     @BeforeClass
     public void init() {
 
-        ConfigFileReader config = configFileReader.getInstance();
+        ConfigFileReader config = ConfigFileReader.getInstance();
         WebDriver driver = webDriverSingleton.getInstance();
         mainPage = new MainPage(driver);
         loginPage = new LoginPage(driver);
